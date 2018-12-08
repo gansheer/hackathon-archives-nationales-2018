@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{ fragments::head(#{website.name}) }">
+    <meta charset="UTF-8">
+    <title th:text="#{website.name}">OpenNat</title>
+</head>
+<body>
+<!--/*@thymesVar id="credits" type="java.util.List"*/-->
+<!--/*@thymesVar id="tools" type="java.util.List"*/-->
+<div class="container">
+
+    <div class="logos row">
+        <div class="col-md-6 text-left">
+            <img th:src="@{/images/logo-archive-nationale.png}"/>
+        </div>
+        <div class="col-md-6 text-right">
+            <img th:src="@{/images/logo-open-nat-trans.png}"/>
+        </div>
+    </div>
+
+    <h1 th:text="#{website.name}" class="text-center">OpenNAT</h1>
+
+    <h2 th:text="#{credits.title.person}"></h2>
+
+    <ul class="credits">
+        <li th:each="c : ${credits}" th:text="${c}">Person</li>
+    </ul>
+
+    <h2 th:text="#{credits.title.tools}"></h2>
+
+    <ul class="credits">
+        <li th:each="t : ${tools}">
+            <a th:href="${t.webSite}" href="#" th:text="${t.name}"></a>
+        </li>
+    </ul>
+</div>
+
+<div th:replace="~{ fragments::footer }"></div>
+
+</body>
+</html>

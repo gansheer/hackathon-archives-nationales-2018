@@ -13,18 +13,22 @@ fun softly(block: SoftAssertions.() -> Unit) = SoftAssertions.assertSoftly { blo
 
 fun then(block: SoftAssertions.() -> Unit) = softly(block)
 
+fun <T> castIt(obj: Any): T {
+    @Suppress("UNCHECKED_CAST")
+    return obj as T
+}
+
 fun <ACTUAL : Any?, ASSERT : AbstractAssert<ASSERT, ACTUAL>> onActual(a: ASSERT): ACTUAL? {
     return AbstractAssert::class.java.getDeclaredField("actual")
             .also { it.isAccessible = true }
             .let { it.get(a) }
             .takeIf { it != null }
-            ?.let { it as ACTUAL }
+            ?.let { castIt(it) }
 }
 
 inline fun <reified T : Any> ProxyableObjectAssert<T?>.notNull(crossinline block: (T) -> Unit) {
     this.isNotNull
-    onActual(this)
-            ?.let { softly { block.invoke(it) } }
+    onActual(this)?.let { softly { block.invoke(it) } }
 }
 
 inline fun <reified T : Any> ProxyableListAssert<T?>.onSize(size: Int, crossinline block: (List<T>) -> Unit) {

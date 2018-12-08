@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="~{ fragments::head(#{website.name}) }">
+    <meta charset="UTF-8">
+    <title th:text="#{website.name}">OpenNat</title>
+</head>
+<body>
+<!--/*@thymesVar id="results" type="org.springframework.data.domain.Page"*/-->
+<div class="container">
+
+    <div class="logos row">
+        <div class="col-md-6 text-left">
+            <img th:src="@{/images/logo-archive-nationale.png}"/>
+        </div>
+        <div class="col-md-6 text-right">
+            <img th:src="@{/images/logo-open-nat-trans.png}"/>
+        </div>
+    </div>
+
+    <h1 th:text="#{website.name}" class="text-center">OpenNAT</h1>
+
+    <div class="row">
+
+    </div>
+
+
+</div>
+
+<div th:replace="~{ fragments::footer }"></div>
+
+</body>
+</html>
