@@ -1,21 +1,17 @@
 package fr.archives.nat;
 
-<<<<<<< 19ab2facd31c67f1b7ebe6f45f454bf5b67c3a4a
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
-import java.util.List;
-import java.util.Locale;
-import java.util.stream.Collectors;
-=======
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.Month;
+import java.time.format.DateTimeFormatter;
 import java.util.List;
 import java.util.Locale;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
->>>>>>> Init personn extract
 
 import fr.archives.nat.XmlLoad.XmlFiles;
 import fr.archives.nat.model.Decret;
@@ -23,6 +19,7 @@ import fr.archives.nat.model.Lieu;
 import fr.archives.nat.model.Person;
 import fr.archives.nat.xml.ead.sia.C;
 import fr.archives.nat.xml.ead.sia.Ead;
+import fr.archives.nat.xml.ead.sia.Unitid;
 
 public class XmlExtend {
 	
@@ -30,6 +27,8 @@ public class XmlExtend {
 	private static GeoNames geonames = new GeoNames();
 
 	private static final SimpleDateFormat french_dformat = new SimpleDateFormat("MMMM", Locale.FRENCH);
+	
+	private static final Pattern numDossierSimplePattern = Pattern.compile("\\d+\\sX\\s\\d+");
 
 	public static void extendXml() {
 		geonames.toto();
@@ -79,6 +78,18 @@ public class XmlExtend {
 		}
 		
 		return null;
+	}
+
+	private static void extractPersonNumeroDossier(C decretPerson, Person principalPersonn) {
+		List<Unitid> unitids = decretPerson.getDid().getUnitid().stream().filter(item -> item.getType().equals("pieces")).collect(Collectors.toList());
+		for(Unitid unitId : unitids) {
+			Matcher m = numDossierSimplePattern.matcher(unitId.getvalue());
+			boolean numDossierFound = m.matches();
+			// TODO tomorrow gafou
+			
+		}
+		
+		
 	}
 
 	private static void extractScopeContent(C decretPerson, Person principalPersonn) {
