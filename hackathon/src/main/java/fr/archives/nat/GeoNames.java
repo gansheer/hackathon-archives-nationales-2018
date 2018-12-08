@@ -9,7 +9,7 @@ import java.util.stream.Stream;
 
 public class GeoNames {
 	
-	final File allCountries = Paths.get("/home/rocha/Documents/hackathon/allCountries_purged.txt").toFile();
+	final File allCountries = Paths.get("/home/rocha/projects/hackhathon/hackathon-archives-nationales-2018/data/FR_purged.txt").toFile();
 
 	class GeoLine {
 		
