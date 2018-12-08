@@ -1,0 +1,23 @@
+{
+      "Decret": {
+          "num_document": "document 135",
+          "decret_type": "Décret de réintégrations de femmes d'étrangers naturalisés français, du 20 décembre 1887",
+          "decret_date": "20/12/1887",
+          "decret_cote": "BB/34/393",
+          "ref_image":  "DAFANCH94_NUMJ007777_D.jpg#DAFANCH94_NUMJ007781_D.jpg"
+      },
+      "num_dossier_nat": "3044 X 78",
+      "nom": "MAHLER",
+      "nom_naissance": "WIEDMANN",
+      "prenom": "Maria Louise",
+      "date_naissance": "06/12/1838",
+      "date_naissance_jour": "06",
+      "date_naissance_mois": "12",
+      "date_naissance_annee": "1838",
+      "lieu_naissance_commune": "La Chapelle",
+      "lieu_naissance_departement": "Seine",
+      "lieu_naissance_pays": "France",
+      "lieu_residence_commune": "Ivry-sur-Seine",
+      "lieu_residence_departement": "Val-de-Marne",
+      "lieu_residence_pays": "France"
+  }

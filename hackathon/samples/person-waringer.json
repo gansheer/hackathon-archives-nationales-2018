@@ -1,0 +1,22 @@
+{
+      "Decret": {
+          "num_document": "document 1",
+          "decret_type": "Décret d'admissions à domicile du 4 janvier 1887",
+          "decret_date": "04/01/1887",
+          "decret_cote": "BB/34/392",
+          "ref_image":  "DAFANCH94_NUMJ005539_D.jpg#DAFANCH94_NUMJ005548_D.jpg"
+      },
+      "num_dossier_nat": "6733 X 86",
+      "nom": "WARINGER",
+      "nom_naissance": "WARINGER",
+      "prenom": "Philippe",
+      "date_naissance": "17/10/1844",
+      "date_naissance_jour": "17",
+      "date_naissance_mois": "10",
+      "date_naissance_annee": "1844",
+      "lieu_naissance_commune": "Presbourg",
+      "lieu_naissance_pays": "Hongrie",
+      "lieu_residence_commune": "Paris",
+      "lieu_residence_departement": "Seine",
+      "lieu_residence_pays": "France"
+  }

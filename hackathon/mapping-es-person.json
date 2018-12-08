@@ -1,0 +1,74 @@
+{
+    "properties": {
+      "Decret": {
+        "properties": {
+          "num_document": {
+            "type": "keyword"
+          },
+          "decret_type": {
+            "type": "keyword"
+          },
+          "decret_date": {
+            "type": "date"
+          },
+          "decret_cote": {
+            "type": "keyword"
+          },
+          "ref_image": {
+            "type": "keyword"
+          }
+        }
+      },
+      "num_dossier_nat": {
+        "type": "keyword"
+      },
+      "nom": {
+        "type": "keyword"
+      },
+      "nom_naissance": {
+        "type": "keyword"
+      },
+      "prenom": {
+        "type": "keyword"
+      },
+      "date_naissance": {
+        "type": "date"
+      },
+      "date_naissance_jour": {
+        "type": "integer"
+      },
+      "date_naissance_mois": {
+        "type": "integer"
+      },
+      "date_naissance_annee": {
+        "type": "integer"
+      },
+      "lieu_naissance_commune": {
+        "type": "keyword"
+      },
+      "lieu_naissance_departement": {
+        "type": "keyword"
+      },
+      "lieu_naissance_pays": {
+        "type": "keyword"
+      },
+      "origine_parent": {
+        "type": "keyword"
+      },
+      "origine_parent_pays": {
+        "type": "keyword"
+      },
+      "profession": {
+        "type": "keyword"
+      },
+      "lieu_residence_commune": {
+        "type": "keyword"
+      },
+      "lieu_residence_departement": {
+        "type": "keyword"
+      },
+      "lieu_residence_pays": {
+        "type": "keyword"
+      }
+    }
+  }

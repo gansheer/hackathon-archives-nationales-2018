@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/css" href="ead.css"?><!DOCTYPE ead SYSTEM "ead_sia.dtd">
+<ead>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid>FRAN_IR_056040</eadid>
+  <filedesc>
+   <titlestmt>
+    <titleproper>Décrets de naturalisation de l’année 1887</titleproper>
+    <subtitle>Répertoire numérique détaillé (BB/34/392 à BB/34/393)</subtitle>
+    <author>Cet instrument de recherche est issu d'un travail collaboratif auquel ont contribué
+     Alain Bonnet, Marie-Odile Caillette, Céline Delétang, Christian François, Roselyne Iriu, Thomas
+     Lebée, Annie Poinsot et Chantal Sainrimat.</author>
+   </titlestmt>
+   <editionstmt>
+    <edition>2e édition électronique</edition>
+   </editionstmt>
+   <publicationstmt>
+    <publisher>Archives nationales</publisher>
+    <address>
+     <addressline>Pierrefitte</addressline>    </address>
+    <date calendar="gregorian" era="ce" normal="2018-03-02">19 octobre 2018</date>
+   </publicationstmt>
+  </filedesc>
+  <profiledesc>
+   <creation>Cet instrument de recherche est le résultat du projet d'annotation collaborative
+    Natnum, piloté par Céline Delétang, Thomas Lebée et Annie Poinsot. Il a été publié avec l'appui
+    technique de Maïwenn Bourdic et Christophe Bouvier.</creation>
+   <langusage>
+    <language langcode="fre">Français</language>
+   </langusage>
+   <descrules>Conforme à la norme ISAD(G) et aux règles d'application de la DTD EAD (version 2002)
+    aux Archives nationales.</descrules>
+  </profiledesc>
+ </eadheader>
+ <archdesc level="collection">
+  <did>
+   <unitid type="identifiant">BB/34/392-BB/34/393</unitid>
+   <unittitle>Décrets de naturalisation de l’année 1887</unittitle>
+   <unitdate calendar="gregorian" era="ce" normal="1887-01-04/1887-12-27">4 janvier 1887 - 27
+    décembre 1887</unitdate>
+   <langmaterial>
+    <language langcode="fre">Français</language>
+   </langmaterial>
+   <repository>Archives nationales de France</repository>
+   <physloc>Pierrefitte</physloc>
+  </did>
+  <accessrestrict>
+   <p>Librement communicable en application de l'article L213-2 du code du patrimoine.</p>
+  </accessrestrict>
+  <userestrict>
+   <p>Les documents peuvent être librement reproduits dans le cadre d’un usage privé (usage
+    strictement personnel dans le cercle de la famille), sous réserve des contraintes liées à leur
+    état matériel et dans le respect des textes relatifs à la réutilisation des informations
+    publiques.</p>
+  </userestrict>
+  <acqinfo>
+   <p>Versement</p>
+  </acqinfo>
+  <controlaccess>
+   <subject authfilenumber="d3ndf1xnea--1e9wyrxhjnckl" source="FRAN_RI_004">naturalisation</subject>
+   <subject authfilenumber="d3ndf1x220--19injnpmpbtre" source="FRAN_RI_004">nationalité française</subject>
+  </controlaccess>
+  <dsc>
+ <c id="DH000469">
+    <did>
+     <unitid type="cote-de-consultation">BB/34/392</unitid>
+     <unitid type="pieces">document 1</unitid>
+     <unittitle>Décret d'admissions à domicile du 4 janvier 1887</unittitle>
+     <unitdate calendar="gregorian" era="ce" normal="1887-01-04">4 janvier 1887</unitdate>
+    </did>
+    <daogrp>
+     <daoloc href="DAFANCH94_NUMJ005539_D.jpg#DAFANCH94_NUMJ005548_D.jpg"/>
+    </daogrp>
+<c id="c-9l6ij8vfe--4zg4fa1qahas">
+     <did>
+      <unitid type="pieces">6733 X 86 </unitid>
+      <unittitle>
+       <persname>WARINGER, Philippe</persname>
+      </unittitle>
+     </did>
+     <scopecontent>
+      <p>(Le dossier est à consulter dans la <ref role="WEB">
+        <extref href="https://www.siv.archives-nationales.culture.gouv.fr/siv/IR/FRAN_IR_054009">sous-série BB/11</extref>
+       </ref>).</p>
+      <p>Naissance : 17 octobre 1844 (Presbourg, Hongrie)</p>
+      <p>Lieu de résidence : Paris, Seine</p>
+     </scopecontent>
+    </c>
+</c>
+      </dsc>
+ </archdesc>
+</ead>
