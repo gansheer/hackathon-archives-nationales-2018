@@ -5,11 +5,21 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.nio.file.Paths;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.stream.Stream;
+
+import fr.archives.nat.model.Lieu;
 
 public class GeoNames {
 
-    final File allCountries = Paths.get("/home/rocha/projects/hackhathon/hackathon-archives-nationales-2018/data" +
+	private Map<String, Lieu> lieux;
+	
+    public Map<String, Lieu> getLieux() {
+		return lieux;
+	}
+
+	private final File allCountries = Paths.get("/home/rocha/projects/hackhathon/hackathon-archives-nationales-2018/data" +
             "/FR_purged.txt").toFile();
 
     class GeoLine {
@@ -148,6 +158,9 @@ public class GeoNames {
     }
 
     public void sendToEs(final GeoLine line) {
-
+    	if(this.lieux == null) {
+    		this.lieux = new HashMap<String, Lieu>();
+    	}
+    	this.lieux.put(line.getAlternatenames(), new Lieu(line.getName(), null, line.getCountryCode()));
     }
 }

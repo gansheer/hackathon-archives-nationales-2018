@@ -15,8 +15,10 @@ import fr.archives.nat.xml.ead.sia.Ead;
 public class XmlExtend {
 	
 	private static final DateTimeFormatter fmt = DateTimeFormatter.ofPattern("d MMMM yyyy", Locale.FRANCE);
+	private static GeoNames geonames = new GeoNames();
 
 	public static void extendXml() {
+		geonames.toto();
 		final XmlFiles source = XmlFiles.FRAN_IR_056040;
 		XmlLoad<Ead> xmlLoader = new XmlLoad<>(source, Ead.class);
 		Ead ead = xmlLoader.run();
@@ -38,7 +40,10 @@ public class XmlExtend {
 				
 			}
 		}
+		System.out.println("nombre de villes = " + geonames.getLieux().size());
 		System.out.println("end parsing decrets");
+		String testPhrase = "Lieu de résidence : Périgueux, Dordogne";
+		
 //		System.out.println(ead.toString());
 	}
 
