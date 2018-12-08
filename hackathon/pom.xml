@@ -75,6 +75,11 @@
 			<artifactId>activation</artifactId>
 			<version>1.1</version>
 		</dependency>
+		<dependency>
+			<groupId>org.geonames</groupId>
+			<artifactId>geonames-ws-client</artifactId>
+			<version>1.1.9</version>
+		</dependency>
 
 		<!-- Dev & Test -->
 		<dependency>
