@@ -1,0 +1,17 @@
+{
+      "Decret": {
+          "num_document": "document 34",
+          "decret_type": "Décret de naturalisations du 17 février 1890.",
+          "decret_date": "17/02/1890",
+          "decret_cote": "BB/34/398",
+          "ref_image":  "DAFANCH94_NUMJ012384_D.jpg#DAFANCH94_NUMJ012391_D.jpg"
+      },
+      "num_dossier_nat": "2454 X 86",
+      "nom": "SCHNEIDER",
+      "nom_naissance": "GEND",
+      "prenom": "Catherine Eugénie",
+      "date_naissance": "10/02/1858",
+      "date_naissance_jour": "10",
+      "date_naissance_mois": "02",
+      "date_naissance_annee": "1858"
+}

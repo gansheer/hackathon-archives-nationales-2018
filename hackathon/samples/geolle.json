@@ -1,0 +1,24 @@
+{
+      "Decret": {
+          "num_document": "document 26",
+          "decret_type": "Décret de naturalisations algériennes du 1er février 1890.",
+          "decret_date": "01/02/1890",
+          "decret_cote": "BB/34/398",
+          "ref_image":  "DAFANCH94_NUMJ012317_D.jpg#DAFANCH94_NUMJ012318_D.jpg"
+      },
+      "num_dossier_nat": "10203 X 89",
+      "nom": "GEOLLE",
+      "nom_naissance": "GEOLLE",
+      "prenom": "Auguste",
+      "date_naissance": "11/12/1859",
+      "date_naissance_jour": "11",
+      "date_naissance_mois": "12",
+      "date_naissance_annee": "1859",
+      "lieu_naissance_commune": "Château-Voué",
+	  "lieu_naissance_departement": "Meurthe",
+	  "lieu_naissance_pays": "France",
+	  "profession": "Cultivateur",
+      "lieu_residence_commune": "Kléber",
+      "lieu_residence_departement": "Oran",
+      "lieu_residence_pays": "Algérie"
+}

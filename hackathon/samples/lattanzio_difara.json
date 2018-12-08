@@ -1,0 +1,20 @@
+{
+      "Decret": {
+          "num_document": "document 22",
+          "decret_type": "Décret de naturalisations du 1er février 1890.",
+          "decret_date": "01/02/1890",
+          "decret_cote": "BB/34/398",
+          "ref_image":  "DAFANCH94_NUMJ012273_D.jpg#DAFANCH94_NUMJ012290_D.jpg"
+      },
+      "num_dossier_nat": "1362 X 87",
+      "nom": "LATTANZIO",
+      "nom_naissance": "DI FARA",
+      "prenom": "Françoise",
+      "date_naissance": "28/03/1854",
+      "date_naissance_jour": "28",
+      "date_naissance_mois": "03",
+      "date_naissance_annee": "1854",
+      "lieu_residence_commune": "Marseille",
+      "lieu_residence_departement": "Bouches-du-Rhône",
+      "lieu_residence_pays": "France"
+}
