@@ -1,0 +1,1185 @@
+2959958	Zittig	Zittig	Zittig	49.73889	6.345	LU
+2959959	Wormeldange	Wormeldange	Wormeldange,Wormeldingen,Wuermeldeng	49.61114	6.40546	LU
+2959960	Wues	Wues	Woos,Wues	49.79667	6.15556	LU
+2959961	Wolwelange	Wolwelange	Wolwelange,Wolwen	49.82861	5.76472	LU
+2959963	Woltz	Woltz	Woltz,Wolz	50.06889	6.02333	LU
+2959964	Wolpert	Wolpert	Maisons Wolper,Wolper,Wolpert	49.76421	6.3536	LU
+2959965	Wolfsmuhle-lès-Ellange	Wolfsmuhle-les-Ellange	Wolfsmuhle,Wolfsmuhle-les-Ellange,Wolfsmuhle-lès-Ellange,Wolfsmühle	49.53333	6.31667	LU
+2959966	Wollefsmillen	Wollefsmillen	Wolfsmuhle,Wolfsmuhle les Wasserbillig,Wolfsmuhle lès Wasserbillig,Wolfsmühle,Wollefsmillen	49.71639	6.49	LU
+2959967	Wintrange	Wintrange	Wintrange	49.50139	6.35278	LU
+2959968	Winseler	Winseler	Gemeng Wanseler,Vinseler,Vinzeler,Wanseler,Winseler,wynzlr,Винзелер,Вінселер,وینزلر	49.96778	5.89028	LU
+2959969	Wandhaff	Wandhaff	Wandhaff,Windhof,Windhof-les-Ettelbruck,Windhof-lès-Ettelbrück	49.87222	6.06333	LU
+2959970	Wandhaff	Wandhaff	Wandhaff,Windhof	49.64833	5.95611	LU
+2959971	Wincrange	Wincrange	Wenerange,Wincrange,Wintger	50.05333	5.91917	LU
+2959972	Wilwerwiltz	Wilwerwiltz	Wilwerwiltz,Wilwerwilz	49.98889	5.99917	LU
+2959973	Wilwerdange	Wilwerdange	Wilwerdange	50.14056	6.02389	LU
+2959974	Wiltzermühle	Wiltzermuehle	Ferrantsmuhle,Ferrantsmühle,Wiltzermuhle,Wiltzermühle,Wilzermuhle,Wilzermühle	49.65	6.05	LU
+2959975	Wiltz	Wiltz	Canton de Wiltz,Kanton Wiltz,Kanton Wolz,Wiltz,Wolz	49.94698	5.907	LU
+2959977	Wiltz	Wiltz	Vil'c,Vilc,Vilcas,Wiltz,Wilz,Wolz,wyltz,Вилц,Вильц,Вільц,ویلتز	49.96547	5.9339	LU
+2959978	Wiltz	Wiltz	Canto de Wiltz,Canton de Wiltz,Cantone di Wiltz,Cantó de Wiltz,Cantón de Wiltz,Commune de Wiltz,Gemeinde Wiltz,Gemeng Wolz,Kanton Wiltz,Kanton Wolz,Kantono Wiltz,Vil'c,Vilco kantonas,Ville de Wiltz,Wiltz,Wiltz kantonu,Wolz,Wooltz,bilcheu ju,wltz,wyltz,Вільц,ولتز,ویلتز,빌츠 주	49.97888	5.9398	LU
+2959979	Wilmeshof	Wilmeshof		49.85	6.11667	LU
+2959980	Wickrange	Wickrange	Wickrange	49.54139	6.02167	LU
+2959981	Wickelscheid	Wickelscheid	Ferme Wickelescht,Wickelscheid	49.75	6.2	LU
+2959982	Weyer	Weyer	Weyer	49.71972	6.2	LU
+2959983	Wemperhardt	Wemperhardt	Wemperhaard,Wemperhardt,Wemperhart	50.15556	6.05333	LU
+2959984	Welsdorf	Welsdorf		49.81727	6.08677	LU
+2959985	Welscheid	Welscheid	Welscheid	49.88806	6.06778	LU
+2959986	Wellerboesch	Wellerboesch	Wellerboesch,Wellerbusch	49.55778	6.05	LU
+2959987	Wellenstein	Wellenstein	Wellenstein	49.52389	6.34222	LU
+2959988	Welfrange	Welfrange	Welfrange	49.53806	6.28417	LU
+2959989	Weiswampach	Weiswampach	Weiswampach	50.13722	6.075	LU
+2959990	Weissenhaff	Weissenhaff	Weishof,Weissenhaff,Weissenhof	49.84	5.82806	LU
+2959991	Weissenhof	Weissenhof		49.56667	6.11667	LU
+2959992	Weimerskirch	Weimerskirch	Neimersk,Waymersk,Weimerskirch,Wimerskirch	49.62361	6.13639	LU
+2959993	Weimershof	Weimershof		49.6	6.15	LU
+2959994	Weileschbach	Weileschbach	Steinescht,Weilesbach,Weileschbach	49.86667	6.21667	LU
+2959995	Weiler	Weiler	Weiler,Weiler-les-Putscheid,Weiler-lès-Putscheid	49.96361	6.12417	LU
+2959996	Weiler-la-Tour	Weiler-la-Tour	Weiler-la-Tour	49.54083	6.20083	LU
+2959997	Weilerbach	Weilerbach	Weilerbach	49.83333	6.38278	LU
+2959998	Weiler	Weiler	Weiler	50.10444	5.94611	LU
+2960000	Weidingen	Weidingen	Weidingen	49.97068	5.93884	LU
+2960001	Weydig	Weydig	Fermes Weidig,Weidig,Weidigerhof,Weydig	49.71139	6.33028	LU
+2960002	Weicherdange	Weicherdange	Weicherdange	50.03833	5.98944	LU
+2960003	Wecker	Wecker	Wecker,Wecker-Gare	49.69473	6.38525	LU
+2960004	Webershof	Webershof	Weberhof,Webershof	49.81667	6.25	LU
+2960005	Watschenterhaff	Watschenterhaff	Watschenterhaff,Watschenterhof	49.79083	6.23778	LU
+2960006	Watrange	Watrange	Walter,Watrange	49.94417	5.78583	LU
+2960007	Wasserbillig	Wasserbillig	Wasserbillig	49.71534	6.49861	LU
+2960008	Warken	Warken	Warken	49.85918	6.08415	LU
+2960009	Wark	Wark	Wark	49.84611	6.10722	LU
+2960010	Walferdange	Walferdange	Walfer,Walferdange,Walferdingen	49.66321	6.13224	LU
+2960011	Walsdorf	Walsdorf	Waldsdorf,Walsdorf	49.92667	6.17361	LU
+2960012	Waldhaff	Waldhaff	Blannenhof,Waldhaff,Waldhof	49.6525	6.19028	LU
+2960013	Waldbredimus	Waldbredimus	Waldbredimus	49.55676	6.28789	LU
+2960014	Waldbillig	Waldbillig	Waldbillig	49.79636	6.28431	LU
+2960015	Wakelterhof	Wakelterhof		49.81667	6.3	LU
+2960016	Wahlhausen	Wahlhausen	Wahlhausen,Wahlhousen	49.98528	6.12667	LU
+2960017	Wahl	Wahl	Wahl,Wal	49.83667	5.90639	LU
+2960018	Vugelsmillen	Vugelsmillen	Vogelsmuhl,Vogelsmuhle,Vogelsmule,Vogelsmühl,Vogelsmühle,Vugelsmillen	49.81528	6.3275	LU
+2960019	Vichten	Vichten	Vichten,Viichten	49.80306	6	LU
+2960020	Vianden	Vianden	Canton de Vianden,Kanton Veianen,Kanton Vianden,Veianen,Vianden	49.93256	6.16618	LU
+2960021	Vianden	Vianden	Veianen,Vianden,Vijandehn,Vijanden,wei an deng,wyandn,Вианден,Вијанден,Віанден,Віяндэн,ویاندن,維安登	49.935	6.20889	LU
+2960022	Useldange	Useldange	Useldange,Useldeng	49.76972	5.98222	LU
+2960023	Urspelt	Urspelt	Urspelt	50.07556	6.04667	LU
+2960024	Oenneschteboesch	Oenneschteboesch	Oenneschteboesch,Unterstenbusch	49.78361	5.82972	LU
+2960025	Untereisenbach	Untereisenbach	Untereisenbach	50.00167	6.14556	LU
+2960026	Uebersyren	Uebersyren	Uebersyren	49.6319	6.2771	LU
+2960027	Tuntange	Tuntange	Tenten,Tuntange,Tuntingen,Tënten	49.71778	6.01028	LU
+2960028	Tumulus Tonn	Tumulus Tonn		49.65	6.35	LU
+2960029	Tubishaff	Tubishaff	Tubishaff,Tubishof	49.58333	6.11556	LU
+2960030	Troisvierges	Troisvierges	Elwen,Gemeng Elwen,Gemeng Ëlwen,Troavjerzh,Troisvierges,Truav'erzh,Truaverzh,Ulflingen,torowavu~ieruju,trwawyrzh,Ëlwen,Троавјерж,Труавьерж,Труавєрж,ترواویرژ,トロワヴィエルジュ	50.12111	6.00028	LU
+2960031	Troisvierges	Troisvierges	Commune de Troisvierges,Elwen,Gemeinde Ulflingen,Gemeng Elwen,Gemeng Ëlwen,Troavjerzh,Troisvierges,Truav'erzh,Truaverzh,Ulflingen,torowavu~ieruju,trwawyrzh,Ëlwen,Троавјерж,Труавьерж,Труавєрж,ترواویرژ,トロワヴィエルジュ	50.14377	6.00201	LU
+2960032	Tretterbaach	Tretterbaach	Bratten,La Woltz Ruisseau,Riviere de Troine,Rivière de Troine,Ruisseau de Troine,Tretterbaach,Trotten Bach,Trottenerbach,Woltz	50.09861	6.00806	LU
+2960033	Troine	Troine	Troine,Trotten	50.06444	5.88306	LU
+2960034	Trintange	Trintange	Trintange	49.57083	6.28056	LU
+2960035	Pommerloch	Pommerloch	Pommerloch,Reckingerhof,Trentelhof	49.96028	5.86083	LU
+2960036	Toussaints Millen	Toussaints Millen	Moulin Toussaint,Toussaints Millen,Toussaintsmuhle,Toussaintsmühle	49.49944	6.0525	LU
+2960037	Tockmuhle	Tockmuhle	Tockenmuhle,Tockenmühle,Tockmuhle	49.91667	5.78333	LU
+2960038	Tintesmillen	Tintesmillen	Tinstesmuhle,Tinstesmühle,Tintesmillen,Tintesmuhle,Tintesmühle,Tuntesmuhle,Tuntesmühle	50.09472	6.1275	LU
+2960039	Tomm	Tomm	Thom,Tomm	49.89444	6.16361	LU
+2960040	Thillen	Thillen		49.7	6.43333	LU
+2960041	Tëtelbierg	Tetelbierg	Tetelbierg,Titelberg,Tëtelbierg	49.54028	5.85972	LU
+2960042	Tétange	Tetange	Tetange,Tétange	49.47583	6.04222	LU
+2960043	Tattebierg	Tattebierg	Tattebierg,Tattebourg	49.48056	6.07833	LU
+2960044	Tarchamps	Tarchamps	Eschpelt,Heispelt,Ischpelt,Ischspelt,Tarchamps	49.95056	5.79611	LU
+2960045	Tandel	Tandel	Tandel	49.8975	6.18333	LU
+2960046	Tadler	Tadler	Tadler	49.91139	5.99556	LU
+2960047	Syren	Syren	Syren	49.56194	6.22167	LU
+2960048	Syre	Syre	Syre	49.69361	6.48056	LU
+2960049	Bois de Surré	Bois de Surre		49.9	5.76667	LU
+2960050	Surré	Surre	Surre,Surré,Syr	49.90306	5.78	LU
+2960053	Strooserboesch	Strooserboesch	Strasserbusch,Strooserboesch	49.64639	6.06778	LU
+2960054	Strassen	Strassen	Strassen	49.62056	6.07333	LU
+2960055	Stolzembourg	Stolzembourg	Stolzembourg,Stolzemburg	49.96549	6.16745	LU
+2960056	Stockem	Stockem	Stockem	50.07889	5.95806	LU
+2960057	Turelbaach	Turelbaach	Stemel,Tourelbach,Turelbaach	49.83306	6.00806	LU
+2960058	Steinsel	Steinsel	Steinsel	49.67694	6.12389	LU
+2960059	Staekaul	Staekaul	Staekaul,Steinkaul	49.69611	5.92028	LU
+2960060	Steinheim	Steinheim		49.81794	6.47713	LU
+2960061	Steinfort	Steinfort	Steinfort,Stengefort	49.66139	5.91917	LU
+2960062	Stegen	Stegen	Stegen	49.83	6.17194	LU
+2960063	Stadtbredimus	Stadtbredimus	Stadtbredimus	49.56278	6.36444	LU
+2960064	Stool	Stool	Staal,Stool	49.91972	6.11889	LU
+2960065	Sprinkange	Sprinkange		49.58049	5.96493	LU
+2960066	Sonlez	Sonlez	Soller,Sonlez	49.965	5.82667	LU
+2960067	Soleuvre	Soleuvre	Soleuvre,Zolver,Zolwer	49.52148	5.93781	LU
+2960068	Siebenaler	Siebenaler	Siebenaler	50.01056	6.02667	LU
+2960069	Scheierboesch	Scheierboesch	Scheierboesch,Sheuerbusch	49.55111	6.03444	LU
+2960070	Septfontaines	Septfontaines	Septfontaines,Siebenborn,Simmern	49.70111	5.96722	LU
+2960071	Septfontaines	Septfontaines	Septfontaines,Siebenbrunnen	49.62806	6.10444	LU
+2960072	Senningen	Senningen	Senningen	49.64535	6.23927	LU
+2960073	Selscheid	Selscheid	Selscheid	50.01806	5.94889	LU
+2960074	Seitert	Seitert		49.53417	6.21389	LU
+2960075	Scierie Schleif	Scierie Schleif	Schleif,Scierie Schleif	49.71667	6.13333	LU
+2960076	Schwidelbrouch	Schwidelbrouch	Schwidelbrouch,Schwiedelbrouch	49.83056	5.85444	LU
+2960077	Schwebich	Schwebich	Ruisseau de Schweich,Schwebich,Schweich Bach	49.76944	5.98278	LU
+2960078	Schweich	Schweich	Schweich	49.72278	5.9275	LU
+2960079	Schwebsange	Schwebsange	Schwebsange,Schwebsingen	49.51167	6.35694	LU
+2960080	Schwebach	Schwebach	Schwebach	49.74611	5.97194	LU
+2960081	Schwachtgesmühle	Schwachtgesmuehle		49.71667	6.21667	LU
+2960082	Schuttrange	Schuttrange	Schuttrange	49.62056	6.26861	LU
+2960083	Schrondweiler	Schrondweiler	Schrondweiler	49.79778	6.15917	LU
+2960084	Schrassig	Schrassig	Schrassig	49.61014	6.25903	LU
+2960085	Schouweiler	Schouweiler	Schouweiler	49.5825	5.95639	LU
+2960086	Schullerboesch	Schullerboesch	Schoullerbusch,Schullerboesch	49.59	5.93778	LU
+2960087	Schorenshaff	Schorenshaff	Ferme Schorn,Schorenshaff,Schorenshof	49.68667	6.40639	LU
+2960088	Schoos	Schoos	Schoos	49.74417	6.17083	LU
+2960089	Schoenfels	Schoenfels	Schoenfels	49.71889	6.09222	LU
+2960090	Schockmillen	Schockmillen	Schockmillen,Schockmuhle,Schockmühle	49.60861	5.87917	LU
+2960091	Schneideschhof	Schneideschhof		49.68333	5.95	LU
+2960092	Schmëtt	Schmett	Forge,Huldange-Forge,Schmett,Schmiede,Schmëtt	50.18167	6.02528	LU
+2960093	Schlirbech	Schlirbech	Schlirbach,Schlirbech	49.90556	5.95667	LU
+2960094	Schlindermanderscheid	Schlindermanderscheid	Schlindermanderscheid	49.93306	6.06361	LU
+2960095	Schleiwenhaff	Schleiwenhaff	Schleiwenhaff,Schlevenhof,Schlewenhof	49.57833	6.05889	LU
+2960096	Schleiterhaff	Schleiterhaff	Schleiterhaff,Schleiterhof	49.79806	6.36778	LU
+2960097	Schleifmillen	Schleifmillen	Schleifmillen,Schleifmuhle,Schleifmühle	49.60139	6.15417	LU
+2960098	Schleif	Schleif	Schleif,Schlief	49.99056	5.8575	LU
+2960099	Station de Schimpach	Station de Schimpach	Schimpach,Schimpach-Station,Station de Schimpach	50	5.83333	LU
+2960100	Schimpach	Schimpach	Schimpach	50.01028	5.85222	LU
+2960101	Scheckelscheier	Scheckelscheier	Scheckelscheier,Schikelscheuer	49.62139	5.89667	LU
+2960102	Schifflange	Schifflange	Scheffleng,Schifflange,Schëffleng	49.50639	6.01278	LU
+2960103	Schifflange	Schifflange	Commune de Schifflange,Gemeinde Schifflingen,Gemeng Scheffleng,Gemeng Schëffleng,Scheffleng,Schifflange,Schifflingen,Schëffleng	49.50556	6.01489	LU
+2960104	Schieren	Schieren	Schieren	49.83056	6.09861	LU
+2960106	Scheierhaff	Scheierhaff	Scheierhaff,Scheuerhof,Scheuerhof-les-Canach,Scheuerhof-lès-Canach	49.59	6.31611	LU
+2960107	Schengen	Schengen	Convenio de Schengen,Gemeng Schengen,Schengen,Sengen,Sengenas,Shengen,shen gen,shengen,shengeni,shngn lwkzambwrg,shynjn,sngn,syeng-gen,Şengen,Šengenas,Шенген,שנגן,شنگن لوکزامبورگ,شينجن,ෂෙන්ගන්,შენგენი,シェンゲン,申根,神根,솅겐	49.47	6.362	LU
+2960108	Scheidgen	Scheidgen	Scheidgen	49.78059	6.3607	LU
+2960109	Scheidel	Scheidel	Scheidel	49.89361	6.04472	LU
+2960110	Scheidbach	Scheidbach		49.91667	6.13333	LU
+2960111	Schandel	Schandel	Schandel	49.79222	5.97583	LU
+2960112	Savelborn	Savelborn		49.81163	6.25483	LU
+2960113	Sauerbaach	Sauerbaach	Sauerbaach,Sauerbach	49.72222	6.40194	LU
+2960114	Sassel	Sassel	Sassel	50.09944	5.9975	LU
+2960115	Sanem	Sanem	Sanem,Sassenheim,Suessem	49.54806	5.92889	LU
+2960116	Sanem	Sanem	Commune de Sanem,Gemeinde Sassenheim,Gemeng Suessem,Sanem,Sanemas,Sassenheim,Suessem,zanm,Санем,زانم	49.53312	5.9363	LU
+2960117	Sandweiler	Sandweiler	Gemeng Sandweiler,Sandvajler,Sandvejler,Sandweiler,sndwaylr,Сандвайлер,Сандвейлер,سندوایلر	49.61471	6.22221	LU
+2960118	Chapelle de Saint-Pirmin	Chapelle de Saint-Pirmin		49.9325	5.91833	LU
+2960119	Mont Saint-Jean	Mont Saint-Jean	Mont Saint-Jean	49.48229	6.05896	LU
+2960120	Saeul	Saeul	Saeul,Sell,Sëll	49.72722	5.98639	LU
+2960121	Gaichel	Gaichel	Fisbour,Gaichel,Saegemuhle,Saegemühle,Sagemuhle,Sägemühle	49.69467	5.86859	LU
+2960122	Rumlange	Rumlange	Rimlingen,Rumlange	50.08	5.97556	LU
+2960123	Rumelange	Rumelange	Rumelange,Rumelingen	49.45964	6.03089	LU
+2960124	Rumelange	Rumelange	Gemeinde Rumelingen,Gemeinde Rümelingen,Gemeng Remeleng,Gemeng Rëmeleng,Remeleng,Riumelanzas,Riumelanžas,Rjumelanzh,Rumelange,Rumelanzh,Rumelingen,Rëmeleng,Rümelingen,Stad Remeleng,Stad Rëmeleng,Ville de Rumelange,rwmlanzh,Румеланж,Рюмеланж,روملانژ	49.46137	6.01139	LU
+2960125	Roullingen	Roullingen	Roullingen	49.95583	5.92472	LU
+2960126	Roost	Roost	Roost,Roost (Bissen),Rost	49.78667	6.09611	LU
+2960127	Rosport	Rosport	Rosport	49.8047	6.50532	LU
+2960128	Roodt-sur-Syre	Roodt-sur-Syre	Roodt,Roodt-sur-Syre	49.66591	6.30257	LU
+2960129	Roodt	Roodt	Roddt,Roodt,Roodt-Eisch,Roodt-sur-Eisch,Roodt/Eisch,Rued	49.69194	6.00222	LU
+2960130	Roodt	Roodt	Roodt,Roodt (Ell),Roodt-les-Ell,Roodt-lès-Ell,Rued	49.79444	5.82167	LU
+2960131	Rombach-Martelange	Rombach-Martelange	Rombach,Rombach-Martelange	49.83472	5.74278	LU
+2960132	Rollingergrund	Rollingergrund	Rollingergrund	49.62278	6.10778	LU
+2960133	Rollingen	Rollingen	Rollingen	49.74167	6.11444	LU
+2960134	Rolling	Rolling	Rolling,Rollingen	49.54889	6.31722	LU
+2960135	Roeser	Roeser	Gemeng Reiser,Gemeng Réiser,Reiser,Rezer,Roeser,Réiser,rwzr,Резер,روزر	49.53721	6.14629	LU
+2960136	Roedt	Roedt	Rodt,Roedt,Roedt-les-Trintange,Roedt-lès-Trintange,Rödt	49.56778	6.285	LU
+2960137	Roedgen	Roedgen	Roedgen	49.57472	6.03472	LU
+2960138	Rodeschhaff	Rodeschhaff	Rodeschhaff,Rodeschhof	49.77056	6.37444	LU
+2960139	Rodershausen	Rodershausen	Rodershausen	50.03667	6.13111	LU
+2960140	Roder	Roder	Roder	50.05583	6.08361	LU
+2960141	Rodenbourg	Rodenbourg	Rodenbourg	49.68671	6.28939	LU
+2960142	Rodbach	Rodbach	Maison Rodbach,Rodbach	49.77972	5.93528	LU
+2960143	Rodange	Rodange	Rodange	49.54639	5.84083	LU
+2960144	Rippweiler	Rippweiler	Rippweiler	49.75167	5.9575	LU
+2960145	Rippig	Rippig	Rippig	49.73417	6.31944	LU
+2960146	Ringel	Ringel	Ringel	49.91694	6.01194	LU
+2960147	Rindschleiden	Rindschleiden		49.85028	5.90139	LU
+2960148	Reiterboesch	Reiterboesch	Reiterboesch,Reuterbusch	49.57667	6.33528	LU
+2960149	Reuler	Reuler	Reuler	50.05778	6.0375	LU
+2960150	Reuland	Reuland	Reuland	49.75316	6.2604	LU
+2960151	Ruechterbaach	Ruechterbaach	Reuchterbach,Ruechterbaach	49.85556	6.01	LU
+2960152	Remich	Remich	Canton de Remich,Kanton Reimech,Kanton Remich,Kanton Réimech,Reimech,Remich,Réimech	49.54323	6.31779	LU
+2960153	Remicherboesch	Remicherboesch	Bois de Remich,Remicherboesch	49.55278	6.36694	LU
+2960154	Remich	Remich	Rehmikh,Reimech,Rejmekh,Remich,Remichas,Remikh,Réimech,lei mi xi,rmysh,Ремих,Реміх,Рејмех,Рэміх,رمیش,雷米希	49.545	6.36694	LU
+2960155	Remerschen	Remerschen	Remerschen,Rëmerschen	49.48861	6.35167	LU
+2960156	Reisdorf	Reisdorf	Reisdorf,Reisduerf	49.86861	6.26778	LU
+2960157	Reimberg	Reimberg	Reimberg	49.79722	5.95389	LU
+2960158	Reichlange	Reichlange	Reichlange	49.77361	5.92806	LU
+2960159	Reidingshaff	Reidingshaff	Redingshof,Reidingshaff	49.84167	5.88083	LU
+2960160	Redange-sur-Attert	Redange-sur-Attert	Redange,Redange-sur-Attert,Redange/Attert,Redingen,Reiden,Réiden	49.76437	5.88997	LU
+2960161	Redange	Redange	Canton de Redange,Kanton Redange,Kanton Redingen,Redange,Redingen	49.79716	5.88731	LU
+2960162	Reckenerwald	Reckenerwald	Reckenerwald,Reckingerwald	49.73278	6.06111	LU
+2960163	Reckingerhaff	Reckingerhaff	Ferme Reckange,Reckingerhaff,Reckingerhof	49.53333	6.31667	LU
+2960164	Reckange-sur-Mess	Reckange-sur-Mess	Reckange,Reckange-sur-Mess,Reckange-sur-Messe,Reckeng op der Mess,Reckingen	49.5625	6.00889	LU
+2960165	Reckange	Reckange	Reckange,Reckange-les-Mersch,Reckange-lès-Mersch	49.74972	6.08306	LU
+2960166	Rameldange	Rameldange	Rameldange,Rammeldange	49.66032	6.23238	LU
+2960167	Rambrouch	Rambrouch	Gemeng Rammerech,Rambrouch,Rambruch,Rambrukh,Rambrush,Rammerech,rambrwk,Рамбрух,Рамбруш,رامبروک	49.83083	5.845	LU
+2960168	Putscheid	Putscheid	Petscht,Putscheid,Pëtscht	49.96083	6.14306	LU
+2960169	Pulvermühle	Pulvermuehle		49.61667	6.16667	LU
+2960170	Prettingen	Prettingen	Prettange,Prettingen	49.7175	6.12028	LU
+2960171	Pratz	Pratz	Pratz	49.80167	5.93917	LU
+2960172	Poul	Poul	Poul,Poull,Puhl	49.94972	6.13972	LU
+2960173	Potaschberg	Potaschberg	Grevenmacherberg,Potaschberg,Potaschhof	49.67333	6.40083	LU
+2960174	Pontpierre	Pontpierre	Pontpierre,Steinbrucken	49.53639	6.02944	LU
+2960175	Pleitrange	Pleitrange	Ferme Pleitrange,Pleitrange,Pleitringerhof	49.58972	6.28056	LU
+2960176	Platen	Platen	Platen	49.78933	5.93382	LU
+2960177	Plankenhaff	Plankenhaff	Plankenhaff,Plankenhof	49.72222	6.185	LU
+2960178	Pissange	Pissange	Pissange	49.54944	6.00028	LU
+2960179	Pintsch	Pintsch	Pintsch,Pintsch Bach	49.98333	6.01333	LU
+2960180	Pintsch	Pintsch	Pintsch	49.99444	6.01306	LU
+2960181	Pfaffenthal	Pfaffenthal	Pfaffental,Pfaffenthal,Pfaffenthal-les-Tadler,Pfaffenthal-lès-Tadler	49.91667	6	LU
+2960182	Pfaffenthal	Pfaffenthal	Pfaffenthal	49.61667	6.13333	LU
+2960183	Pettingen	Pettingen	Pettingen,Pittange,Pittigen	49.77028	6.10917	LU
+2960184	Pétrusse	Petrusse	Petrusse,Pétrusse	49.6	6.11667	LU
+2960185	Petit-Nobressart	Petit-Nobressart	Petit-Nobressart	49.77972	5.80944	LU
+2960186	Région Mullerthal	Region Mullerthal	Kleine Luxemburger Schweiz,Kleng Letzebuerger Schwaiz,Kleng Lëtzebuerger Schwäiz,Luxembourg's Little Switzerland,Luxembourg’s Little Switzerland,Mullerthal Region,Petit Suisse Luxembourgeoise,Petite Suisse,Petite Suisse Luxembourgeoise,Region Mullerthal,Region Müllerthal,Regioun Mellerdall,Regioun Mëllerdall,Région Mullerthal,Suisse Luxembourgeois	49.83333	6.33333	LU
+2960187	Pétange	Petange	Gemeng Peiteng,Gemeng Péiteng,Peiteng,Petange,Petanzas,Petanzh,Petanžas,Petingen,Péiteng,Pétange,ptanzh,Петанж,پتانژ	49.55833	5.88056	LU
+2960188	Pétange	Petange	Commune de Petange,Commune de Pétange,Gemeinde Petingen,Gemeng Peiteng,Gemeng Péiteng,Peiteng,Petange,Petingen,Péiteng,Pétange	49.5505	5.85533	LU
+2960189	Perlé	Perle	Perle,Perlé	49.81167	5.76583	LU
+2960190	Peppange	Peppange	Peppange	49.52444	6.12972	LU
+2960191	Peckelshaff	Peckelshaff	Peckelshaff,Peckelshof	49.81417	6.01	LU
+2960192	Pall	Pall	Pall,Pall Ruisseau	49.76972	5.91806	LU
+2960194	Osweiler	Osweiler	Osweiler	49.78667	6.44254	LU
+2960195	Ospern	Ospern	Ospern	49.78389	5.90444	LU
+2960196	Oesling	Oesling	Eisling,Oesling,Osling,Éisling,Ösling	49.95	6	LU
+2960197	Olm	Olm	Olm	49.65722	6.00028	LU
+2960198	Olingen	Olingen	Olingen	49.67985	6.31392	LU
+2960199	Ohligsmühle	Ohligsmuehle		49.61667	6.26667	LU
+2960200	Oetrange	Oetrange	Oetrange	49.59639	6.26	LU
+2960201	Oberwampach	Oberwampach	Oberwampach	50.01667	5.86083	LU
+2960202	Oberstenwald	Oberstenwald		50.11667	6.05	LU
+2960203	Oberschlinder	Oberschlinder	Haut-Schlinder,Oberschlinder	49.95	6.06667	LU
+2960204	Oberschieren	Oberschieren		49.83333	6.1	LU
+2960205	Oberpallen	Oberpallen	Oberpallen	49.73028	5.84389	LU
+2960206	Ober-Merzig	Ober-Merzig	Haut-Merzig,Ober-Merzig	49.83333	6.01667	LU
+2960207	Obercorn	Obercorn	Oberkorn	49.51361	5.89611	LU
+2960208	Oberglabach	Oberglabach	Oberglabach	49.7775	6.15056	LU
+2960209	Oberfeulen	Oberfeulen	Haut-Feulen,Oberfeulen	49.84806	6.03556	LU
+2960210	Obereisenbach	Obereisenbach		50.01	6.084	LU
+2960211	Oberdonven	Oberdonven	Oberdonven	49.64667	6.40056	LU
+2960212	Oberanven	Oberanven	Oberanven	49.65743	6.24302	LU
+2960213	Nothum	Nothum	Nothum	49.94139	5.88278	LU
+2960214	Nospelt	Nospelt	Nospelt	49.67528	6.00889	LU
+2960215	Noumerléen	Noumerleen	Noumerleen,Noumerleyen,Noumerléen,Rochers de Nommern	49.77639	6.17417	LU
+2960216	Nommern	Nommern	Nommern	49.78694	6.17472	LU
+2960217	Noertzange	Noertzange	Noertzange	49.50917	6.05611	LU
+2960218	Noertrange	Noertrange	Noertrange	49.97972	5.91083	LU
+2960219	Noerdange	Noerdange	Noerdange	49.74222	5.92611	LU
+2960220	Nocher Baach	Nocher Baach	Nocher Baach,Riviere de Nocher,Rivière de Nocher	49.9425	6.02556	LU
+2960221	Nocher	Nocher	Nocher,Nocher-Route	49.94653	5.97626	LU
+2960222	Niederwiltz	Niederwiltz		49.96917	5.92306	LU
+2960223	Niederwampach	Niederwampach	Niederwampach	50.01167	5.84361	LU
+2960224	Niederschlinder	Niederschlinder		49.93333	6.06667	LU
+2960225	Niederschieren	Niederschieren		49.83333	6.1	LU
+2960226	Niederpallen	Niederpallen	Niederpallen	49.75528	5.91222	LU
+2960227	Nieder-Merzig	Nieder-Merzig	Bas-Merzig,Nieder-Merzig	49.83333	6.01667	LU
+2960228	Niedercorn	Niedercorn	Nidderkuer,Niederkorn	49.53611	5.89306	LU
+2960229	Niederdonven	Niederdonven	Niederdonven	49.63479	6.40243	LU
+2960230	Niederberg	Niederberg	Jungelshof,Niederberg	49.88333	6.2	LU
+2960231	Niederanven	Niederanven	Gemeng Nidderaanwen,Nidderanven,Nidehranven,Nideranven,Niederanven,nydranwn,Нидеранвен,Нідеранвен,Нідэранвен,نیدرآنون	49.65196	6.26199	LU
+2960232	Mont Saint-Nicolas	Mont Saint-Nicolas	Mont Saint-Nicolas,Neklosbierg,Nicolausberg	49.94222	6.16972	LU
+2960233	Neirodeschhaff	Neirodeschhaff	Neirodeschhaff,Neurodeschhof	49.77167	6.37028	LU
+2960234	Neunhausen	Neunhausen	Neunhausen	49.87672	5.88597	LU
+2960235	Neimillen	Neimillen	Neimillen,Neumuhle,Neumühle	50.08056	5.92167	LU
+2960236	Neumühle	Neumuehle		49.9	5.95	LU
+2960237	Neumühle	Neumuehle		49.7	5.9	LU
+2960238	Neimillen	Neimillen	Hirschmuhle,Hirschmühle,Neimillen,Neumaxmuhle,Neumaxmühle,Neumuhle,Neumuhlen,Neumühle,Neumühlen,Toussaintsmuhle,Toussaintsmühle	49.63917	6.04833	LU
+2960239	Neumühle	Neumuehle	Neumuhle,Neumühle,Wolfsmuhle,Wolfsmühle	49.61667	6.23333	LU
+2960240	Neihaff	Neihaff	Huddelhof,Neihaff,Neuhof	49.89111	5.8625	LU
+2960241	Neihaischen	Neihaischen	Neihaischen,Neuhaeusgen	49.62483	6.23408	LU
+2960242	Neudorf	Neudorf		49.61639	6.15667	LU
+2960243	Neidhausen	Neidhausen	Neidhausen	50.02889	6.06667	LU
+2960244	Nagem	Nagem	Nagem,Nogem	49.78917	5.85778	LU
+2960245	Nachtmanderscheid	Nachtmanderscheid	Nachtmanderscheid	49.94833	6.12944	LU
+2960246	Münsbach	Muensbach	Munsbach,Musbach,Münsbach,Müsbach	49.63277	6.26459	LU
+2960247	Munshausen	Munshausen	Munshausen	50.03361	6.03861	LU
+2960248	Münschecker	Muenschecker	Munschecker,Münschecker	49.69389	6.44222	LU
+2960249	Müllerthal	Muellerthal	Moellerdall,Mullerthal,Müllerthal	49.7902	6.30665	LU
+2960250	Müllendorf	Muellendorf	Melleref,Muellendorf,Mullendorf,Mëllerëf,Müllendorf	49.68028	6.13	LU
+2960251	Mühlenbach	Muehlenbach	Muhlenbach,Mühlenbach	49.63167	6.11917	LU
+2960252	Moutfort	Moutfort	Moutfort	49.58528	6.25556	LU
+2960253	Moulin Schenk	Moulin Schenk		49.73333	6.21667	LU
+2960254	Bornermillen	Bornermillen	Born Moulin,Born avec Moulin,Bornermillen,Moulin de Born	49.76556	6.50583	LU
+2960255	Moulin Colmesch	Moulin Colmesch		49.7	6.11667	LU
+2960256	Moserhaff	Moserhaff	Moserhaff,Moserhof,Mosingerhof	49.84944	6.20833	LU
+2960257	Mondorf-les-Bains	Mondorf-les-Bains	Bad Mondorf,Bains,Gemeng Munneref,Mondorf le Benas,Mondorf-le-Ben,Mondorf-les-Bains,Munneref,mondorp-le-beni,mwndwrf,Мондорф-ле-Бен,موندورف,მონდორფ-ლე-ბენი	49.505	6.28111	LU
+2960258	Mondercange	Mondercange	Mondercange,Monnerich	49.53306	5.98833	LU
+2960259	Mompach	Mompach	Mompach	49.74611	6.465	LU
+2960260	Moestroff	Moestroff	Moestroff	49.86778	6.23944	LU
+2960261	Moesdorf	Moesdorf	Moesdorf	49.76806	6.11667	LU
+2960262	Moersdorf	Moersdorf	Moersdorf,Morsdorf	49.73833	6.5	LU
+2960263	Misèrehof	Miserehof	Ferme Misere,Ferme Misère,Misere,Miserehof,Misère,Misèrehof	49.86667	5.83333	LU
+2960264	Gaichelbach	Gaichelbach	Dallbaach,Gaichelbach,Millebaach,Mullenbach	49.68861	5.88528	LU
+2960265	Michelshaff	Michelshaff	Michelshaff,Michelshof	49.76861	6.38361	LU
+2960266	Michelbouch	Michelbouch	Michelbouch,Michelbuch,Michelsberg	49.81861	6.02028	LU
+2960267	Michelau	Michelau	Michelau	49.9	6.09194	LU
+2960268	Meysembourg	Meysembourg	Chateau Meysembourg,Meysembourg	49.76167	6.18889	LU
+2960269	Mess	Mess	Mess,Mess Ruisseau,Messe,Messe Riviere,Messe Rivière	49.51389	6.04556	LU
+2960270	Mertzig	Mertzig	Mertzig,Merzig	49.83389	6.0075	LU
+2960271	Mertert	Mertert	Mertert	49.70261	6.47966	LU
+2960272	Merscheid	Merscheid	Merscheid,Merscheid-les-Heiderscheid,Merscheid-lès-Heiderscheid	49.87107	5.96995	LU
+2960273	Merscheid	Merscheid	Marscheid,Merscheid,Merscheid-les-Putscheid,Merscheid-lès-Putscheid	49.95472	6.10694	LU
+2960274	Mierscherwald	Mierscherwald	Foret de Mersch,Forêt de Mersch,Mierscherwald	49.72556	6.09194	LU
+2960275	Mersch	Mersch	Canton de Mersch,Kanton Mersch,Kanton Miersch,Mersch,Miersch	49.75636	6.12717	LU
+2960276	Mersch	Mersch	Gemeng Miersch,Mersas,Mersch,Mersh,Meršas,Miersch,Morsche,mei er shi,mrsh,Мерш,مرش,梅尔施	49.74889	6.10611	LU
+2960277	Merl	Merl	Merl	49.60333	6.09556	LU
+2960278	Merkholz	Merkholz	Mercols,Merkholtz,Merkholz,Merkols	49.96133	5.98042	LU
+2960279	Mergenhof	Mergenhof	Frillschterhof,Mergenhof,Stautzenhof	49.81667	5.86667	LU
+2960280	Mensdorf	Mensdorf	Mensdorf	49.65467	6.30416	LU
+2960281	Meispelt	Meispelt	Meispelt	49.69111	6.05917	LU
+2960282	Medingen	Medingen	Medingen	49.57278	6.24861	LU
+2960283	Medernach	Medernach	Medernach	49.80955	6.21521	LU
+2960284	Mecher	Mecher	Mecher,Mecher-lez-Clervaux,Mecher-sur-Clervaux	50.04083	6.0175	LU
+2960285	Mecher	Mecher	Mecher,Mecher (Haute-Sure),Mecher (Haute-Sûre),Mecher-Dunkrodt	49.92333	5.87222	LU
+2960286	Maulin Diederich	Maulin Diederich		49.6	6.25	LU
+2960287	Moulin de Bascharage	Moulin de Bascharage	Bascharage Moulin,Moulin de Bascharage	49.88333	5.9	LU
+2960288	Massen	Massen		50.1175	5.99278	LU
+2960289	Masseler	Masseler	Masseler	49.93083	6.03722	LU
+2960290	Marxberg	Marxberg		49.9	6.20917	LU
+2960291	Martelinville	Martelinville	Ferme Martelinville,Martelinville,Rommeldange,Rommelerhaff,Rommelerhof	49.86694	5.77333	LU
+2960292	Marscherwald	Marscherwald		49.745	6.28528	LU
+2960293	Marnach	Marnach	Marnach	50.05333	6.06194	LU
+2960294	Marienthal	Marienthal	Marienthal	49.71	6.06167	LU
+2960295	Marbourg	Marbourg		50.05167	6.07472	LU
+2960296	Manternach	Manternach	Manternach	49.70278	6.42639	LU
+2960297	Manertchen	Manertchen	Bois Mannertgen,Manertchen,Mannertgen	49.79167	6.4625	LU
+2960298	Mamer	Mamer		49.74833	6.10806	LU
+2960299	Mamer	Mamer	Gemeng Mamer,Mamer,Mameris,ma mo,mamr,Мамер,مامر,马默	49.6275	6.02333	LU
+2960300	Maison Wangert	Maison Wangert	Maison Wangert,Wangert	49.8	5.86667	LU
+2960301	Maisons Prevent	Maisons Prevent		49.71667	6.18333	LU
+2960302	Maisons Boussert	Maisons Boussert	Boussert,Maisons Boussert	49.73333	6.13333	LU
+2960303	Maisons Alteschmeltz	Maisons Alteschmeltz	Alteschmeltz,Maisons Alteschmeltz	49.7	5.98333	LU
+2960304	Maison Peffer	Maison Peffer		49.51667	6.16667	LU
+2960305	Lepschterhaff	Lepschterhaff	Laepscht,Lepschterhaff,Maison Lepschet,Maison Leptsch	49.87833	5.94528	LU
+2960306	Maison Leh	Maison Leh		49.88333	6.23333	LU
+2960307	Maison Klein	Maison Klein		49.75	5.85	LU
+2960308	Maison Hoffmann	Maison Hoffmann		49.7	6.28333	LU
+2960309	Pafebierg	Pafebierg		49.76667	6.45	LU
+2960310	Maison Cronière	Maison Croniere	Bachermuhle,Bachermühle,La Croniere,La Cronière,Maison Croniere,Maison Cronière	49.51667	5.85	LU
+2960311	Maison Burg	Maison Burg		49.83333	6.18333	LU
+2960312	Machtum	Machtum	Machtum,Machum	49.65897	6.43599	LU
+2960313	Grand Duchy of Luxembourg	Grand Duchy of Luxembourg	Grand Duchy of Luxembourg,Grand-Duche de Luxembourg,Grand-Duché de Luxembourg,Grande-Dutcheye do Lussimbork,Grossherzogtum Luxemburg,Groussherzogtum Letzebuerg,Groussherzogtum Lëtzebuerg,Großherzogtum Luxemburg,Lakisimipeki,Laksembɛg,Lasembagi,Lazembɔg nutome,Letseburg,Letzebuerg,Letzeburg,Likisambulu,Likisanburu,Liksembuur,Lioksamboro,Liuksemburgas,Ljuksehmburg,Ljuksemburg,Louxembourgo,Luc-xam-bua,Lucembursko,Lucsamburg,Lueksemburg,Lueksemburq,Lugzamburu,Lugzambûru,Lukisembaaga,Luksemboarch,Luksemboorg,Luksemborg,Luksembourg,Luksemburg,Luksemburga,Luksemburgio,Luksemburgo,Luksemburgu,Luksembursko,Luksembùrskô,Luksimbur,Lukusambur,Lukusamburu,Lushaborg,Lussemborg,Lussemborgh,Lussemburg,Lussemburgo,Lussemburgu,Lussembûrg,Luxaemburgaen,Luxemboerg,Luxemborg,Luxembourg,Luxemburg,Luxemburgia,Luxemburgo,Luxemburgo - Letzebuerg,Luxemburgo - Lëtzebuerg,Luxemburgska,Luxemburgu,Luxemburgum,Luxembursko,Luxembôrg,Luxembörg,Luxenburgo,Luxämburgän,Lwcsembwrg,Lëtzebuerg,Lúc-xăm-bua,Lúksemboarch,Lúxemborg,Lûksembûrg,Lüksemburg,Lüksemburq,Orileede Lusemogi,Orílẹ́ède Lusemogi,i-Luxembourg,lak sem beirk,lakjemabarga,lakjembarga,lakjhamabarga,lakjhembarga,laksamabarga,laksambarg,lakscampark,laksemabarga,lakzamabarga,lazanba,lgzhmbrg,lu sen bao,lugsembuleukeu,luksemburgi,lwksmbwrg,lwksmbwrgh,lwksmbwrj,lwkswmbrgh,lwkzambwrg,lwqsmbwrg,prathes lak sem beirk,rukusenburugu,rukusenburuku,Λουξεμβούργο,Луксембург,Люксембург,Люксембурґ,Люксэмбург,Լյուքսեմբուրգ,לוקסמבורג,لوكسمبورج,لوكسمبورغ,لوكسومبرغ,لوکزامبورگ,لوکسەمبورگ,ليۇكسېمبۇرگ,لگژمبرگ,ܠܘܟܣܡܒܘܪܓ,ލަޒަންބާ,लक्ज़मबर्ग,लक्जेमबर्ग,लक्जेम्बर्ग,लक्झेंबर्ग,लक्समबर्ग,লাক্সেমবার্গ,લક્ઝમબર્ગ,ଲକ୍ସେମବର୍ଗ,லக்ஸ்சம்பர்க்,లక్సంబర్గ్,ಲಕ್ಸಂಬರ್ಗ್,ലക്സംബര്‍ഗ്,ประเทศลักเซมเบิร์ก,ลักเซมเบิร์ก,ລຸກແຊມເບີກ,ལཀ་ཛམ་བོརྒ།,လူဇင်ဘတ်,ლუქსემბურგი,ሉክሰምበርግ,លុចហ្សំបួរ,ルクセンブルク,ルクセンブルグ,卢森堡,룩셈부르크	49.75	6.16667	LU
+2960314	District de Luxembourg	District de Luxembourg	District de Luxembourg,Distrikt Letzebuerg,Distrikt Luxemburg,Distrikt Lëtzebuerg,Letzebuerg,Luxembourg,Luxemburg,Lëtzebuerg	49.6278	6.09	LU
+2960315	Luxembourg	Luxembourg	Canton de Luxembourg,Canton de Luxembourg-Campagne,Kanton Letzebuerg,Kanton Luxemburg,Kanton Lëtzebuerg,Letzebuerg,Luxembourg,Luxembourg Campagne,Luxemburg,Lëtzebuerg	49.61427	6.17289	LU
+2960316	Luxembourg	Luxembourg	Bandar Luxembourg,Ciudad de Luxemburgo,Ciutat de Luxemburg,Dinas Lwcsembwrg,Gorad Ljuksemburg,LUX,Letzebuerg,Letzeburg,Liksanbou,Liuksemburgas,Ljuksemburg,Louxemvourgo,Lucemburk,Lucilinburhuc,Lucsamburg,Lucsemburg,Lueksemburg,Lueksemburq,Luessemburgh,Luksambuur,Luksemboarch,Luksembourg,Luksemburg,Luksemburga,Luksemburgo,Luksemburgu,Luksembùrg,Luksimbur,Lungsod ng Luksemburgo,Lusenburgo,Lussemborgh,Lussemburgo,Lussemburgu,Lussimbork veye,Luxemboerg,Luxemborg,Luxemborj,Luxembourg,Luxembourg by,Luxemburg,Luxemburgo,Luxemburgum,Luxembuurich,Luxembôrg,Luxembörg,Luxenburgo,Lëtzebuerg,Lúksemboarch,Lúxemborg,Lüksemburg,Lüksemburq,Lüssemburgh,Rakapuo,Rakapuō,Stad Letzebuerg,Stad Lëtzebuerg,Stadt Luxemburg,Ville de Luxembourg,lak sem beirk,lakcampark,lakjhembarga,lksmbrg,lu sen bao cheng,lu sen bao shi,lugsembuleukeu,luksemaburga,luksemburgi,lwksmbwrgh,lwkzambwrg,lwqsmbwrg,rukusenburuku,Λουξεμβούργο,Горад Люксембург,Луксембург,Люксембург,Лүксембург,Լյուքսեմբուրգ,לוקסמבורג,لوكسمبورغ,لوکزامبورگ,لوکسەمبورگ,ليۇكسېمبۇرگ شەھىرى,لکسمبرگ,लक्झेंबर्ग,লুক্সেমবুর্গ,லக்சம்பர்க்,ลักเซมเบิร์ก,ལུ་སེམ་བའུརག,ლუქსემბურგი,ሉክሰምበርግ,ルクセンブルク,盧森堡城,盧森堡市,룩셈부르크	49.61167	6.13	LU
+2960317	Ville de Luxembourg	Ville de Luxembourg	Letzebuerg,Luxembourg,Luxemburg,Lëtzebuerg,Stad Letzebuerg,Stad Lëtzebuerg,Stadt Luxemburg,Ville de Luxembourg	49.6093	6.13204	LU
+2960318	Lultzhausen	Lultzhausen	Lultzhausen	49.90944	5.89083	LU
+2960319	Lullange	Lullange	Lullange	50.06	5.94194	LU
+2960320	Lëckeboesch	Leckeboesch	Leckeboesch,Lueckebusch,Lëckeboesch	49.75556	6.36417	LU
+2960321	Loorbierg	Loorbierg	Brucherhof,Ferme Loring,Loorbierg,Loreshof,Loringshof	49.85944	5.85111	LU
+2960322	Lorentzweiler	Lorentzweiler	Lorentzweiler,Lorenzweiler	49.70131	6.14234	LU
+2960323	Ferme Lurenzscheier	Ferme Lurenzscheier	Ferme Lorenscheuer,Ferme Lurenzscheier,Lorentzscheuer	49.5875	6.02639	LU
+2960324	Longsdorf	Longsdorf	Longsdorf	49.89889	6.20528	LU
+2960325	Loeftgermillen	Loeftgermillen	Leftgermuhle,Leftgermühle,Loeftgermillen,Loeftgermuhle,Loeftgermühle	49.57028	5.99333	LU
+2960326	Livange	Livange	Livange	49.53028	6.12028	LU
+2960327	Lipperscheid	Lipperscheid	Lipperscheid	49.91861	6.08667	LU
+2960328	Lintgen	Lintgen	Lintgen	49.72243	6.13016	LU
+2960329	Linger	Linger	Linger	49.56583	5.88667	LU
+2960330	Limpertsberg	Limpertsberg	Lampertsberg,Limpertsberg	49.62083	6.12167	LU
+2960331	Limpach	Limpach	Limpach	49.55889	5.98056	LU
+2960332	Lieler	Lieler	Lieler	50.12444	6.11	LU
+2960333	Liefrange	Liefrange	Liefrange	49.91	5.8775	LU
+2960334	Levelange	Levelange	Levelange	49.73972	5.85667	LU
+2960335	Leudelange	Leudelange	Leudelange	49.56833	6.06528	LU
+2960336	Lentzweiler	Lentzweiler		50.0667	5.98051	LU
+2960337	Lenningen	Lenningen	Lenningen	49.60045	6.36719	LU
+2960338	Lellerhaff	Lellerhaff	Fermes,Lellerhaff,Lellingerhof	49.79944	6.08611	LU
+2960339	Lellingerbach	Lellingerbach		50	6.01667	LU
+2960340	Lellingen	Lellingen	Lellingen,Leltingen	49.98361	6.01444	LU
+2960341	Lelligerbaach	Lelligerbaach	Lelligerbaach,Lelligerbach,Schleidbach	49.73389	6.42556	LU
+2960342	Lellig	Lellig	Lellig	49.71611	6.43639	LU
+2960343	Leithum	Leithum	Leithum	50.16083	6.10889	LU
+2960344	Leihof	Leihof		49.8	6.1	LU
+2960345	Lehrhaff	Lehrhaff	Lehrhaeuschen,Lehrhaff,Lehrhauschen,Lehrhof,Lehrhäuschen,Maisons Leerchen	49.8555	5.94699	LU
+2960346	Léresmillen	Leresmillen	Larsmuhle,Larsmühle,Lehresmuhle,Lehresmühle,Leresmillen,Lerresmuhle,Léresmillen	50.0875	5.94472	LU
+2960347	Lauterbour	Lauterbour	Lauterborn	49.79684	6.38984	LU
+2960348	Lausdorn	Lausdorn	Lausdorn	50.11917	6.08333	LU
+2960349	Lasauvage	Lasauvage		49.525	5.8375	LU
+2960350	Larochette	Larochette	Fels,Larochette	49.78362	6.21891	LU
+2960351	Lannenerbierg	Lannenerbierg	Lannenerberg,Lannenerbierg	49.79861	5.83528	LU
+2960352	Lannen	Lannen	Lannen,Maisons Lannenberg,Maisons Pieschend	49.78944	5.83972	LU
+2960353	Lannebaach	Lannebaach	Lannebaach,Lannebach	49.77472	6.42861	LU
+2960354	Laangegronn	Laangegronn	Laangegronn,Langengrund	49.46722	6.00861	LU
+2960356	Landscheid	Landscheid		49.92407	6.129	LU
+2960357	Lameschermillen	Lameschermillen	Lameschermillen,Lameschermuhle sur Alzette,Lameschmuhle,Lameschmühle	49.51417	6.04417	LU
+2960358	Lamadelaine	Lamadelaine	Lamadelaine,Lamadeleine,Rollingen	49.54639	5.85639	LU
+2960359	Kuborn	Kuborn	Kuborn	49.87056	5.90306	LU
+2960360	Kreizboesch	Kreizboesch	Kreizboesch,Kreuzbusch	49.64167	6.3625	LU
+2960361	Kreizerbuch	Kreizerbuch	Kreizerbuch,Kreutzerbuch,Kreuzerbuch,Maisons Kreutzerbuch,Nikolausbuch	49.70167	5.91639	LU
+2960362	Krakelshaff	Krakelshaff	Krackelshof,Krakelshaff,Krakelshof	49.50889	6.11444	LU
+2960363	Kopstal	Kopstal	Kopstal	49.66444	6.07306	LU
+2960365	Koh	Koh		49.68056	5.9375	LU
+2960366	Koetschette	Koetschette	Koetschette	49.83806	5.84028	LU
+2960367	Koerich	Koerich	Gemeng Kaeerch,Gemeng Käerch,Kaeerch,Kerikh,Kjorikh,Kjorykh,Koerich,Korich,Käerch,Körich,kwyrysh,Керіх,Кёрих,Кёрых,کوئریش	49.67	5.95	LU
+2960368	Koenerhaff	Koenerhaff	Kahnhef,Koenerhaff,Koenerhof,Konerhof	49.96528	6.01	LU
+2960369	Koedange	Koedange	Koedange	49.72833	6.21028	LU
+2960370	Kockelscheuer	Kockelscheuer	Kockelscheuer	49.56111	6.11222	LU
+2960371	Kocherei	Kocherei	Kocherei,Kocherey	50.06944	6.07056	LU
+2960372	Kobenbour	Kobenbour	Kobenbour	49.75028	6.30611	LU
+2960373	Knaphoscheid	Knaphoscheid	Knaphoscheid	50.01333	5.96472	LU
+2960374	Kneppchen	Kneppchen	Knaepchen,Knepchen,Kneppchen	49.74194	6.01861	LU
+2960375	Kleinmacher	Kleinmacher		49.5325	6.35528	LU
+2960376	Kleinhoscheid	Kleinhoscheid		50.01944	5.96806	LU
+2960377	Klenge-Buurghaff	Klenge-Buurghaff	Kleinbourghof,Kleinbourgshof,Klenge-Buurghaff,Petit Bourghof	49.81361	6.13694	LU
+2960378	Kleinbettingen	Kleinbettingen	Kleinbettingen	49.64639	5.91639	LU
+2960379	Kircheboesch	Kircheboesch	Kircheboesch,Kirchenbusch	49.55667	6.19306	LU
+2960380	Kirchberg	Kirchberg	Kirchberg,Luxembourg-Kirchberg	49.62389	6.14944	LU
+2960381	Koeppenhaff	Koeppenhaff	Kippenhof,Koeppenhaff	49.90313	6.13314	LU
+2960382	Kinsickerhaff	Kinsickerhaff	Kinseckerbour,Kinseckerhof,Kinsickerhaff,Kinzigerhof	49.73194	6.31222	LU
+2960383	Kéisbierg	Keisbierg	Keisbierg,Kiesberg,Kéisbierg	49.67472	6.32056	LU
+2960384	Kirelbaach	Kirelbaach	Kierelbach,Kirelbaach	49.96389	5.97028	LU
+2960385	Këmpchen	Kempchen	Ferme Kempchen,Kempchen,Kempgen,Këmpchen	49.85194	6.16472	LU
+2960386	Kelleschhaff	Kelleschhaff	Kelleschhaff,Kelleschhof	49.79889	6.26778	LU
+2960387	Keispelt	Keispelt	Keispelt	49.69394	6.06789	LU
+2960388	Kehmen	Kehmen	Kehmen	49.90083	6.03722	LU
+2960389	Kehlen	Kehlen	Kehlen	49.66833	6.03583	LU
+2960390	Kaelbaach	Kaelbaach	Kaelbaach,Kayl,Kaylbach	49.51528	6.06583	LU
+2960391	Kayl	Kayl	Gemeng Keel,Kajl',Kayl,Keel,Kejl,Kelis,kyl  lwkzambwrg,Кайль,Кейл,کیل، لوکزامبورگ	49.48917	6.03972	LU
+2960392	Kayl	Kayl	Commune de Kayl,Gemeinde Kayl,Gemeng Kal,Gemeng Keel,Gemeng Käl,Kal,Kayl,Keel,Käl	49.47912	6.031	LU
+2960393	Kautenbach	Kautenbach	Kautenbach	49.95278	6.02	LU
+2960394	Kaundorf	Kaundorf	Kaundorf	49.92139	5.90306	LU
+2960395	Kapweiler	Kapweiler	Kapweiler	49.73944	5.97056	LU
+2960396	Kapendahl	Kapendahl		49.86667	6.23333	LU
+2960397	Kapenacker	Kapenacker	Ferme Kapenacker,Kapenacker	49.63444	6.35583	LU
+2960398	Kalborn	Kalborn	Kalborn	50.10278	6.11306	LU
+2960399	Kahler	Kahler	Kahler	49.63139	5.91778	LU
+2960400	Junglinster	Junglinster	Junglinster	49.70722	6.25306	LU
+2960401	Jungenbusch	Jungenbusch		49.63333	5.98333	LU
+2960402	Jongeboesch	Jongeboesch	Jongeboesch,Jungebusch	49.58194	5.87833	LU
+2960403	Juckelsboesch	Juckelsboesch	Juckelbusch,Juckelsboesch,Juckelsbusch	49.64722	6.04639	LU
+2960404	Joupicht	Joupicht	Jopicht,Joupicht	49.9725	6.02222	LU
+2960405	Jockelsmuhle	Jockelsmuhle	Jockelsmuhle,Jockesmuhle	49.71667	6.36667	LU
+2960406	Jenkenhof	Jenkenhof		49.81667	5.95	LU
+2960407	Jénkenhaff	Jenkenhaff	Inkenhof,Jenkenhaff,Jenkenhof,Jinkenhof,Jénkenhaff,Stoppelhof	49.75472	5.86444	LU
+2960408	Jean-Haris	Jean-Haris	Henryshof,Jean Henryshof,Jean-Haris,Jeanharishof,Jeanhary	49.73667	6.26444	LU
+2960409	Jacobsbierg	Jacobsbierg	Jacobsberg,Jacobsbierg,Jakobsberg	49.75411	6.38254	LU
+2960410	Itzig	Itzig	Itzig	49.58769	6.17065	LU
+2960411	Italien	Italien	Italie,Italien	49.47444	6.07944	LU
+2960412	Irbich	Irbich	Irbach,Irbich,Irrbach,Irrbach Riviere,Irrbach Rivière	50.01694	6.01028	LU
+2960413	Insenborn	Insenborn	Insenborn	49.90167	5.88472	LU
+2960414	Ingeldorf	Ingeldorf	Ingeldord,Ingeldorf	49.85194	6.13472	LU
+2960415	Imbringen	Imbringen	Imbringen	49.6975	6.1975	LU
+2960416	Hëttermillen	Hettermillen	Hettermillen,Huettermuehle,Huttermuhle,Hëttermillen,Hüttermühle	49.58611	6.37361	LU
+2960417	Huttange	Huttange	Huttange	49.73611	5.89861	LU
+2960418	Hupperdange	Hupperdange	Hupperdange	50.09611	6.05917	LU
+2960419	Hunsdorf	Hunsdorf	Hunsdorf	49.69667	6.13167	LU
+2960420	Huncherange	Huncherange	Huncherange	49.51694	6.065	LU
+2960421	Huldange	Huldange	Huldange,Huldingen	50.16472	6.015	LU
+2960422	Haupeschhaff	Haupeschhaff	Hauertshof,Haupeschhaff,Hubertushof,Huppertshof,Portershof	49.84	6.05639	LU
+2960423	Hubertsmuhle	Hubertsmuhle		50.13333	6.06667	LU
+2960424	Hovelange	Hovelange	Hovelange	49.7225	5.90722	LU
+2960425	Houschthauser	Houschthauser		49.95	5.8	LU
+2960426	Hostert	Hostert	Hostert,Hostert-les-Folschette,Hostert-lès-Folschette	49.81	5.86667	LU
+2960427	Hostert	Hostert	Hostert,Hostert du-Grunenwald	49.65749	6.23268	LU
+2960428	Hueschterbaach	Hueschterbaach	Hosterbach,Hueschterbaach	49.81	5.90722	LU
+2960429	Hosingen	Hosingen	Hosingen	50.01218	6.09089	LU
+2960430	Houschterhaff	Houschterhaff	Fonkenhof,Hoscheiderhof,Hoscheidterhof,Hoschetterhof,Houschterhaff,Wiltgeshof	49.93531	6.15709	LU
+2960431	Hoscheiderdickt	Hoscheiderdickt	Dickt,Hoscheid-Dickt,Hoscheiderdickt	49.97306	6.09167	LU
+2960432	Hoscheid	Hoscheid	Hohscheid,Hoscheid	49.94722	6.08167	LU
+2960433	Horas	Horas	Horace,Horas,Horras,Maisons Horras	49.81056	5.91861	LU
+2960434	Hondsjang	Hondsjang		50.08333	6	LU
+2960435	Hommelsboesch	Hommelsboesch	Homelsbusch,Hommelsboesch	49.50917	6.34278	LU
+2960436	Holzthum	Holzthum	Holzthum	49.985	6.07333	LU
+2960437	Holzem	Holzem	Holzem	49.61639	5.99028	LU
+2960438	Holtz	Holtz	Holtz,Holtzburg	49.80722	5.79167	LU
+2960439	Hollerich	Hollerich	Hollerich	49.6025	6.12417	LU
+2960440	Holler	Holler	Holler,Hollermuehle,Hollermühle	50.12361	6.04944	LU
+2960441	Hollenfels	Hollenfels	Hollenfels	49.71306	6.05083	LU
+2960442	Houwald	Houwald	Hohwald,Houwald	49.66111	6.39306	LU
+2960443	Hohwald	Hohwald		49.56667	6.15	LU
+2960444	Houlbecht	Houlbecht	Hohlbach,Houlbecht,Roedt,Trintange	49.55583	6.3025	LU
+2960445	Houboesch	Houboesch	Hohbusch,Houboesch	49.53722	5.95806	LU
+2960446	Neimillen	Neimillen	Hoffmansneumuhle,Hoffmansneumühle,Neimillen,Neumuhle,Neumühle	49.51528	6.01833	LU
+2960447	Hoffelt	Hoffelt	Hoffelt	50.09972	5.92333	LU
+2960448	Hoff	Hoff		50.08333	5.96667	LU
+2960449	Haffboesch	Haffboesch	Haffboesch,Hofbusch	49.67306	5.90194	LU
+2960450	Hoesdorf	Hoesdorf	Hoesdorf	49.88389	6.25806	LU
+2960451	Hoerchen	Hoerchen	Haertgen,Hoerchen,Maison Hoerchen,Neulocher,Neulöcher	49.56667	5.93333	LU
+2960452	Héienhaff	Heienhaff	Heienhaff,Hoehenhof,Hohenhof,Héienhaff,Höhenhof	49.6325	6.22083	LU
+2960453	Hobscheid	Hobscheid	Habscht,Hobscheid	49.68861	5.91472	LU
+2960454	Hivange	Hivange	Hivange	49.60722	5.93222	LU
+2960455	Hirzenhaff	Hirzenhaff	Hirtzenhof,Hirzenhaff,Hirzenhof	49.86222	6.23028	LU
+2960456	Hinkel	Hinkel	Hinkel	49.77639	6.51528	LU
+2960457	Hesperange	Hesperange	Hesperange	49.56806	6.15139	LU
+2960458	Hersberg	Hersberg	Heeschbreg	49.75629	6.32756	LU
+2960459	Haereboesch	Haereboesch	Haereboesch,Herrenwald	49.73333	6.48639	LU
+2960460	Haereboesch	Haereboesch	Haereboesch,Herrenbusch	49.68722	5.96306	LU
+2960461	Haerebierg	Haerebierg	Haerebierg,Herrenberg,The Herrenberg	49.87833	6.16889	LU
+2960462	Hierheck	Hierheck	Haerheck,Herheck,Hierheck	49.87306	5.93111	LU
+2960463	Herdermillen	Herdermillen	Herdermillen,Herdermuhle,Herdermühle	49.55333	6.34028	LU
+2960464	Bois de Herborn	Bois de Herborn	Bois de Herborn,Dewald,Herborner Wald,Wald	49.75306	6.41194	LU
+2960465	Herborn	Herborn	Herborn	49.74167	6.42778	LU
+2960466	Herberg	Herberg		49.95	5.83333	LU
+2960467	Hemstal	Hemstal	Hemstal	49.73444	6.33611	LU
+2960468	Helmsange	Helmsange	Helmsange	49.65278	6.14139	LU
+2960469	Helmdange	Helmdange	Helmdange	49.69387	6.14166	LU
+2960470	Hellange	Hellange	Hellange	49.50759	6.14978	LU
+2960471	Heispelt	Heispelt	Haispelt,Heispelt,Heispelt-les-Wahl,Heispelt-lès-Wahl	49.85722	5.88056	LU
+2960472	Heisdorf	Heisdorf	Heisdorf,Heisdorf-sur-Alzette	49.67207	6.14202	LU
+2960473	Heesberhaff	Heesberhaff	Ferme Heisbourg,Heesberhaff,Heisbourg,Heisburgerhof	49.57222	6.3125	LU
+2960474	Heisbich	Heisbich	Heisbach,Heisbich,Masions Heisbich	49.80361	6.35028	LU
+2960475	Heinerscheid	Heinerscheid	Heinerscheid	50.09611	6.08806	LU
+2960476	Hiemerboesch	Hiemerboesch	Heimerbusch,Hiemerboesch	49.67139	5.9875	LU
+2960477	Heedscheier	Heedscheier	Ferme Heidscheuer,Heedscheier,Heidscheuer,Hetscheuer	49.54944	6.26028	LU
+2960478	Heiderscheid	Heiderscheid	Heiderscheid	49.88734	5.97892	LU
+2960479	Heidenthor	Heidenthor	Heidenhorn,Heidenthor	50.06667	6.11667	LU
+2960480	Fensterhaff	Fensterhaff	Fensterhaff,Finsterhof,Heidekaul,Heidenkaul	49.79611	5.90861	LU
+2960481	Heffingen	Heffingen	Heffingen	49.76907	6.24049	LU
+2960482	Heckenhof	Heckenhof		49.68333	5.93333	LU
+2960483	Haut-Martelange	Haut-Martelange	Haut-Martelange	49.825	5.75111	LU
+2960484	Lac de la Haute Sûre	Lac de la Haute Sure	Haute Sure,Haute Sûre,Lac de la Haute Sure,Lac de la Haute Sûre	49.9	5.9	LU
+2960485	Hautcharage	Hautcharage	Hautcharage,Oberkerschen	49.57499	5.9097	LU
+2960486	Hautbellain	Hautbellain	Hautbellain,Oberbesslingen	50.15667	5.97861	LU
+2960487	Hau	Hau		49.52083	6.18667	LU
+2960488	Hassel	Hassel	Hassel	49.55019	6.20826	LU
+2960489	Harthaff	Harthaff	Hardthof,Harthaff,Harthof	49.81	6.31694	LU
+2960490	Harlange	Harlange	Harlange,Riviee de Harlange,Rivièe de Harlange	49.88333	5.78333	LU
+2960491	Harlange	Harlange	Harlange	49.93139	5.79	LU
+2960492	Haard	Haard	Haard,Hardt	49.77861	6.40111	LU
+2960493	Hamm	Hamm	Hamm	49.60694	6.16861	LU
+2960494	Hamiville	Hamiville	Hamiville,Heisdorf	50.04611	5.90417	LU
+2960495	Hamhaff	Hamhaff	Ferme Hamm,Hamhaff,Hamhof,Hamm	49.83861	6.36	LU
+2960496	Halerbaach	Halerbaach	Halerbaach,Hallerbach	49.81444	6.32611	LU
+2960497	Haller	Haller	Haller	49.81982	6.28006	LU
+2960498	Hagen	Hagen	Hagen	49.64944	5.93167	LU
+2960499	Hagelsdorf	Hagelsdorf	Hagelsdorf	49.68778	6.36556	LU
+2960500	Hakenhaff	Hakenhaff	Hackenhof,Hakenhaff,Hakenhof	49.60111	6.28056	LU
+2960501	Hachiville	Hachiville	Hachiville,Helzingen	50.10806	5.92333	LU
+2960502	Grengewald	Grengewald	Grengewald,Grune Wald,Grunenwald	49.66083	6.20417	LU
+2960503	Grundmuhle	Grundmuhle		49.9	5.9	LU
+2960504	Grundhof	Grundhof	Grundhof,Grundhof (Berdorf)	49.835	6.33139	LU
+2960505	Grund	Grund	Grund	49.61667	6.13333	LU
+2960506	Grumelscheid	Grumelscheid	Gruemelscheid,Grumelscheid,Grummelscheid,Grümmelscheid	49.98343	5.87072	LU
+2960507	Grossen Genoeserbusch	Grossen Genoeserbusch		49.5	6.13333	LU
+2960508	Grousseboesch	Grousseboesch	Grossenbusch,Grousseboesch	49.65833	6.27667	LU
+2960509	Grouseboesch	Grouseboesch	Grossbusch,Grossebusch,Grouseboesch	49.70111	5.88889	LU
+2960510	Grosbous	Grosbous	Grosbous	49.82778	5.96722	LU
+2960511	Gruef	Gruef	Grof,Gruef	49.88028	6.22194	LU
+2960512	Grindhausen	Grindhausen	Grindhausen	50.08333	6.06	LU
+2960513	District de Grevenmacher	District de Grevenmacher	District de Grevenmacher,Distrikt Greiwemaacher,Distrikt Grevenmacher,Distrikt Gréiwemaacher,Greiwemaacher,Grevenmacher,Gréiwemaacher	49.67777	6.35	LU
+2960514	Grevenmacher	Grevenmacher	Canton de Grevenmacher,Greiwemaacher,Grevenmacher,Gréiwemaacher,Kanton Greiwemaacher,Kanton Grevenmacher,Kanton Gréiwemaacher	49.68341	6.34307	LU
+2960515	Grevenmacher	Grevenmacher	Grehvenmakher,Greivemaacher,Greiwemaacher,Grevenmacher,Grevenmacheris,Grevenmakher,Gréivemaacher,Gréiwemaacher,Grėvenmacheris,ge lei wen ma he,geulebenmaheo,grbnmkr,grwnmakhr,gurevu~enmaha,Гревенмахер,Грэвенмахер,גרבנמכר,گرونماخر,グレーヴェンマハ,格雷文马赫,그레벤마허	49.67751	6.44022	LU
+2960516	Grevenmacher	Grevenmacher	Canto de Grevenmacher,Canton de Grevenmacher,Cantone di Grevenmacher,Cantó de Grevenmacher,Cantón de Grevenmacher,Gemeinde Grevenmacher,Greiwemaacher,Grevenmacher,Grevenmacher kantonu,Grevenmacherio kantonas,Grevenmakher,Gréiwemaacher,Grėvenmacherio kantonas,Kanton Greivemaacher,Kanton Greiwemaacher,Kanton Grevenmacher,Kanton Gréivemaacher,Kanton Gréiwemaacher,Kantono Grevenmacher,Stad Greiwemaacher,Stad Gréiwemaacher,Ville de Grevenmacher,geulebenmaheo ju,grwnmakhr,Гревенмахер,گرونماخر,그레벤마허 주	49.67459	6.41269	LU
+2960517	Grevenknapp	Grevenknapp	Grevenknapp,Grevenknopp,Groevenknapp	49.7625	6.03389	LU
+2960518	Grevelscheuer	Grevelscheuer	Ferme Grevelscheuer,Grevelscheuer,Grevelsscheuer	49.63333	6.2	LU
+2960519	Grevels	Grevels	Grevels,Grevels-Bresil,Grevels-Brésil	49.85138	5.91399	LU
+2960520	Gréivelserhaff	Greivelserhaff	Ferme Grevels,Greivelserhaff,Grevels,Gréivelserhaff	49.59944	6.0425	LU
+2960521	Grentzingen	Grentzingen	Grentzingen	49.83194	6.09306	LU
+2960523	Greiveldange	Greiveldange	Greiveldange	49.58389	6.35917	LU
+2960524	Greisch	Greisch	Greisch	49.70972	5.98833	LU
+2960525	Graulinster	Graulinster	Graulinster (Bech)	49.74008	6.28757	LU
+2960526	Grass	Grass	Gras,Grass	49.63083	5.89139	LU
+2960527	Grand Bois	Grand Bois		49.51611	5.85694	LU
+2960528	Gralingen	Gralingen	Gralingen	49.93694	6.10167	LU
+2960529	Goudelt	Goudelt	Ferme Gudelt,Goudelt,Gudelt	49.77278	6.18306	LU
+2960530	Gostingen	Gostingen	Gostingen	49.61917	6.35444	LU
+2960531	Gosseldange	Gosseldange	Gosseldange	49.72639	6.11694	LU
+2960532	Gonderange	Gonderange	Gonderange	49.69537	6.24577	LU
+2960533	Goetzingen	Goetzingen	Goetzange,Goetzingen,Gotzange,Götzange	49.66028	5.98167	LU
+2960534	Goesdorf	Goesdorf	Geisdref,Goesdorf,Gosdorf,Gosdorf bei Wilz,Géisdref,Gösdorf,Gösdorf bei Wilz	49.92131	5.96601	LU
+2960535	Goeldt	Goeldt	Goeldt,Maison Goelt	49.82222	5.85583	LU
+2960536	Goedange	Goedange	Godange,Goedange,Goedingen,Gödange	50.14917	6.01333	LU
+2960537	Goeblange	Goeblange	Goeblange	49.66972	5.96528	LU
+2960538	Goebelsmuhle	Goebelsmuhle	Goebelsmuehle,Goebelsmuhle,Goebelsmühle	49.92139	6.05372	LU
+2960539	Godbrange	Godbrange	Godbrange	49.73395	6.23238	LU
+2960540	Givenich	Givenich	Givenich,Giwenich	49.74222	6.48	LU
+2960541	Girsterklaus	Girsterklaus	Girsterklaus	49.77778	6.49944	LU
+2960542	Girst	Girst	Girst,Girsterklause	49.76722	6.49889	LU
+2960543	Gilsdorf	Gilsdorf	Gilsdorf	49.86499	6.17979	LU
+2960544	Geierhaff	Geierhaff	Geierershof,Geierhaff,Geiershof,Geyershof	49.99528	6.09	LU
+2960545	Geyershaff	Geyershaff	Geyershaff,Geyershof,Geyershof (Bech)	49.76552	6.38754	LU
+2960546	Geimer	Geimer		49.75	6	LU
+2960547	Gebrannteboesch	Gebrannteboesch	Gebrannteboesch,Gebranntenbusch	49.67333	6.09583	LU
+2960548	Gasperich	Gasperich	Gasperich	49.58556	6.12306	LU
+2960549	Garnich	Garnich	Garnech,Garnich	49.61667	5.9525	LU
+2960550	Garbach	Garbach		49.6	6.4	LU
+2960551	Gantenbeinmühle	Gantenbeinmuehle		49.6	6.16667	LU
+2960552	Gaalgebierg	Gaalgebierg	Gaalgebierg,Galgenberg	49.48389	5.98611	LU
+2960553	Gaschmillen	Gaschmillen	Gaaschtmuhle,Gaaschtmühle,Gaschmillen,Gaschtgrund,Gaschtmuhle	49.6325	6.0475	LU
+2960554	Fronay	Fronay	Ferme Fronay,Fronay,Fronayhof	49.66667	6.41667	LU
+2960555	Frombourg	Frombourg	Ferme Fromburg,Frombourg,Fromburg,Fromburgerhof	49.77361	6.40861	LU
+2960556	Frisange	Frisange	Freiseng,Frisange,Fréiseng	49.51616	6.18858	LU
+2960557	Friemholz	Friemholz		49.80306	6.36833	LU
+2960558	Fridhaff	Fridhaff	Fridhaff,Friedhof	49.89111	6.13611	LU
+2960559	Fridboesch	Fridboesch	Fridboesch,Friedbusch	49.88389	6.125	LU
+2960560	Fraesbech	Fraesbech	Fraesbech,Fresbach	49.76417	5.87972	LU
+2960561	Fouhren	Fouhren	Fouhren	49.91556	6.19611	LU
+2960562	Heischtergronn	Heischtergronn	Fond de Heiderscheid,Heiderscheidergrund,Heischtergronn	49.90188	5.96008	LU
+2960563	Folschette	Folschette	Folschette	49.81417	5.87472	LU
+2960564	Folkendange	Folkendange	Ferme Folkendange,Folkendange	49.84306	6.20417	LU
+2960565	Foetz	Foetz	Foetz	49.52944	6.01083	LU
+2960566	Flickenhaff	Flickenhaff	Flickenhaff,Flickenhof	49.81	6.27333	LU
+2960567	Fleibur	Fleibur	Flebour,Fleibur	49.89917	5.81278	LU
+2960568	Flaxweiler	Flaxweiler	Flaxweiler,Fluessweller	49.66602	6.34321	LU
+2960569	Flatzbour	Flatzbour	Flatzbour,Flatzbourg,Flatzbourhof,Flazbourg	49.83488	5.78766	LU
+2960570	Fischbach	Fischbach	Fischbach,Fischbach-les-Clervaux,Fischbach-lès-Clervaux	50.07528	6.06889	LU
+2960571	Fischbach	Fischbach	Fischbach	49.746	6.18702	LU
+2960572	Fënsterdall	Fensterdall	Fensterdall,Finsterthal,Fënsterdall	49.75295	6.03583	LU
+2960573	Fingig	Fingig	Fingig	49.60361	5.90083	LU
+2960574	Findelserhaff	Findelserhaff	Ferme Findels,Findelserhaff,Findelshof	49.59444	6.03333	LU
+2960575	Findel	Findel	Findel	49.62456	6.1756	LU
+2960576	Filsdorf	Filsdorf	Filsdorf	49.5325	6.24833	LU
+2960577	Niederfeulen	Niederfeulen	Feulen,Neiderfeulen,Niederfeulen	49.85556	6.04722	LU
+2960578	Ferme Thibesart	Ferme Thibesart		49.81667	6.11667	LU
+2960579	Ferme Grossenbour	Ferme Grossenbour		49.88333	6.16667	LU
+2960580	Ferme Fuhrman	Ferme Fuhrman	Ferme Fahrman,Ferme Fuhrman	49.93333	5.8	LU
+2960581	Ferme du Flamand	Ferme du Flamand		50.15	6.05	LU
+2960582	Vesquenhaff	Vesquenhaff	Ferme Vesque,Ferme de Vesque,Festenhof,Vesquehof,Vesquenhaff,Westenhof	49.51111	5.87389	LU
+2960583	Roudenhaff	Roudenhaff	Airsain,Ferme Airsain,Ferme Rouge,Rodenhof,Roudenhaff	49.53111	5.84722	LU
+2960584	Fentange	Fentange	Fentange	49.56278	6.15389	LU
+2960585	Fennbierg	Fennbierg	Auf der Hohe,Auf der Höhe,Fennberg,Fennbierg,Pfennberg	50.01278	6.09139	LU
+2960586	Fennange	Fennange	Fennange	49.51972	6.07833	LU
+2960587	Fielsmillen	Fielsmillen	Felsmuhle,Felsmühle,Fielsmillen,Follmuhle	49.81028	6.40556	LU
+2960588	Everlange	Everlange	Everlange	49.77417	5.95556	LU
+2960589	Ettelbruck	Ettelbruck	Ehtehl'bruk,Ehttel'brjuk,Etelbrek,Etelbriukas,Ettel'brjuk,Ettelbreck,Ettelbruck,Ettelbrueck,Ettelbréck,Ettelbrück,Ettlebruk,Gemeng Ettelbreck,Gemeng Ettelbréck,atl brwk,aytlbrwk,Етелбрек,Еттельбрюк,Эттельбрюк,Этэльбрук,إيتلبروك,اتل بروک,ایٹل برک	49.8475	6.10417	LU
+2960590	Ettelbruck	Ettelbruck	Ettelbreck,Ettelbruck,Ettelbréck,Ettelbrück,Gemeinde Ettelbruck,Gemeinde Ettelbrück,Stad Ettelbreck,Stad Ettelbréck,Ville d'Ettelbruck,Ville d’Ettelbruck	49.84565	6.08137	LU
+2960591	Essingen	Essingen	Essingen	49.77889	6.11667	LU
+2960592	Eselborn	Eselborn	Eselborn	50.06278	6.00361	LU
+2960593	Eschweiler	Eschweiler	Eschweiler,Eschweiler-les-Rodenbourg,Eschweiler-lès-Rodenbourg	49.71749	6.31016	LU
+2960594	Eschweiler	Eschweiler	Eschweiler	49.99778	5.94889	LU
+2960595	Esch-sur-Sûre	Esch-sur-Sure	Ehsh-sjur-Sjur,Escch-sur-Sure,Esch,Esch-Sauer,Esch-sur-Sure,Esch-sur-Sûre,Esh-sjur-Sur,Gemeng Esch-Sauer,ash-swr-swr,Еш-сюр-Сур,Эш-сюр-Сюр,اش-سور-سور	49.91139	5.93639	LU
+2960596	Esch-sur-Alzette	Esch-sur-Alzette	Ehsh-sjur-Al'zet,Ehsh-sjur-Al'zett,Ehsh-sjur-Alzette,Es-syr-Alzet,Esas prie Alzeto,Esch,Esch an der Alzette,Esch-Uelzecht,Esch-an-der-Alzette,Esch-an-der-Alzig,Esch-sur-Alzette,Esh sir Alzet,Esh-sjur-Al'zett,Ešas prie Alzeto,a er ze te he pan ai shi,ash-swr-alzt,eshu=shuru=aruzetto,esyuswileualjeteu,Ες-συρ-Αλζέτ,Еш сир Алзет,Еш-сюр-Альзетт,Эш-сюр-Алзетте,Эш-сюр-Альзет,Эш-сюр-Альзетт,اش-سور-الزت,エシュ＝シュル＝アルゼット,阿尔泽特河畔埃施,에슈쉬르알제트	49.49583	5.98056	LU
+2960597	Eschette	Eschette	Eschette	49.82306	5.88833	LU
+2960598	Eschdorf	Eschdorf	Eschdorf	49.8859	5.93421	LU
+2960599	Canton d'Esch-sur-Alzette	Canton d'Esch-sur-Alzette	Esch,Esch-sur-Alzette	49.5	6.03333	LU
+2960600	Ersange	Ersange	Ersange	49.57444	6.27556	LU
+2960601	Erpeldange	Erpeldange	Erpeldange,Erpeldange-sur-Sure,Erpeldange-sur-Sûre	49.86472	6.11472	LU
+2960602	Erpeldange	Erpeldange	Erpeldange,Erpeldange (Bous),Erpeldange-lez-Bous	49.54444	6.3275	LU
+2960603	Erpeldange	Erpeldange	Erpeldange,Erpeldange-les-Wiltz,Erpeldange-lès-Wiltz	49.97806	5.94861	LU
+2960604	Ernz Noire	Ernz Noire	Ernz Noire,Schwarz Erntz	49.83639	6.33139	LU
+2960605	Ernzen	Ernzen	Ernzen	49.77253	6.22118	LU
+2960606	Ernz Blanche	Ernz Blanche	Ernz Blanche,Weisse Ernz	49.87	6.2675	LU
+2960607	Ernster	Ernster	Ernster	49.67901	6.24822	LU
+2960608	Ermsdorf	Ermsdorf	Ermsdorf	49.82944	6.22278	LU
+2960609	Eppeldorf	Eppeldorf	Eppeldorf	49.84444	6.24972	LU
+2960610	Enscherange	Enscherange	Enscherange	49.99944	5.99278	LU
+2960611	Emerange	Emerange	Emerange	49.48694	6.29167	LU
+2960612	Elvange	Elvange	Elvange,Elvange-les-Beckerich,Elvange-lès-Beckerich	49.72472	5.91778	LU
+2960613	Elvange	Elvange	Elvange,Elvange-les-Burmerange,Elvange-lès-Burmerange,Elveng,Elvingen	49.50528	6.31639	LU
+2960614	Eltz	Eltz	Els,Eltz,Kalkelz	49.77833	5.895	LU
+2960615	Ellange	Ellange	Ellange	49.52	6.29833	LU
+2960616	Ell	Ell	Ell	49.76389	5.85722	LU
+2960617	Eisenborn	Eisenborn	Eisenborn	49.69138	6.18363	LU
+2960618	Eischen	Eischen	Eischen	49.68556	5.87861	LU
+2960619	Eischbaach	Eischbaach	Eisch,Eischbaach,Eischbach	49.7725	6.01194	LU
+2960621	Aechelbour	Aechelbour	Aechelbour,Eichelbour,Ferme Eichelborn	49.79444	6.18806	LU
+2960622	Eich	Eich	Eich	49.62889	6.13194	LU
+2960623	Aessen	Aessen	Aessen,Bois Ehssen	49.73306	6.45111	LU
+2960624	Ehner	Ehner	Ehner	49.7175	5.95	LU
+2960625	Ehnen	Ehnen	Ehnen,Ennen,Ihnen	49.59972	6.38778	LU
+2960626	Éimeschbaach	Eimeschbaach	Dehmeschbach,Ehmeschbach,Ehmeschhof,Eimeschbaach,Emeschbach,Emeschterhof,Éimeschbaach	50.09361	5.95667	LU
+2960627	Ehlerange	Ehlerange	Ehlerange	49.52417	5.96611	LU
+2960628	Ehlange	Ehlange	Ehlange	49.54889	6.01694	LU
+2960629	Canton d'Echternach	Canton d'Echternach	Canton d'Echternach,Echternach,Iechternach,Kanton Echternach,Kanton Iechternach	49.78872	6.39024	LU
+2960630	Echternach	Echternach	Echternach,Echternachas,Echternak,Ehkhtehrnakh,Ehkhternakh,Ekhternakh,Iechternach,akhtrnakh,ashtrnakh,ehitanaha,ehiteonaheu,Ехтернах,Эхтернах,Эхтэрнах,اخترناخ,اشترناخ,ეხტერნახი,エヒタナハ,에히터나흐	49.81212	6.41846	LU
+2960631	Echternach	Echternach		49.81307	6.42185	LU
+2960632	Dudelange-Usines	Dudelange-Usines	Dudelange-Usines	49.4728	6.07935	LU
+2960634	Dudelange	Dudelange	Diddeleng,Didelanzh,Diudelanzas,Diudelanžas,Djudelanzh,Dudelange,Dudelingen,Duedelingen,Dzjudzelanzh,Düdelingen,Gemeng Diddeleng,dwdlanzh,Дзюдзеланж,Диделанж,Дюделанж,دودلانژ	49.48056	6.0875	LU
+2960635	Dudelange	Dudelange	Diddeleng,Dudelange,Dudelingen,Düdelingen,Gemeinde Dudelingen,Gemeinde Düdelingen,Gemeng Diddeleng,Ville de Dudelange	49.48084	6.08773	LU
+2960636	Drinklange	Drinklange	Drinckelt,Drinckler,Drinklange	50.13361	6.01917	LU
+2960637	Dreiborn	Dreiborn	Chateau Dreiborn,Dreiborn	49.61722	6.39389	LU
+2960638	Drauffelt	Drauffelt	Drauffelt	50.01778	6.00611	LU
+2960639	Dosterterhaff	Dosterterhaff	Dosterhof,Dosterterhaff,Dosterterhof,Ferme Doster	49.79278	6.32778	LU
+2960640	Dorscheiderhaischen	Dorscheiderhaischen	Dorscheiderhaeuschen,Dorscheiderhaischen,Dorscheiderhauschen,Dorscheiderhäuschen	50.03917	6.07972	LU
+2960641	Dorscheid	Dorscheid	Dorscheid	50.03611	6.07139	LU
+2960642	Donwenerbaach	Donwenerbaach	Donverbach,Donwenerbaach	49.6276	6.42237	LU
+2960643	Doennange	Doennange	Doeningen,Doennange,Donnange,Donningen,Dönningen	50.06222	5.95583	LU
+2960644	Doncols	Doncols	Doncols	49.97	5.83722	LU
+2960645	Dommeldange	Dommeldange	Dommeldange	49.62972	6.13917	LU
+2960646	Dirbach	Dirbach		49.91667	5.91667	LU
+2960647	Dirbach	Dirbach	Derbach,Dierbach,Dirbach,Dirbach (Goesdorf)	49.92111	6.03833	LU
+2960648	Dippach	Dippach	Dippach	49.58701	5.9833	LU
+2960649	Dillingen	Dillingen	Diligen,Dillingen	49.85361	6.31917	LU
+2960650	Diggel	Diggel	Dideling,Diggel	49.72611	5.84111	LU
+2960651	Differdange	Differdange	Deifferdeng,Diferdanzas,Diferdanžas,Differdange,Differdanzh,Differdingen,Dziferdanzh,Déifferdeng,Gemeng Deifferdeng,Gemeng Déifferdeng,di fu dang ri,dyfrdanzh,Дзіферданж,Дифферданж,Діфферданж,دیفردانژ,迪弗當日	49.52417	5.89139	LU
+2960652	Differdange	Differdange	Deifferdang,Differdange,Differdingen,Déifferdang,Gemeinde Differdingen,Gemeng Deifferdang,Gemeng Déifferdang,Ville de Differdange	49.52167	5.88288	LU
+2960653	Dievelsbach	Dievelsbach		49.96667	5.9	LU
+2960654	Dirbaach	Dirbaach	Dierbach,Dirbaach	49.92056	5.85056	LU
+2960655	District de Diekirch	District de Diekirch	Diekirch,Dikrech,District de Diekirch,Distrikt Diekirch,Distrikt Dikrech	49.97777	6	LU
+2960656	Diekirch	Diekirch	Canton de Diekirch,Diekirch,Dikrech,Kanton Diekirch,Kanton Dikrech	49.86155	6.1475	LU
+2960657	Diekirch	Diekirch	Diekirch,Dikirkh,Dikrech,District de Diekirch,Dykirchas,Dzikirkh,di ji xi,dykyrsh,dyqyrk,Дзікірх,Дикирх,Дікірх,דיקירך,ديكيرش,دیکیرش,迪基希	49.86778	6.15583	LU
+2960658	Diekirch	Diekirch	Diekirch,Dikrech,Dikrich,Gemeinde Diekirch,Stad Dikrech,Stad Dikrich,Ville de Diekirch	49.87279	6.14921	LU
+2960659	Dickweiler	Dickweiler	Dickweiler	49.7775	6.47222	LU
+2960660	Derenbach	Derenbach	Derenbach	50.015	5.88972	LU
+2960661	Dell	Dell	Dell,Delt	49.92361	6.09361	LU
+2960662	Dellen	Dellen	Dellen	49.85917	5.96139	LU
+2960663	Deiffelt	Deiffelt	Deifelt,Deiffelt	50.06556	5.96389	LU
+2960664	Daundorf	Daundorf	Daundorf,Ferme Daundorf	49.5075	6.2875	LU
+2960665	Dalheim	Dalheim	Dalheim	49.54083	6.25972	LU
+2960666	Dahlem	Dahlem	Dahlem	49.60222	5.94833	LU
+2960667	Dahl	Dahl	Dahl	49.93528	5.97583	LU
+2960668	Cruchten	Cruchten	Cruchten,Kruchten	49.79908	6.13235	LU
+2960669	Kréintgeshaff	Kreintgeshaff	Croentgeshof,Kreintgeshaff,Kroentgeshof,Krontgeshof,Kréintgeshaff,Kröntgeshof	49.60028	6.23278	LU
+2960670	Krékelsbierg	Krekelsbierg	Krekelsbierg,Krekelsburg,Krékelsbierg,Mont Crequi	49.63306	6.29556	LU
+2960671	Crendal	Crendal	Crendal	50.05778	5.89806	LU
+2960672	Crauthem	Crauthem	Crauthem,Krauthem	49.53556	6.14694	LU
+2960673	Contern	Contern	Contern	49.58194	6.22667	LU
+2960674	Consthum	Consthum	Consthum,Konsthum	49.97472	6.05417	LU
+2960675	Consdorf	Consdorf	Consdorf,Kalkesbach (Consdorf)	49.78018	6.3395	LU
+2960676	Colpach-Haut	Colpach-Haut	Colpach-Haut,Haut-Colpach,Obercolpach	49.76861	5.82	LU
+2960677	Colpach-Bas	Colpach-Bas	Bas-Colpach,Colpach-Bas,Niedercolpach	49.75833	5.82694	LU
+2960678	Bierbaach	Bierbaach	Bierbaach,Colpach,Koulbich Ruisseau	49.75139	5.82889	LU
+2960679	Colmarberg	Colmarberg	Colmarberg,Colmarburg,Station Colmarberg	49.81473	6.10263	LU
+2960680	Colmar	Colmar	Colmar,Colmar-Berg	49.81028	6.09722	LU
+2960681	Colbette	Colbette	Colbet,Colbette	49.76843	6.30285	LU
+2960682	Closdelt	Closdelt	Cloosdellt,Closdelt,Kloosdellt,Klosdelt	49.90222	6.12417	LU
+2960683	Clervaux	Clervaux	Canton de Clervaux,Clerf,Clervaux,Kanton Clerf,Kanton Klierf,Klierf	50.07852	6.02236	LU
+2960684	Clervaux	Clervaux	Clerf,Clervaux,Cliarref,Cliärref,Gemeng Klierf,Kamuna Klervo,Klerf,Klervo,Klierf,klrww,Камуна Клерво,Клерво,کلروو	50.05472	6.03139	LU
+2960685	Clerve	Clerve	Clerf,Clerve,Clierf	49.95222	6.01861	LU
+2960686	Clemenshaff	Clemenshaff	Clemenshaff,Clemenshof,Jungenbuschhof	49.84444	6.16111	LU
+2960687	Clemency	Clemency	Clemency,Kuentzig,Kuntzig,Küntzig	49.59667	5.87583	LU
+2960688	Clausen	Clausen	Clausen	49.61139	6.13611	LU
+2960689	Clairefontaine	Clairefontaine	Claire,Clairefontaine,Clairefontaines	49.86667	6.18333	LU
+2960690	Cinqfontaines	Cinqfontaines	Cinqfontaines,Funfbrunnen,Fünfbrunnen,Paffenmuhle,Paffenmühle	50.10722	6.00778	LU
+2960691	Christnach	Christnach	Christnach	49.78805	6.27337	LU
+2960692	Château Faubourg	Chateau Faubourg	Chateau,Chateau Faubourg,Château Faubourg,Faubourg	49.93333	6.21667	LU
+2960693	Schuttburg Château	Schuttburg Chateau	Chateau de Schuttbourg,Château de Schuttbourg,Schuttburg Chateau,Schuttburg Château	49.96528	6.02778	LU
+2960694	Cessange	Cessange	Cessange,Cessingen	49.58944	6.10694	LU
+2960695	Carelshaff	Carelshaff	Carelshaff,Carelshof,Carlshof	49.83	6.06417	LU
+2960696	Capellen	Capellen	Canton de Capellen,Capellen,Kanton Capellen,Kanton Kapellen,Kapellen	49.63678	5.97031	LU
+2960697	Capellen	Capellen	Capellen,Kapellen	49.645	5.99083	LU
+2960698	Cap	Cap	Cap,Kap	49.64444	5.98444	LU
+2960699	Canach	Canach	Canach	49.60694	6.32583	LU
+2960700	Calmus	Calmus	Calmus	49.72556	5.96444	LU
+2960701	Buergplaz	Buergplaz	Bourgplatz,Buurgplaatz,Buurgplaaz	50.16222	6.02333	LU
+2960702	Buschrodt	Buschrodt	Buschrodt	49.82722	5.93583	LU
+2960703	Buschdorf	Buschdorf	Buschdorf	49.75083	6.00833	LU
+2960704	Burmerange	Burmerange	Burmerange	49.48528	6.32306	LU
+2960705	Buurgfried	Buurgfried	Bourgfried,Burgfried,Buurgfried	49.90083	5.85861	LU
+2960706	Burden	Burden	Burden	49.87987	6.08943	LU
+2960707	Burange	Burange	Burange	49.49111	6.0925	LU
+2960708	Buderscheid	Buderscheid	Bitscht,Buderscheid,Buederscheid,Büderscheid	49.93426	5.93815	LU
+2960709	Budersberg	Budersberg	Budersberg	49.49278	6.06944	LU
+2960710	Buchholz	Buchholz		49.65833	6.36472	LU
+2960711	Buchholz	Buchholz		49.7	6.08333	LU
+2960712	Buchholz	Buchholz		49.58806	6.15972	LU
+2960713	Buchholz	Buchholz	Buchholtz,Buchholz	49.5625	6.255	LU
+2960714	Bicherhaff	Bicherhaff	Bicherhaff,Bucherhof,Bücherhof	49.58694	6.31694	LU
+2960715	Brill	Brill	Brill,Bruhl	49.98167	5.90611	LU
+2960716	Brücherhaff	Bruecherhaff	Brucherhaff,Brucherhof,Brücherhaff,Brücherhof	49.83639	6.20111	LU
+2960717	Brouch	Brouch	Brouch,Brouch (Wecker),Brouch-les-Biwer,Brouch-lès-Biwer,Bruch	49.7289	6.33838	LU
+2960718	Brouch	Brouch	Brouch	49.73611	6.02306	LU
+2960719	Broderbour	Broderbour	Broderbour,Seinkaul	49.85306	6.18722	LU
+2960720	Bridel	Bridel	Bridel	49.65579	6.07999	LU
+2960721	Breinert	Breinert		49.7119	6.3422	LU
+2960722	Breidweiler	Breidweiler	Breidweiler,Breitweiler	49.77766	6.30332	LU
+2960723	Breidfeld	Breidfeld	Breidfeld	50.12417	6.06361	LU
+2960724	Breschterbaach	Breschterbaach	Brechterbach,Breschterbaach	49.81167	5.92056	LU
+2960725	Brattert	Brattert	Brattert	49.85556	5.90361	LU
+2960726	Braneboesch	Braneboesch	Braneboesch,Branenbusch	49.59389	6.34028	LU
+2960727	Brandenbourg	Brandenbourg	Brandenbourg	49.91141	6.1384	LU
+2960728	Brameschhaff	Brameschhaff	Brameschhaff,Brameschhof	49.65667	6.04972	LU
+2960729	Brakels	Brakels		50.06667	5.91667	LU
+2960730	Brachtenbach	Brachtenbach	Brachtenbach	50.02139	5.91139	LU
+2960731	Boxhorn	Boxhorn	Boxhorn	50.08389	5.9925	LU
+2960732	Bous	Bous	Bous	49.55389	6.32917	LU
+2960733	Boursdorf	Boursdorf	Boursdorf,Busschdorf	49.75806	6.47861	LU
+2960734	Bourscheid	Bourscheid	Bourscheid,Bourscheid-Plage,Burscheid	49.90862	6.0675	LU
+2960735	Bourglinster	Bourglinster	Bourglinster	49.70306	6.21725	LU
+2960736	Bour	Bour	Bour	49.70139	6.01889	LU
+2960737	Boulaide	Boulaide	Bauschleiden,Boulaide	49.88778	5.81639	LU
+2960738	Boudler	Boudler	Boudeler,Boudler	49.72276	6.35454	LU
+2960739	Born	Born	Born	49.75928	6.51227	LU
+2960740	Guttland	Guttland	Bon Pays,Gutland,Guttland,Pays Bon	49.7	6.16667	LU
+2960741	Bonnevoie	Bonnevoie	Bonnevoie	49.59444	6.15	LU
+2960742	Bonnal	Bonnal	Bommel,Bonnal	49.90361	5.88806	LU
+2960743	Bombatsch	Bombatsch		50.05833	6.06639	LU
+2960744	Bohey	Bohey	Bohey,Bohoey	49.97417	5.84389	LU
+2960745	Boumillen	Boumillen	Bohmuhle,Bohmühle,Boumillen	49.61306	6.24917	LU
+2960746	Bofferdange	Bofferdange	Bofferdange	49.69062	6.13998	LU
+2960747	Boevange-sur-Attert	Boevange-sur-Attert	Boevange,Boevange-sur-Attert,Boewingen,Bovange,Bowen an der Attert	49.77256	6.01532	LU
+2960748	Boevange	Boevange	Boegen,Boevange,Boevange-Clervaux,Boevange-les-Clervaux,Boevange-lès-Clervaux	50.04639	5.93417	LU
+2960749	Bockmillen	Bockmillen	Bockenmuhl,Bockenmühl,Bockmillen,Bockmuhle,Bockmühle	50.09778	6.02167	LU
+2960750	Bockholtz	Bockholtz	Bockholtz,Bockholz,Bockholz-les-Hosingen,Bockholz-lès-Hosingen	50.01222	6.05278	LU
+2960751	Bockholtz	Bockholtz	Bockholtz,Bockholtz (Goesdorf),Bockholz-sur-Sure	49.92333	5.9975	LU
+2960752	Blumenthal	Blumenthal	Blumenthal (Bech)	49.74492	6.26564	LU
+2960753	Blees	Blees	Blees,Blees Riviere,Blees Rivière	49.87194	6.19083	LU
+2960754	Blaschette	Blaschette	Blaschette	49.70279	6.16876	LU
+2960755	Biwisch	Biwisch	Biwisch	50.11806	5.97917	LU
+2960756	Bois de Biwer	Bois de Biwer		49.69917	6.33389	LU
+2960757	Biwer	Biwer	Biwer,Biwerbach	49.70605	6.37201	LU
+2960758	Bivels	Bivels	Bivels,Biwels	49.96028	6.19222	LU
+2960759	Bissen	Bissen	Bissen	49.78733	6.0654	LU
+2960760	Bois Biischtert	Bois Biischtert	Bois Biischtert,Bois Bischtert	49.81389	6.0475	LU
+2960761	Bischenrech	Bischenrech		50.08333	6	LU
+2960762	Birtrange	Birtrange	Birtrange,Chateau de Birtrange	49.82694	6.09139	LU
+2960763	Birel	Birel	Birel,Birelergrund,Birelerhof,Ferme Birel	49.61667	6.21667	LU
+2960764	Bivange	Bivange	Bivange,Bivingen	49.54444	6.13778	LU
+2960765	Binsfeld	Binsfeld	Binsfeld	50.11889	6.03861	LU
+2960766	Bilsdorf	Bilsdorf	Bilsdorf	49.8575	5.825	LU
+2960767	Béil	Beil	Beil,Bihl,Béil	49.75917	6.23972	LU
+2960768	Moulin de Bigonville	Moulin de Bigonville	Bigonville Moulin,Moulin de Bigonville	49.87111	5.80083	LU
+2960769	Bigonville	Bigonville	Bigonville,Bondorf	49.85167	5.79333	LU
+2960770	Bigelbach	Bigelbach	Bigelbach	49.86028	6.28806	LU
+2960771	Beyren	Beyren	Beyren	49.62639	6.33694	LU
+2960772	Kaffishaff	Kaffishaff	Beyerholtz,Beyerholz,Beyerholzerhof,Ferme Beyerholz,Kaffeshof,Kaffishaff,Kafféshof	49.6125	6.305	LU
+2960773	Bézebierg	Bezebierg	Betzenberg,Bezebierg,Bézebierg	49.76306	6.23278	LU
+2960774	Betzdorf	Betzdorf	Betzdorf	49.68333	6.35	LU
+2960775	Bettendorf	Bettendorf	Bettendorf,Bettenduerf	49.87667	6.21806	LU
+2960776	Bois de Bettembourg	Bois de Bettembourg	Bais de Bettembourg,Bois de Bettembourg	49.545	6.0825	LU
+2960777	Bettembourg	Bettembourg	Beetebuerg,Betehmbur,Betemburas,Betembūras,Bettambur,Bettembourg,Bettemburg,Gemeng Beetebuerg,btmbwrg,Беттамбур,Беттембург,Бетэмбур,Բետտամբուր,بتمبورگ	49.51861	6.10278	LU
+2960778	Bettembourg	Bettembourg	Beetebuerg,Bettembourg,Bettemburg,Commune de Bettembourg,Gemeinde Bettemburg,Gemeng Beetebuerg	49.52345	6.08307	LU
+2960779	Bettel	Bettel	Bettel	49.91575	6.22693	LU
+2960780	Bettborn	Bettborn	Bettborn	49.79528	5.94111	LU
+2960781	Bettange-sur-Mess	Bettange-sur-Mess	Bettange,Bettange-sur-Mess,Bettange-sur-Messe	49.57583	5.98389	LU
+2960782	Bertrange	Bertrange	Bertrange	49.61111	6.05	LU
+2960783	Bierschbaach	Bierschbaach	Berschbach,Bierschbaach,Riviere de Berschbach,Rivière de Berschbach	49.74528	6.11056	LU
+2960784	Berschbach	Berschbach	Berschbach	49.74389	6.115	LU
+2960785	Berlé	Berle	Berle,Berlé	49.95222	5.85611	LU
+2960786	Beringerbierg	Beringerbierg	Beringen,Beringerberg,Beringerbierg	49.77004	6.14943	LU
+2960787	Beringen	Beringen	Beringen	49.75833	6.11694	LU
+2960788	Berg	Berg	Berg,Berg-sur-Syre	49.68342	6.35776	LU
+2960789	Berghaff	Berghaff	Berghaff,Bergshof	49.62556	6.32722	LU
+2960790	Berger Grousseboesch	Berger Grousseboesch	Berger Grossen Busch,Berger Grousseboesch	49.66972	6.36861	LU
+2960791	Bergem	Bergem	Bergem	49.525	6.04222	LU
+2960792	Château de Berg	Chateau de Berg		49.81459	6.08776	LU
+2960793	Berg	Berg	Berg	49.81361	6.08917	LU
+2960794	Berens	Berens		49.84361	6.26806	LU
+2960795	Béreldange	Bereldange	Bereldange,Béreldange	49.65507	6.11874	LU
+2960796	Berdorf	Berdorf	Berdorf	49.82051	6.34945	LU
+2960797	Berchem	Berchem	Bercham,Berchem	49.54028	6.12917	LU
+2960798	Bois de Berbourg	Bois de Berbourg		49.72028	6.3775	LU
+2960799	Berbourg	Berbourg	Berbourg	49.7306	6.39355	LU
+2960800	Belvaux	Belvaux	Beles,Belvaux	49.51014	5.92414	LU
+2960801	Belval	Belval	Belval,Ernshof	49.51028	5.94361	LU
+2960802	Beiler	Beiler		50.16556	6.08889	LU
+2960803	Beidweiler	Beidweiler	Beidweiler	49.72333	6.3025	LU
+2960804	Behlen	Behlen	Behlen,Behlenhof,Behtenhof	49.72694	6.25417	LU
+2960805	Beggen	Beggen	Beggen	49.64917	6.12833	LU
+2960806	Beckerich	Beckerich	Beckerich	49.73114	5.88241	LU
+2960807	Bech	Bech	Bech,Bekh,Gemeng Bech,bk,bykh,Бех,بک,بیخ	49.7526	6.36379	LU
+2960808	Bech-Kleinmacher	Bech-Kleinmacher	Bech,Bech-Kleinmacher	49.52806	6.35389	LU
+2960809	Beaufort	Beaufort	Beaufort,Beefort,Befort	49.83583	6.29167	LU
+2960810	Bouferterhaff	Bouferterhaff	Beaufort,Befort,Bofort,Bouferterhaff,Ferme Beaufort	49.59806	6.00583	LU
+2960811	Bavigne	Bavigne	Bavigne,Boeven,Boewen	49.92194	5.84944	LU
+2960812	Bamboesch	Bamboesch	Bamboesch,Baumbusch	49.63333	6.1	LU
+2960813	Bastendorf	Bastendorf	Baastenduerf,Bastendorf	49.89194	6.16528	LU
+2960814	Baschleiden	Baschleiden	Baschleiden	49.89833	5.82028	LU
+2960815	Bascharage	Bascharage	Bascharage,Niederkerschen	49.56727	5.9073	LU
+2960816	Basbellain	Basbellain	Basbellain,Niederbesslingen	50.14583	5.98389	LU
+2960817	Troine-Route	Troine-Route	Baraques de Troine,Troine-Baraques,Troine-Route	50.04611	5.87806	LU
+2960818	Banzelt	Banzelt	Banzelt,Maisons Banzelt,Olingerbarriere,Olingerbarriére	49.66833	6.33028	LU
+2960820	Asselborn	Asselborn	Asselborn	50.09722	5.97306	LU
+2960821	Asselborn	Asselborn	Asselborn,Asselborn-les-Kehmen,Asselborn-lès-Kehmen	49.9	6.05	LU
+2960822	Assel	Assel	Assel	49.55278	6.31583	LU
+2960823	Aspelt	Aspelt	Aspelt	49.52278	6.22472	LU
+2960824	Uerschterhaff	Uerschterhaff	Aresdorferhof,Areshof,Arsdorferhof,Ferme Arsdorf,Uerschterhaff,Ursterhof	49.54361	5.95556	LU
+2960825	Ruisseau d’Arsdorf	Ruisseau d'Arsdorf		49.88333	5.86667	LU
+2960826	Forêt d’Arsdorf	Foret d'Arsdorf		49.85	5.86667	LU
+2960827	Arsdorf	Arsdorf	Arsdorf	49.86139	5.84389	LU
+2960828	Ansembourg	Ansembourg	Ansembourg	49.7025	6.04333	LU
+2960829	Angelsberg	Angelsberg	Angelsberg	49.75639	6.16083	LU
+2960830	Amberg	Amberg	Amberg,Berg	49.76667	5.86667	LU
+2960831	Alzett	Alzett	Alzett,Alzette	49.84861	6.11417	LU
+2960832	Alzingen	Alzingen	Altzingen,Alzingen	49.565	6.16361	LU
+2960833	Altwies	Altwies	Altwies	49.51056	6.25722	LU
+2960834	Altrier	Altrier	Schanz	49.75009	6.32656	LU
+2960835	Alrodeschhaff	Alrodeschhaff	Alrodeschhaff,Altrodeschhof	49.76972	6.3775	LU
+2960836	Altlinster	Altlinster	Altlinster	49.71556	6.21667	LU
+2960837	Aleboesch	Aleboesch	Aleboesch,Altenbusch	49.84667	5.95944	LU
+2960838	Alscheid	Alscheid	Alscheid	49.97111	6.00972	LU
+2960839	Allerborn	Allerborn	Allerborn	50.03667	5.87083	LU
+2960840	Albach	Albach		50	5.96667	LU
+2960841	Aalbaach	Aalbaach	Aalbaach,Al,Albach	49.62044	6.39241	LU
+2960842	Ahn	Ahn	Ahn	49.62444	6.42167	LU
+2960843	Aciérie	Acierie		49.53333	5.9	LU
+2960844	Abweiler	Abweiler	Abweiler	49.53361	6.08083	LU
+3263885	Woulkeschdall	Woulkeschdall		49.48472	6.09778	LU
+3263886	Gehaansbierg	Gehaansbierg		49.49111	6.06139	LU
+3263887	Mierbech	Mierbech		49.51611	6.06861	LU
+3283389	Reckingerhaff	Reckingerhaff	Ferme Reckange,Reckingerhaff,Reckingerhof	49.53472	6.31028	LU
+3283390	Bech-Kleinmacher	Bech-Kleinmacher	Bech-Kleinmacher	49.53083	6.355	LU
+3285196	Dunkrodt	Dunkrodt		49.92306	5.87861	LU
+3285197	Feulen	Feulen		49.85	6.01667	LU
+3285198	Lac de la Haute-Sûre	Lac de la Haute-Sure	Gemeng Lac de la Haute-Sure,Gemeng Lac de la Haute-Sûre,Lak-de-la-Ot-Sjur,Lak-de-la-Ot-Sur,Lak-deh-la-Ot-Sjur,Stauseegemeinde,Stauseigemeng,Stauséigemeng,lak dw la awt-swr,Лак-де-ла-От-Сур,Лак-де-ла-От-Сюр,Лак-дэ-ла-От-Сюр,لاک دو لا اوت-سور	49.91667	5.83333	LU
+3285846	Bassins Supérieurs	Bassins Superieurs	Bassin Superieur,Bassin Supérieur,Bassins Superieurs,Bassins Supérieurs	49.94389	6.17639	LU
+3285847	Bassin Inférieur	Bassin Inferieur		49.94667	6.20306	LU
+3285848	Barrage de Vianden	Barrage de Vianden		49.94222	6.20694	LU
+6296718	Luxembourg Findel Airport	Luxembourg Findel Airport	Aerodrom Luksemburg,Aeroport de Luxembourg,Aeroport de Luxembourg-Findel,Aeroport de Luxemburg,Aeroporto Internacional de Luxemburgo-Findel,Aeroporto di Lussemburgo-Findel,Aeropuerto de Luxemburgo,Aéroport de Luxembourg,Aéroport de Luxembourg-Findel,Bandar Udara Luxembourg Findel,ELLX,Findel lufthavn,Findelin kansainvaelinen lentoasema,Findelin kansainvälinen lentoasema,Fluchhafe Letzebuerg,Fluchhafe Lëtzebuerg,Flughafen Luxemburg,LUX,Ljuksemburg-Findel,Lueksemburg-Findel Havalimani,Luxembourg-Findel International Airport,Luxenburgo Findel aireportua,Lüksemburg-Findel Havalimanı,Port lotniczy Luksemburg,San bay Luxembourg-Findel,Sân bay Luxembourg-Findel,Zracna luka Luxembourg-Findel,Zračna luka Luxembourg-Findel,frwdgah lwgzambwrg - fyndl,lu sen bao-fen de er guo ji ji chang,lugsembuleukeu pindel gonghang,rukusenburuku-finderu kong gang,Аеродром Луксембург,Люксембург-Финдел,נמל התעופה לוקסמבורג-פינדל,فرودگاه لوگزامبورگ - فیندل,ルクセンブルク-フィンデル空港,卢森堡-芬德尔国际机场,룩셈부르크 핀델 공항	49.62658	6.21152	LU
+6468475	Best Western International	Best Western International		49.59931	6.12905	LU
+6469061	NH Luxembourg	NH Luxembourg		49.639	6.218	LU
+6469374	Le Royal	Le Royal		49.613	6.126	LU
+6469501	Mercure Kikuoka	Mercure Kikuoka		49.6027	6.3125	LU
+6469668	Mercure Centre Gare	Mercure Centre Gare		49.601	6.131	LU
+6469875	Parc	Parc		49.63842	6.1503	LU
+6470345	Grand Mercure Alfa Luxembourg	Grand Mercure Alfa Luxembourg		49.59895	6.12918	LU
+6475284	Atel Schintgen	Atel Schintgen		49.61	6.1299	LU
+6478293	Grunewals Hotel	Grunewals Hotel		49.6334	6.1381	LU
+6481196	Christophe Colomb Hotel	Christophe Colomb Hotel		49.6033	6.13	LU
+6482308	President Hotel	President Hotel		49.5996	6.1329	LU
+6482549	Golden Tulip Central Molitor	Golden Tulip Central Molitor		49.6043	6.1303	LU
+6482622	Hotel Nobilis	Hotel Nobilis		49.6022	6.133	LU
+6483304	Novotel Luxembourg Kirchberg	Novotel Luxembourg Kirchberg		49.6028	6.13	LU
+6483723	City Hotel	City Hotel		49.602	6.133	LU
+6492748	Sofitel Luxembourg Europe	Sofitel Luxembourg Europe		49.61	6.143	LU
+6495119	Hotel Parc Plaza	Hotel Parc Plaza		49.608	6.123	LU
+6495238	Hotel Parc Belle-Vue	Hotel Parc Belle-Vue		49.608	6.123	LU
+6495948	Hotel Parc Belair	Hotel Parc Belair		49.607	6.11	LU
+6496785	Hotel Parc Beaux Arts	Hotel Parc Beaux Arts		49.611	6.134	LU
+6498937	Campanile Hotel Luxembourg	Campanile Hotel Luxembourg		49.6121	6.1711	LU
+6500530	Alvisse Parc Hotel	Alvisse Parc Hotel		49.6405	6.155	LU
+6501145	Hotel Empire	Hotel Empire		49.5995	6.1328	LU
+6508298	Romantik Hotel Hostellerie Du G	Romantik Hotel Hostellerie Du G		49.6333	6.138	LU
+6508360	Mercure Esch Sur Alzette 3	Mercure Esch Sur Alzette 3		49.7797	6.0919	LU
+6509431	Mercure Gd H Luxembourg Alf 4	Mercure Gd H Luxembourg Alf 4		49.60047	6.13334	LU
+6510026	Mercure Kikuoka Golf Club 4	Mercure Kikuoka Golf Club 4		49.6166	6.3333	LU
+6515220	Sofitel Luxembourg Europe	Sofitel Luxembourg Europe		49.6028	6.13	LU
+6515465	Ibis Luxembourg Aeroport	Ibis Luxembourg Aeroport		49.6166	6.2	LU
+6517610	Park Plaza Trier	Park Plaza Trier		49.7797	6.0919	LU
+6519939	Novotel Luxembourg Centre	Novotel Luxembourg Centre		49.6038	6.1367	LU
+6520269	Sofitel Le Grand Ducal	Sofitel Le Grand Ducal		49.605	6.1356	LU
+6525566	Grand Hotel Cravat	Grand Hotel Cravat		49.6087	6.1318	LU
+6528340	Ibis Luxembourg Sud	Ibis Luxembourg Sud		49.5294	6.1189	LU
+6531321	Hotel Stand Inn	Hotel Stand Inn		49.5205	6.0123	LU
+6532988	Albert Premier	Albert Premier		49.6094	6.1185	LU
+6691847	Wallendorf-Pont	Wallendorf-Pont	Wallendorf-Pont,Wallendorferbrueck,Wallendorferbrück,Wallenduerfer-Breck,Wallenduerfer-Bréck	49.8739	6.28674	LU
+6692360	Hart van 't Goedland	Hart van 't Goedland		49.55194	6.08574	LU
+6692361	Luxemburgse Ardennen	Luxemburgse Ardennen		49.95785	6.05621	LU
+6693258	Bascharage	Bascharage	Basaraz,Basarazas,Basharazh,Bašaražas,Nidderkaeerjeng,Nidderkäerjeng,Niederkerschen,Башараж,Բաշարաժ	49.5675	5.91028	LU
+6693259	Clemency	Clemency		49.59667	5.87583	LU
+6693260	Dippach	Dippach	Dippakh,Dippech,Dzipakh,Gemeng Dippech,di pa,dypakh,Дзіпах,Диппах,Діппах,دیپاخ,迪帕	49.58833	5.98333	LU
+6693261	Garnich	Garnich		49.61667	5.9525	LU
+6693262	Hobscheid	Hobscheid		49.68861	5.91472	LU
+6693263	Kehlen	Kehlen	Gemeng Kielen,Kelen,Kielen,khln,Келен,کهلن	49.66833	6.03583	LU
+6693264	Koerich	Koerich		49.67	5.95	LU
+6693265	Kopstal	Kopstal		49.66444	6.07306	LU
+6693266	Mamer	Mamer		49.6275	6.02333	LU
+6693267	Septfontaines	Septfontaines		49.70111	5.96722	LU
+6693268	Steinfort	Steinfort	Gemeng Stengefort,Shtajnfort,Steinfortas,Stengefort,ashtaynfwrt  lwkzambwrg,Šteinfortas,Штайнфорт,اشتاینفورت، لوکزامبورگ	49.66139	5.91917	LU
+6693269	Esch-sur-Alzette	Esch-sur-Alzette		49.49583	5.98056	LU
+6693270	Frisange	Frisange	Freiseng,Frisingen,Frizanzh,Fryzanzh,Fréiseng,Gemeng Freiseng,Gemeng Fréiseng,frysanzh,Фризанж,Фрызанж,Фрізанж,فریسانژ	49.515	6.19167	LU
+6693271	Leudelange	Leudelange		49.56833	6.06528	LU
+6693272	Mondercange	Mondercange	Gemeng Monnerech,Mandehrkanzh,Monderkanzas,Monderkanzh,Monderkanžas,Monnerech,Monnerich,mwndrkanzh,Мандэрканж,Мондерканж,موندرکانژ	49.53306	5.98833	LU
+6693273	Reckange-sur-Mess	Reckange-sur-Mess		49.5625	6.00889	LU
+6693274	Roeser	Roeser		49.54222	6.15	LU
+6693275	Bertrange	Bertrange		49.61111	6.05	LU
+6693276	Contern	Contern		49.58194	6.22667	LU
+6693277	Hesperange	Hesperange		49.56806	6.15139	LU
+6693278	Niederanven	Niederanven		49.6475	6.26	LU
+6693279	Sandweiler	Sandweiler		49.61333	6.21889	LU
+6693280	Schuttrange	Schuttrange		49.62056	6.26861	LU
+6693281	Steinsel	Steinsel		49.67694	6.12389	LU
+6693282	Strassen	Strassen		49.62056	6.07333	LU
+6693283	Walferdange	Walferdange	Gemeng Walfer,Val'ferdanzh,Walfer,Walferdingen,walfrdanzh,Вальферданж,والفردانژ	49.65833	6.13722	LU
+6693284	Weiler-la-Tour	Weiler-la-Tour		49.54083	6.20083	LU
+6693285	Berg	Berg		49.81361	6.08917	LU
+6693286	Bissen	Bissen		49.7875	6.06944	LU
+6693287	Boevange-sur-Attert	Boevange-sur-Attert	Beiwen-Atert,Bevanzh-sjur-Atehr,Bevanzh-sjur-Attert,Bjovanzh-sjur-Atter,Boewingen/Attert,Byovanz syur Atter,Béiwen-Atert,Böwingen/Attert,Gemeng Beiwen-Atert,Gemeng Béiwen-Atert,bwwanzh-atrt,Беванж-сюр-Аттерт,Беванж-сюр-Атэр,Бёванж-сюр-Аттер,Բյովանժ սյուր Ատտեր,بووانژ-اترت	49.77528	6.01556	LU
+6693288	Fischbach	Fischbach		49.73972	6.18722	LU
+6693289	Heffingen	Heffingen		49.7625	6.24139	LU
+6693290	Larochette	Larochette		49.78476	6.21779	LU
+6693291	Lintgen	Lintgen		49.71583	6.13361	LU
+6693292	Lorentzweiler	Lorentzweiler		49.69472	6.1425	LU
+6693293	Mersch	Mersch	Canto de Mersch,Canton de Mersch,Cantone di Mersch,Cantó de Mersch,Cantón de Mersch,Kanton Mersch,Kanton Miersch,Kantono Mersch,Ljuksemburg,Mersch kantonu,Mersh,Merso kantonas,Meršo kantonas,meleusyu ju,Люксембург,Мерш,메르슈 주	49.74889	6.10611	LU
+6693294	Nommern	Nommern		49.78694	6.17472	LU
+6693295	Tuntange	Tuntange		49.71778	6.01028	LU
+6693296	Wincrange	Wincrange		50.05333	5.91917	LU
+6693297	Clervaux	Clervaux	Canto de Clervaux,Canton de Clervaux,Cantone di Clervaux,Cantó de Clervaux,Cantón de Clervaux,Clervaux kantonu,Kanton Clerf,Kanton Clervaux,Kanton Klierf,Kantono Clervaux / Clerf,Klervo,Klervo kantonas,ke lai wo xian,keulleleubo ju,Клерво,克莱沃县,클레르보 주	50.05472	6.03139	LU
+6693298	Consthum	Consthum	Konstem	49.97472	6.05417	LU
+6693299	Heinerscheid	Heinerscheid		50.09611	6.08806	LU
+6693300	Hosingen	Hosingen		50.01778	6.09333	LU
+6693301	Munshausen	Munshausen	Gemeng Munzen,Mjunsgauzen,Mjunskhauzen,Munshause,Munzen,Мюнсгаузен,Мюнсхаузен,Мюнсхаўзен	50.03361	6.03861	LU
+6693302	Weiswampach	Weiswampach	Gemeng Waeisswampech,Gemeng Wäisswampech,Vajsvampakh,Vejsvampakh,Waeiswampech,Wäiswampech,wayswampakh,Вайсвампах,Вейсвампах,وایسوامپاخ	50.13722	6.075	LU
+6693303	Bastendorf	Bastendorf		49.89194	6.16528	LU
+6693304	Bettendorf	Bettendorf	Betehndorf,Bettendorf,Bettenduerf,Gemeng Bettenduerf,bei teng duo fu,btndwrf,Беттендорф,Бетэндорф,بتندورف,贝滕多夫	49.87667	6.21806	LU
+6693305	Bourscheid	Bourscheid		49.91	6.06722	LU
+6693306	Ermsdorf	Ermsdorf		49.82944	6.22278	LU
+6693307	Erpeldange	Erpeldange		49.86472	6.11472	LU
+6693308	Hoscheid	Hoscheid		49.94722	6.08167	LU
+6693309	Medernach	Medernach		49.80194	6.21833	LU
+6693310	Mertzig	Mertzig		49.83389	6.0075	LU
+6693311	Reisdorf	Reisdorf	Gemeng Reisduerf,Rajsdorf,Reisduerf,Rejsdorf,lai si duo fu,rayzdwrf,Райсдорф,Рейсдорф,رایزدورف,赖斯多夫	49.86861	6.26778	LU
+6693312	Schieren	Schieren		49.83056	6.09861	LU
+6693313	Beckerich	Beckerich	Bekerikh,Bekerykh,Bekkerikh,Bekkerix,Biekerech,Gemeng Biekerech,bkrysh,Бекерих,Бекерых,Бекеріх,Беккерих,Բեկկերիխ,بکریش	49.73056	5.88722	LU
+6693314	Ell	Ell	Ehl',Ehll',Ell',Gemeng Ell,al  lwkzambwrg,Елль,Элль,Эль,ال، لوکزامبورگ	49.76389	5.85722	LU
+6693315	Rambrouch	Rambrouch		49.83083	5.845	LU
+6693316	Grosbous	Grosbous		49.82778	5.96722	LU
+6693317	Redange-sur-Attert	Redange-sur-Attert		49.76556	5.89083	LU
+6693318	Saeul	Saeul	Gemeng Sell,Gemeng Sëll,Saehl',Sajul',Sell,Sëll,saywl,Саэль,Саюль,سائول	49.72722	5.98639	LU
+6693319	Useldange	Useldange	Gemeng Useldeng,Jusel'danzh,Juzel'danzh,Useldeng,Useldingen,awzldanzh,Юзельданж,Юсельданж,اوزلدانژ	49.76972	5.98222	LU
+6693320	Vichten	Vichten		49.80306	6	LU
+6693321	Wahl	Wahl		49.83667	5.90639	LU
+6693322	Boulaide	Boulaide		49.88778	5.81639	LU
+6693323	Esch-sur-Sûre	Esch-sur-Sure		49.91139	5.93639	LU
+6693324	Eschweiler	Eschweiler		49.99778	5.94889	LU
+6693325	Goesdorf	Goesdorf	Commune de Goesdorf,Geisdref,Gemeinde Goesdorf,Gemeng Geisdref,Gemeng Géisdref,Goesdorf,Géisdref	49.92167	5.96833	LU
+6693326	Heiderscheid	Heiderscheid	Heischent	49.88889	5.97889	LU
+6693327	Kautenbach	Kautenbach		49.95278	6.02	LU
+6693328	Neunhausen	Neunhausen		49.8775	5.88722	LU
+6693329	Wilwerwiltz	Wilwerwiltz		49.98889	5.99917	LU
+6693330	Winseler	Winseler		49.96778	5.89028	LU
+6693331	Tandel	Tandel	Gemeng Tandel,Tandel',tandl,Тандель,تاندل	49.91556	6.19611	LU
+6693332	Putscheid	Putscheid	Gemeng Petscht,Gemeng Pëtscht,Petscht,Putshajd,Putshehjd,Pëtscht,pwtshayd,Путшайд,Путшэйд,پوتشاید	49.96083	6.14306	LU
+6693333	Vianden	Vianden		49.935	6.20889	LU
+6693334	Beaufort	Beaufort	Bafor,Beefort,Befort,Bofor,Gemeng Beefort,bwfwrt,byfwrt  lgsmbrg,Бафор,Бофор,بوفورت,بیفورت، لگسمبرگ	49.83583	6.29167	LU
+6693335	Bech	Bech		49.74611	6.36361	LU
+6693336	Berdorf	Berdorf		49.81361	6.35028	LU
+6693337	Consdorf	Consdorf		49.77306	6.33833	LU
+6693338	Mompach	Mompach		49.74611	6.465	LU
+6693339	Rosport	Rosport	Gemeng Rouspert,Rospor,Rosport,Rosportas,Rouspert,rwspwrt,Роспор,Роспорт,روسپورت	49.79778	6.50417	LU
+6693340	Waldbillig	Waldbillig		49.78889	6.28667	LU
+6693341	Betzdorf	Betzdorf		49.68333	6.35	LU
+6693342	Biwer	Biwer		49.70278	6.37472	LU
+6693343	Flaxweiler	Flaxweiler		49.66167	6.34361	LU
+6693344	Junglinster	Junglinster		49.70722	6.25306	LU
+6693345	Manternach	Manternach		49.70278	6.42639	LU
+6693346	Mertert	Mertert	Gemeng Maeertert,Gemeng Mäertert,Maeertert,Mertert,Mäertert,mrtrt,Мертерт,مرترت	49.701	6.48043	LU
+6693347	Wormeldange	Wormeldange	Gemeng Wuermeldeng,Vormel'danzh,Vormeldanzas,Vormeldanzh,Vormeldanžas,Wormeldingen,Wuermeldeng,wwrmldanzh,Вормелданж,Вормельданж,وورملدانژ	49.61199	6.40531	LU
+6693348	Bous	Bous		49.55389	6.32917	LU
+6693349	Burmerange	Burmerange	Boermereng,Buermeringen,Bürmeringen	49.48528	6.32306	LU
+6693350	Dalheim	Dalheim		49.54083	6.25972	LU
+6693351	Lenningen	Lenningen		49.59861	6.36806	LU
+6693352	Mondorf-les-Bains	Mondorf-les-Bains		49.505	6.28111	LU
+6693353	Schengen	Schengen	Commune de Schengen,Gemeinde Schengen,Gemeng Schengen,Remerschen,Schengen	49.48861	6.35167	LU
+6693354	Remich	Remich		49.545	6.36694	LU
+6693355	Stadtbredimus	Stadtbredimus		49.56278	6.36444	LU
+6693356	Waldbredimus	Waldbredimus		49.555	6.2875	LU
+6693357	Wellenstein	Wellenstein		49.52389	6.34222	LU
+6696266	Senningerberg	Senningerberg		49.64907	6.22607	LU
+6696267	Bollendorf-Pont	Bollendorf-Pont		49.84847	6.35787	LU
+6944716	Dasbourg-Pont	Dasbourg-Pont		50.04922	6.12588	LU
+6951463	Meliá Luxemburgo	Melia Luxemburgo		49.61632	6.14043	LU
+7281957	Hosingen TV Mast	Hosingen TV Mast		50.02069	6.1048	LU
+7281958	Marnach transmitter, Day Antenna, Mast 1	Marnach transmitter, Day Antenna, Mast 1		50.04626	6.07688	LU
+7281959	Marnach transmitter, Day Antenna, Mast 2	Marnach transmitter, Day Antenna, Mast 2		50.04629	6.07826	LU
+7281960	Marnach transmitter, Day Antenna, Mast 3	Marnach transmitter, Day Antenna, Mast 3		50.04539	6.07828	LU
+7281961	Marnach transmitter, Night Antenna, Transmission Mast	Marnach transmitter, Night Antenna, Transmission Mast		50.04207	6.08225	LU
+7281962	Marnach transmitter, Night Antenna, Reflector Tower	Marnach transmitter, Night Antenna, Reflector Tower		50.04171	6.08265	LU
+7281963	Junglinster Longwave Transmission Tower East	Junglinster Longwave Transmission Tower East		49.72018	6.26432	LU
+7281964	Junglinster Longwave Transmission Tower Middle	Junglinster Longwave Transmission Tower Middle		49.71847	6.2612	LU
+7281965	Junglinster Longwave Transmission Tower West	Junglinster Longwave Transmission Tower West		49.71672	6.25808	LU
+7281966	Beidweiler Longwave Transmission Mast Middle	Beidweiler Longwave Transmission Mast Middle		49.7303	6.32085	LU
+7281967	Beidweiler Longwave Transmission Mast West	Beidweiler Longwave Transmission Mast West		49.72846	6.31784	LU
+7281968	Beidweiler Longwave Transmission Mast East	Beidweiler Longwave Transmission Mast East		49.73213	6.32382	LU
+7281969	Dudelange TV Tower	Dudelange TV Tower		49.46337	6.09589	LU
+7290933	Howald	Howald		49.58387	6.14277	LU
+7534503	Blaschette Telecommunication Tower	Blaschette Telecommunication Tower		49.71113	6.16574	LU
+8015493	Vianden 220 kV Substation	Vianden 220 kV Substation		49.95315	6.17775	LU
+8015494	Flebour 220 kV Substation	Flebour 220 kV Substation		49.90536	6.1141	LU
+8015495	Roost 220 kV Substation	Roost 220 kV Substation		49.77632	6.0834	LU
+8015496	Heisdorf 220 kV Substation	Heisdorf 220 kV Substation		49.669	6.13963	LU
+8015497	Bertrange 220 kV Substation	Bertrange 220 kV Substation		49.60449	6.03469	LU
+8015498	Bascharage 220 kV Substation	Bascharage 220 kV Substation		49.56724	5.93992	LU
+8015499	Schifflange 220 kV Substation	Schifflange 220 kV Substation		49.52044	6.01882	LU
+8015500	Esch 220 kV Substation	Esch 220 kV Substation		49.51244	5.96511	LU
+8015501	Sotel 220 kV Substation	Sotel 220 kV Substation		49.51026	5.94767	LU
+8015502	Berchem 220 kV Substation	Berchem 220 kV Substation		49.55056	6.13865	LU
+8015503	Oxylux 220 kV Substation	Oxylux 220 kV Substation		49.49689	5.95214	LU
+8015504	Sanem 220 kV Switching Station	Sanem 220 kV Switching Station		49.53799	5.93356	LU
+8015505	Differdange ARBED 220 kV Substation	Differdange ARBED 220 kV Substation		49.52625	5.90422	LU
+8641289	Kiischpelt	Kiischpelt	Commune de Kiischpelt,Gemeinde Kiischpelt,Gemeng Kiischpelt,Kiischpelt	49.97835	6.0076	LU
+8641291	Commune de Préizerdaul	Commune de Preizerdaul	Bettborn,Commune de Bettborn,Commune de Preizerdaul,Commune de Préizerdaul,Gemeinde Preizerdaul,Gemeinde Préizerdaul,Gemeng Preizerdaul,Gemeng Préizerdaul,Preizerdaul,Préizerdaul	49.80114	5.93299	LU
+8641526	Commune de la Vallée de l’Ernz	Commune de la Vallee de l'Ernz	Aerenzdallgemeng,Arenzdallgemeng,Commune de la Vallee de l'Ernz,Commune de la Vallée de l’Ernz,Ernztalgemeinde,Vallee de l'Ernz,Vallée de l'Ernz,Vallée de l’Ernz,Ärenzdallgemeng	49.82149	6.21746	LU
+8641865	Käerjeng	Kaeerjeng	Commune de Kaerjeng,Commune de Käerjeng,Gemeinde Kaerjeng,Gemeinde Käerjeng,Gemeng Kaerjeng,Gemeng Käerjeng,Kaerjeng,Käerjeng	49.58311	5.89892	LU
+8714252	Maulusmühle	Maulusmuehle		50.09619	6.02823	LU
+9072551	Luxembourg railway station	Luxembourg railway station		49.5996	6.13499	LU
+9292971	Heedknupp	Heedknupp		50.1044	6.0821	LU
+9292973	Foosserknapp	Foosserknapp		50.11527	6.09471	LU
+9292987	Haardmesbierg	Haardmesbierg		50.10073	6.10168	LU
+9293935	Kneiff	Kneiff		50.15728	6.03688	LU
+9293956	Napoléonsgaard	Napoleonsgaard		49.84824	5.88515	LU
+9293965	Hougeriicht	Hougeriicht		50.14407	6.07326	LU
+9293971	Simonsstéck	Simonssteck		50.14772	6.06561	LU
+9293979	Kockelbierg	Kockelbierg		50.14308	6.04993	LU
+9293986	Zaangelt	Zaangelt		50.14238	6.03297	LU
+9293990	Urebierg	Urebierg		50.14454	6.02928	LU
+9409745	My Teacher	My Teacher		49.49789	5.98101	LU
+9882768	DoubleTree by Hilton Hotel Luxembourg	DoubleTree by Hilton Hotel Luxembourg		49.6399	6.14773	LU
+9885836	Parc Bellevue	Parc Bellevue		49.6073	6.12236	LU
+9885837	Mia Zia Hotel Ristorante	Mia Zia Hotel Ristorante		49.5093	5.92389	LU
+9885840	Sofitel Lux Europe	Sofitel Lux Europe		49.6199	6.14142	LU
+9885842	Ibis Styles Luxembourg Centre	Ibis Styles Luxembourg Centre		49.60072	6.131	LU
+9885847	Suite Novotel Luxembourg	Suite Novotel Luxembourg		49.6212	6.14651	LU
+9885848	Le Chatelet	Le Chatelet		49.6018	6.12582	LU
+9885850	Legere Premium	Legere Premium		49.64052	6.27159	LU
+9970839	Ibis Esch Belval Hotel	Ibis Esch Belval Hotel		49.50073	5.94748	LU
+10056294	Le Place D'armes	Le Place D'armes		49.61155	6.12878	LU
+10063094	Ibis Styles Luxembourg Centre Gare (Ex All Seasons)	Ibis Styles Luxembourg Centre Gare (Ex All Seasons)		49.60078	6.13105	LU
+10086660	Am Klouschter	Am Klouschter		49.50522	6.28529	LU
+10086661	Bis Styles	Bis Styles		49.601	6.131	LU
+10100178	Gulliver	Gulliver		49.55632	5.89727	LU
+10100179	Hotel St Fiacre	Hotel St Fiacre		49.91435	6.06833	LU
+10104616	Park Inn Luxembourg City	Park Inn Luxembourg City		49.60244	6.1332	LU
+10104617	Ibis Luxembourg Airport	Ibis Luxembourg Airport		49.63356	6.2096	LU
+10105125	Novotel Kirchberg Hotel	Novotel Kirchberg Hotel		49.62138	6.14575	LU
+10110242	The Seven Hotel	The Seven Hotel		49.50966	5.94808	LU
+10113593	Am Klouschter Mondorf Les Bains Hotel	Am Klouschter Mondorf Les Bains Hotel		49.50513	6.28534	LU
+10117198	Hotel Simon Plaza	Hotel Simon Plaza		49.67725	6.39881	LU
+10119798	Best Western Victor Hugo	Best Western Victor Hugo		49.61866	6.12511	LU
+10119799	Best Western Euro Hotel	Best Western Euro Hotel		49.69042	6.23918	LU
+10126085	Campanile Luxembourg Aeroport Flughafen	Campanile Luxembourg Aeroport Flughafen		49.6099	6.1363	LU
+10129340	Sofitel Luxemnourg Europe	Sofitel Luxemnourg Europe		49.622	6.145	LU
+10173949	Grand Cravat Early Booker	Grand Cravat Early Booker		49.60963	6.12972	LU
+10174661	Campanile Luxembourg Airport	Campanile Luxembourg Airport		49.6379	6.21626	LU
+10177018	Best Western Hotel Internation	Best Western Hotel Internation		49.60034	6.13303	LU
+10177425	Le Royal Royal Club	Le Royal Royal Club		49.61366	6.12643	LU
+10231319	Best Western Plus Grand Hotel Victor Hugo	Best Western Plus Grand Hotel Victor Hugo		49.61872	6.12472	LU
+10231320	Cocoon Hotel La Rive	Cocoon Hotel La Rive		49.91161	6.08263	LU
+10231321	Chateau D Urspelt	Chateau D Urspelt		50.07485	6.04528	LU
+10237283	Aux Anciennes Tanneries	Aux Anciennes Tanneries		49.96834	5.9309	LU
+10237517	Cocoon Hotel Belair	Cocoon Hotel Belair		49.91027	6.08208	LU
+10243802	Hotel Sofitel Lux Le Grand Ducal	Hotel Sofitel Lux Le Grand Ducal		49.607	6.137	LU
+10243803	Sofitel Luxembourg Le Grand Du	Sofitel Luxembourg Le Grand Du		49.60567	6.13778	LU
+10292338	Yasha	Yasha		49.6	6.13	LU
+10292339	Mercure Renaissance	Mercure Renaissance		49.5114	5.98335	LU
+10292341	Legere Premium Hotel Luxembourg	Legere Premium Hotel Luxembourg		49.64195	6.01077	LU
+10292342	Hotel Mercure Esch Alzette	Hotel Mercure Esch Alzette		49.4955	5.9833	LU
+10292344	Delta	Delta		49.60178	6.12694	LU
+10292346	Auberge Gaglioti	Auberge Gaglioti		49.60153	6.13398	LU
+10292347	All Seasons Du Luxembourg	All Seasons Du Luxembourg		49.6007	6.13098	LU
+10301066	Bw Arlon	Bw Arlon		49.5918	6.0807	LU
+10338585	Piemont Hotel	Piemont Hotel		49.60229	6.12024	LU
+10340751	Sol Melia	Sol Melia		49.61631	6.14038	LU
+10340752	Hotel Ibis Luxembourg Sud 2007	Hotel Ibis Luxembourg Sud 2007		49.5086	5.9844	LU
+10345529	Waldbierg	Waldbierg		50.04995	6.10836	LU
+10345531	Kaasselbierg	Kaasselbierg		50.06575	6.10746	LU
+10346007	Koonsebierg	Koonsebierg		50.00643	6.04592	LU
+10346008	Laangenaker	Laangenaker		50.01303	6.05843	LU
+10346009	Uecht	Uecht		50.01514	6.06941	LU
+10346010	Beirecht	Beirecht		50.02106	6.08577	LU
+10346011	Huuscht	Huuscht		50.02456	6.09503	LU
+10346012	Krommheck	Krommheck		50.03241	6.11707	LU
+10346013	Steenrich	Steenrich		50.03138	6.08633	LU
+10346014	Maacher	Maacher		50.02368	6.04159	LU
+11126088	PolyOne Pommerloch European Headquarters	PolyOne Pommerloch European Headquarters		49.96304	5.85792	LU
+11353099	Parc Hosingen	Parc Hosingen		49.99744	6.09067	LU
+11398304	Larochette Castle	Larochette Castle		49.78584	6.21655	LU
+11496704	Eisenbach	Eisenbach		50.00128	6.14166	LU
+11669758	Flebour	Flebour		49.91006	6.10788	LU
+11669890	Schiltzberg	Schiltzberg		49.7384	6.22154	LU
+11669891	Kalkesbach	Kalkesbach	Kalkesbach,Kalkesbach (Berdorf),Kalkesbach (Bergdorf)	49.80143	6.35379	LU
+11670380	Enteschbach	Enteschbach		49.91209	6.1143	LU
+11670382	Wormeldange-Haut	Wormeldange-Haut	Oberwormeldingen,Uewerwuermeldeng	49.60983	6.39999	LU
+11694425	Windhof	Windhof	Windhof (Koerich)	49.64635	5.95755	LU
+11694426	Asselscheuer	Asselscheuer		49.69192	6.17478	LU
+11694447	Huettermuehle	Huettermuehle	Huettermuehle	49.57378	6.35585	LU
+11694448	Boudlerbach	Boudlerbach	Budlerbaach	49.71729	6.35393	LU
+11694455	Freckeisen	Freckeisen		49.80123	6.2625	LU
+11694463	Weydig	Weydig		49.7165	6.3303	LU
+11694480	Seltz	Seltz	Selz	49.88134	6.1869	LU
+11694481	Openthalt	Openthalt		49.75038	6.03639	LU
+11694482	Friedbusch	Friedbusch	Friedboesch	49.95124	6.05558	LU
+11694483	Keiwelbach	Keiwelbach		49.84909	6.23251	LU
+11694484	Unterschlinder	Unterschlinder		49.93466	6.07053	LU
+11694485	Simmerfarm	Simmerfarm		49.69326	5.98566	LU
+11694486	Marscherwald	Marscherwald		49.76255	6.28321	LU
+11694487	Niederglabach	Niederglabach		49.79199	6.15307	LU
+11694488	Simmerschmelz	Simmerschmelz		49.69687	5.98703	LU
+11694489	Hinterhassel	Hinterhassel		50.05645	5.86228	LU
+11694490	Klingelscheuer	Klingelscheuer		49.69299	6.16859	LU
+11694491	Schieren	Schieren		49.81984	6.11745	LU
+11694493	Stuppicht	Stuppicht	Stuppecht	49.72548	6.18783	LU
+11694494	Emeschbach Asselborn	Emeschbach Asselborn		50.08914	5.95124	LU
+11694495	Tintesmühle	Tintesmuehle		50.10206	6.11861	LU
+11694496	Bill	Bill		49.76394	6.03961	LU
+11694497	Claushof	Claushof	Claushaff	49.71445	6.08123	LU
+11694498	Leesbach	Leesbach		49.7021	5.98525	LU
+11694499	Closdelt	Closdelt		49.90181	6.12273	LU
+11694500	Kirelshof	Kirelshof	Kirelshaff	50.02874	5.97283	LU
+11694501	Bourscheid-Moulin	Bourscheid-Moulin		49.91108	6.08746	LU
+11694502	Fossenhof	Fossenhof		50.11378	6.09082	LU
+11695670	Simmerschmelz	Simmerschmelz		49.69745	5.98982	LU
+11703835	Dondelange	Dondelange	Dondel,Dondelingen	49.69001	6.03051	LU
+11703836	Wecker-Gare	Wecker-Gare		49.70125	6.38688	LU
+11703837	Riesenhof	Riesenhof	Reisenhaff	49.83914	5.81481	LU
+11703838	Bigonville-Poteau	Bigonville-Poteau		49.83818	5.78306	LU
+11703869	Nocher-Route	Nocher-Route		49.94815	5.96021	LU
+11703873	Bourscheid-Plage	Bourscheid-Plage		49.90879	6.08087	LU
+11703902	Biwerbach	Biwerbach		49.71169	6.36473	LU
+11703903	Colmar-Pont	Colmar-Pont		49.81489	6.10286	LU
+11703904	Kaesfurt	Kaesfurt		50.09253	6.07325	LU
+11703905	Lilien	Lilien		49.75405	6.3956	LU
+11703906	Fuussekaul	Fuussekaul		49.87775	5.99092	LU
+11703907	Niederfeulen	Niederfeulen		49.87235	5.99785	LU
+11710987	Camp Capellen Ahp	Camp Capellen Ahp	Camp Capellen Ahp	49.64034	5.98501	LU
+11711329	Medernach	Medernach	Medernach	49.78917	6.24111	LU
+11711389	Noertrange	Noertrange	ELNT,Noertrange	49.98089	5.91809	LU
+11711651	Useldange	Useldange	Useldange	49.76778	5.9675	LU
