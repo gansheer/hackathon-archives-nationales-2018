@@ -51,7 +51,12 @@ public class Decret {
 	public void setRefImage(String refImage) {
 		this.refImage = refImage;
 	}
-	
-	
 
+	@Override
+	public String toString() {
+		return "Decret [numDocument=" + numDocument + ", decretType=" + decretType + ", decretDate=" + decretDate
+				+ ", decretCote=" + decretCote + ", refImage=" + refImage + "]";
+	}
+	
+	
 }
