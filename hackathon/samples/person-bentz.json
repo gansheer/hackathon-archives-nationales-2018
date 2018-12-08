@@ -1,0 +1,23 @@
+{
+      "Decret": {
+          "num_document": "document 147",
+          "decret_type": "Décret de naturalisations du 27 décembre 1887",
+          "decret_date": "27/12/1887",
+          "decret_cote": "BB/34/393",
+          "ref_image":  "DAFANCH94_NUMJ007838_D.jpg#DAFANCH94_NUMJ007848_D.jpg"
+      },
+      "num_dossier_nat": "1652 X 84",
+      "nom": "BENTZ",
+      "nom_naissance": "BENTZ",
+      "prenom": "Joseph",
+      "date_naissance": "05/04/1856",
+      "date_naissance_jour": "05",
+      "date_naissance_mois": "04",
+      "date_naissance_annee": "1856",
+      "lieu_naissance_commune": "Rosheim",
+      "lieu_naissance_departement": "Bas-Rhin",
+      "lieu_naissance_pays": "France",
+      "lieu_residence_commune": "Reims",
+      "lieu_residence_departement": "Marne",
+      "lieu_residence_pays": "France"
+  }
