@@ -1,3 +1,3 @@
 spring.data.elasticsearch:
-  cluster-name: es
-  clusterNodes: localhost:9300
+  cluster-name: 'docker-cluster'
+  cluster-nodes: 'localhost:9300'

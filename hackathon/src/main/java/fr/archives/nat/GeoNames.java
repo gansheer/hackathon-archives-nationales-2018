@@ -105,11 +105,11 @@ public class GeoNames {
 		try (BufferedReader r = new BufferedReader(new FileReader(allCountries))){
 			
 			
-			r.lines().map(l -> 				l.split("\t"))
+			r.lines().map(l -> l.split("\t"))
 			.map(array -> new GeoLine(Integer.valueOf(array[0]), array[1], array[2], array[3], Double.valueOf(array[4]), Double.valueOf(array[5]), array[6]))
-			.flatMap(g -> Stream.of(g.getAlternatenames().split(",")).map(newAlterName -> g.copy(newAlterName)))
+			.flatMap(g -> Stream.of(g.getAlternatenames().split(",")).map(g::copy))
 			.peek(System.out::println)
-			.forEach(this::sendToEs);;
+			.forEach(this::sendToEs);
 			
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
