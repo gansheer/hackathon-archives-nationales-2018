@@ -1,0 +1,3 @@
+spring.data.elasticsearch:
+  cluster-name: es
+  clusterNodes: localhost:9300
