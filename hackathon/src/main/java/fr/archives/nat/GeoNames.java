@@ -161,6 +161,6 @@ public class GeoNames {
     	if(this.lieux == null) {
     		this.lieux = new HashMap<String, Lieu>();
     	}
-    	this.lieux.put(line.getAlternatenames(), new Lieu(line.getName(), null, line.getCountryCode()));
+    	this.lieux.put(line.getAlternatenames(), new Lieu(line.getName(), null, line.getCountryCode(), line.getLongitude(), line.getLatitude()));
     }
 }

@@ -8,6 +8,7 @@ import java.util.stream.Collectors;
 
 import fr.archives.nat.XmlLoad.XmlFiles;
 import fr.archives.nat.model.Decret;
+import fr.archives.nat.model.Lieu;
 import fr.archives.nat.model.Person;
 import fr.archives.nat.xml.ead.sia.C;
 import fr.archives.nat.xml.ead.sia.Ead;
@@ -43,12 +44,25 @@ public class XmlExtend {
 		System.out.println("nombre de villes = " + geonames.getLieux().size());
 		System.out.println("end parsing decrets");
 		String testPhrase = "Lieu de résidence : Périgueux, Dordogne";
+		Lieu lieu = findLieu(testPhrase);
+		
+		System.out.println(lieu.toString());
 		
 //		System.out.println(ead.toString());
 	}
 
 	private static List<Person> extractPersons(C decretPerson, C decret) {
 		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	private static Lieu findLieu(String s) {
+		for(Lieu lieu : geonames.getLieux().values()) {
+			if(s.contains(lieu.getLieu_commune())) {
+				return lieu;
+			}
+		}
+		
 		return null;
 	}
 
