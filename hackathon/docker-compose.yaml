@@ -1,0 +1,19 @@
+# change : /etc/sysctl.conf add vm.max_map_count=262144  + do sudo sysctl -w vm.max_map_count=262144
+version: "3"
+services:
+
+  elastic:
+    image: elastic/elasticsearch:6.4.2
+    container_name: elasticsearch-an
+
+    environment:
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    ports:
+      - "9200:9200"
+      - "9300:9300"
