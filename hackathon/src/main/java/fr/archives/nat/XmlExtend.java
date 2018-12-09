@@ -2,7 +2,6 @@ package fr.archives.nat;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.DateFormatSymbols;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -11,11 +10,16 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
+
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import fr.archives.nat.model.Decret;
 import fr.archives.nat.model.Lieu;
@@ -61,8 +65,20 @@ public class XmlExtend {
 
 		System.out.println(lieu.toString());
 
-//		System.out.println(ead.toString());
+		sendToES(persons);
+
 		return persons;
+	}
+
+	private void sendToES(List<Person> persons) throws IOException {
+		ESIndex esIndex = new ESIndex.Builder("http://localhost:9200").build();
+		
+		for (Person person : persons) {
+			ObjectMapper mapper = new ObjectMapper();
+			String json = mapper.writeValueAsString(person);
+			JsonNode jsonNode = mapper.readTree(json);
+			esIndex.createDocument(jsonNode, "persons", "_doc", UUID.randomUUID().toString());
+		}
 	}
 
 	private List<Person> extractPersons(C decretPerson, Decret decretModel) throws ParseException {
