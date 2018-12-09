@@ -9,6 +9,8 @@ import org.junit.Test
  */
 internal class XmlFileLoaderTest {
 
+	/*
+	
     @Test
     fun `Should load the xml files`() {
         // GIVEN
@@ -22,4 +24,5 @@ internal class XmlFileLoaderTest {
         assertThat(ead).isNotNull
         assertThat(ead.eadheader.eadid.getvalue()).isEqualTo(xml.name)
     }
+  	*/
 }
