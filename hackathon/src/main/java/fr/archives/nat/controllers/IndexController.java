@@ -70,7 +70,7 @@ public class IndexController {
         // QueryBuilders.matchQuery("nom", "BENTZ")
 //        QueryBuilders.termQuery("toto", "tto").
         final Page<Person> search = personRepository.search(
-                QueryBuilders.matchQuery("nom", "BENTZ")
+                QueryBuilders.matchQuery("nom", form.getLastName())
 //                QueryBuilders.boolQuery()
 //                        .must(QueryBuilders.prefixQuery("nom", form.getLastName()))
 //                        .must(QueryBuilders.prefixQuery("prenom", form.getFirstName()))

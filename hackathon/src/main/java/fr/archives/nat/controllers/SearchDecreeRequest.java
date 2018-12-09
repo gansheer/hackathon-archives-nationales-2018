@@ -19,4 +19,9 @@ public class SearchDecreeRequest {
     private String lastName;
 
     private String username;
+
+    private String localisation;
+
+    private String birthdate;
+
 }
