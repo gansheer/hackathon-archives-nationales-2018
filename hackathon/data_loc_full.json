@@ -1,0 +1,356 @@
+{
+  "took" : 12,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 5,
+    "successful" : 5,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : 4212,
+    "max_score" : 1.0,
+    "hits" : [
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "0e58d6d8-ea45-4f1d-bcb0-ec0ab49ff00f",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 23",
+            "decretDate" : "29 janvier 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "7371 X 86",
+          "nom" : "MAROTTE",
+          "nomNaissance" : "MAROTTE",
+          "prenom" : "Edmond Joseph",
+          "lieuNaissanceCommune" : "Montigny-sur-Meuse",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 50.04897,
+            "lon" : 4.72112
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 50.04897,
+            "lon" : 4.72112,
+            "geohash" : "u0gkerju6h4p",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "50.04897,4.72112"
+        }
+      },
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "0542cc57-667f-4b35-bef6-759e5ce7a149",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 28",
+            "decretDate" : "8 février 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "2709 X 83",
+          "nom" : "KRENINGER",
+          "nomNaissance" : "KRENINGER",
+          "prenom" : "Joseph",
+          "dataNaissance" : "7/3/1859",
+          "dataNaissanceJour" : 7,
+          "dataNaissanceMois" : 3,
+          "dataNaissanceAnnee" : 1859,
+          "lieuNaissanceCommune" : "Avolsheim",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 48.56173,
+            "lon" : 7.50006
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 48.56173,
+            "lon" : 7.50006,
+            "geohash" : "u0tk68mks4d5",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "48.56173,7.50006"
+        }
+      },
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "8e9c0619-fd76-4dae-8b44-44e39bdfc1e6",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 28",
+            "decretDate" : "8 février 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "2739 X 83",
+          "nom" : "LEVY",
+          "nomNaissance" : "LEVY",
+          "prenom" : "Isaac",
+          "dataNaissance" : "20/5/1856",
+          "dataNaissanceJour" : 20,
+          "dataNaissanceMois" : 5,
+          "dataNaissanceAnnee" : 1856,
+          "lieuNaissanceCommune" : "Brumath",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 48.73398,
+            "lon" : 7.71095
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 48.73398,
+            "lon" : 7.71095,
+            "geohash" : "u0tmprybn0m4",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "48.73398,7.71095"
+        }
+      },
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "71a851fc-5379-4603-8c2d-819d25c6ee1b",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 28",
+            "decretDate" : "8 février 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "3463 X 83",
+          "nom" : "OLIER",
+          "nomNaissance" : "OLIER",
+          "prenom" : "Jean Pierre",
+          "dataNaissance" : "29/1/1857",
+          "dataNaissanceJour" : 29,
+          "dataNaissanceMois" : 1,
+          "dataNaissanceAnnee" : 1857,
+          "lieuNaissanceCommune" : "Porcelette",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 49.15657,
+            "lon" : 6.65513
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 49.15657,
+            "lon" : 6.65513,
+            "geohash" : "u0sxxkwjgbb9",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "49.15657,6.65513"
+        }
+      },
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "662c7ce7-559f-4c60-bb19-41d05ff9b75c",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 29",
+            "decretDate" : "8 février 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "403 X 83",
+          "nom" : " KRUMMENACKER ",
+          "nomNaissance" : "",
+          "prenom" : "Suzanne Thérèse",
+          "dataNaissance" : "3/12/1863",
+          "dataNaissanceJour" : 3,
+          "dataNaissanceMois" : 12,
+          "dataNaissanceAnnee" : 1863,
+          "lieuNaissanceCommune" : "Paris",
+          "lieuNaissanceDepartement" : "Paris",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 48.85341,
+            "lon" : 2.3488
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 48.85341,
+            "lon" : 2.3488,
+            "geohash" : "u09tvmqrep8n",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "48.85341,2.3488"
+        }
+      },
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "9bca0a48-6583-4905-9175-010e8ec0765e",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 29",
+            "decretDate" : "8 février 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "2709 X 83",
+          "nom" : " KRENINGER ",
+          "nomNaissance" : "",
+          "prenom" : "Marie Eugénie",
+          "dataNaissance" : "15/9/1863",
+          "dataNaissanceJour" : 15,
+          "dataNaissanceMois" : 9,
+          "dataNaissanceAnnee" : 1863,
+          "lieuNaissanceCommune" : "Paris",
+          "lieuNaissanceDepartement" : "Paris",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 48.85341,
+            "lon" : 2.3488
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 48.85341,
+            "lon" : 2.3488,
+            "geohash" : "u09tvmqrep8n",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "48.85341,2.3488"
+        }
+      },
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "7b21921e-bce6-46e6-9ef2-a813c6caf743",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 29",
+            "decretDate" : "8 février 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "4182 X 83",
+          "nom" : " GERIS ",
+          "nomNaissance" : "",
+          "prenom" : "Victoire, Mélina",
+          "dataNaissance" : "31/5/1838",
+          "dataNaissanceJour" : 31,
+          "dataNaissanceMois" : 5,
+          "dataNaissanceAnnee" : 1838,
+          "lieuNaissanceCommune" : "Villes",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 46.08881,
+            "lon" : 5.78645
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 46.08881,
+            "lon" : 5.78645,
+            "geohash" : "u0hn5wjwf0cu",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "46.08881,5.78645"
+        }
+      },
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "21aeed33-314c-4454-8d16-faa617125fea",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 29",
+            "decretDate" : "8 février 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "4495 X 83",
+          "nom" : " GROSCH ",
+          "nomNaissance" : "",
+          "prenom" : "Marie Eugénie",
+          "dataNaissance" : "21/12/1858",
+          "dataNaissanceJour" : 21,
+          "dataNaissanceMois" : 12,
+          "dataNaissanceAnnee" : 1858,
+          "lieuNaissanceCommune" : "Stoecken",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 47.77103,
+            "lon" : 6.98492
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 47.77103,
+            "lon" : 6.98492,
+            "geohash" : "u0kzybqq2mmv",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "47.77103,6.98492"
+        }
+      },
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "9e79d0ef-a786-4504-9baf-da7c2fd25668",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 29",
+            "decretDate" : "8 février 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "6864 X 83",
+          "nom" : " DIERSTEIN ",
+          "nomNaissance" : "",
+          "prenom" : "Marie",
+          "dataNaissance" : "11/3/1860",
+          "dataNaissanceJour" : 11,
+          "dataNaissanceMois" : 3,
+          "dataNaissanceAnnee" : 1860,
+          "lieuNaissanceCommune" : "Forbach",
+          "lieuNaissanceDepartement" : "Moselle",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 49.18333,
+            "lon" : 6.9
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 49.18333,
+            "lon" : 6.9,
+            "geohash" : "u0szv183tthz",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "49.18333,6.9"
+        }
+      },
+      {
+        "_index" : "persons",
+        "_type" : "_doc",
+        "_id" : "6bc515fe-a445-4c95-853b-b82b4822ee59",
+        "_score" : 1.0,
+        "_source" : {
+          "decret" : {
+            "numDocument" : "document 30",
+            "decretDate" : "15 février 1887",
+            "decretCote" : "BB/34/392"
+          },
+          "numDossierNat" : "6891 X 86",
+          "nom" : "DESTRAIT",
+          "nomNaissance" : "DESTRAIT",
+          "prenom" : "Georges Jules",
+          "dataNaissance" : "4/10/1859",
+          "dataNaissanceJour" : 4,
+          "dataNaissanceMois" : 10,
+          "dataNaissanceAnnee" : 1859,
+          "lieuNaissanceCommune" : "Paris",
+          "lieuNaissanceDepartement" : "Paris",
+          "lieuNaissancePays" : "FR",
+          "lieuNaissanceLocation" : {
+            "lat" : 48.85341,
+            "lon" : 2.3488
+          },
+          "lieuNaissanceGeoPoint" : {
+            "lat" : 48.85341,
+            "lon" : 2.3488,
+            "geohash" : "u09tvmqrep8n",
+            "fragment" : true
+          },
+          "lieuNaissanceGeo" : "48.85341,2.3488"
+        }
+      }
+    ]
+  }
+}
