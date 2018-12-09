@@ -2,17 +2,19 @@ package fr.archives.nat;
 
 import java.io.File;
 import java.io.IOException;
+import java.text.DateFormatSymbols;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
-import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
-import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
 
 import fr.archives.nat.model.Decret;
@@ -29,8 +31,7 @@ public class XmlExtend {
 
 	private static final SimpleDateFormat french_dformat = new SimpleDateFormat("MMMM", Locale.FRENCH);
 
-
-	public static List<Person> extendXml(File source) throws IOException {
+	public List<Person> extendXml(File source) throws IOException, ParseException {
 		GeoNames geonames = new GeoNames();
 		geonames.toto();
 
@@ -64,7 +65,7 @@ public class XmlExtend {
 		return persons;
 	}
 
-	private static List<Person> extractPersons(C decretPerson, Decret decretModel) {
+	private List<Person> extractPersons(C decretPerson, Decret decretModel) throws ParseException {
 		List<Person> persons = new ArrayList<>();
 		Person principalPersonn = new Person();
 		principalPersonn.setDecret(decretModel);
@@ -75,7 +76,7 @@ public class XmlExtend {
 		return persons;
 	}
 
-	private static Lieu findLieu(GeoNames geonames, String s) {
+	private Lieu findLieu(GeoNames geonames, String s) {
 		for (Lieu lieu : geonames.getLieux().values()) {
 			if (s.contains(lieu.getLieu_commune())) {
 				return lieu;
@@ -85,12 +86,12 @@ public class XmlExtend {
 		return null;
 	}
 
-	private static void extractPersonNumeroDossier(C decretPerson, Person principalPersonn) {
+	private void extractPersonNumeroDossier(C decretPerson, Person principalPersonn) {
 		List<Unitid> unitids = decretPerson.getDid().getUnitid().stream()
 				.filter(item -> item.getType().equals("pieces")).collect(Collectors.toList());
 		for (Unitid unitId : unitids) {
 			Matcher m = XmlPatterns.numDossierSimplePattern.matcher(unitId.getvalue());
-			if(m.find()) {
+			if (m.find()) {
 				principalPersonn.setNumDossierNat(m.group(0).trim());
 			}
 			// TODO tomorrow gafou
@@ -99,7 +100,7 @@ public class XmlExtend {
 
 	}
 
-	private static void extractScopeContent(C decretPerson, Person principalPersonn) {
+	private void extractScopeContent(C decretPerson, Person principalPersonn) throws ParseException {
 		List<Object> contentList = decretPerson.getScopecontent().getPOrList();
 		for (Object content : contentList) {
 			System.err.println("P");
@@ -114,18 +115,17 @@ public class XmlExtend {
 				principalPersonn.setProfession(StringUtils.substringAfter("Profession :", contentString).trim());
 			}
 			// Naissance
-			System.err.println("check naissance "+contentString);
+			System.err.println("check naissance " + contentString);
 			Matcher naissanceM = XmlPatterns.naissance.matcher(contentString);
 			if (naissanceM.find()) {
 				System.err.println("naissance");
-				String fullNaissance = StringUtils.remove(contentString, naissanceM.group(0));
-				extractNaissanceDate(fullNaissance, principalPersonn);
+				extractNaissanceDate(contentString, principalPersonn);
 			}
 		}
 
 	}
 
-	private static void extractNaissanceDate(String fullNaissance, Person principalPersonn) {
+	private void extractNaissanceDate(String fullNaissance, Person principalPersonn) throws ParseException {
 		boolean dateNaissanceJourPresent = false;
 		boolean dateNaissanceMoisPresent = false;
 		boolean dateNaissanceAnneePresent = false;
@@ -136,63 +136,94 @@ public class XmlExtend {
 
 		System.err.println("extract");
 		// TODO gafou
-		Matcher m = XmlPatterns.dateNaissanceJMAPattern.matcher(fullNaissance);
-		if(m.find()) {
-			System.err.println(m.group(0));
-		}
-		String fullNaissanceClean = RegExUtils.replaceFirst(fullNaissance, "en ", "");
-		fullNaissanceClean = RegExUtils.replaceFirst(fullNaissance, "vers ", "");
+		System.err.println("fullNaissance |" + fullNaissance + "|");
 
-		
-		
-		String[] datas = StringUtils.split(fullNaissanceClean, " ");
-		// first data
-		String firstData = datas[0];
-		if (StringUtils.isNumeric(firstData)) {
-			Integer firstDataNumeric = Integer.valueOf(firstData);
-			if (firstDataNumeric < 32) {
-				principalPersonn.setDataNaissanceJour(firstData);
-				dateNaissanceJourPresent = true;
-			} else {
-				principalPersonn.setDataNaissanceAnnee(firstData);
-				dateNaissanceAnneePresent = true;
-			}
-		} else {
-			try {
-				Month month = Month.valueOf(firstData.toUpperCase());
-				principalPersonn.setDataNaissanceMois("" + month.getValue());
-				dateNaissanceMoisPresent = true;
-			} catch (IllegalArgumentException e) {
-				// TODO
-			}
+		Pattern pjma = Pattern.compile(XmlPatterns.dateJMAPattern);
+		Matcher jma = pjma.matcher(fullNaissance);
+
+		Pattern pma = Pattern.compile(XmlPatterns.dateMAPattern);
+		Matcher ma = pma.matcher(fullNaissance);
+
+		Pattern pnumeric = Pattern.compile(XmlPatterns.numericPattern);
+		Matcher numeric = pnumeric.matcher(fullNaissance);
+
+		Pattern pmois = Pattern.compile(XmlPatterns.moisPattern);
+		Matcher mois = pmois.matcher(fullNaissance);
+		if (mois.find()) {
+			Date moisDate = french_dformat.parse(mois.group(0));
+			principalPersonn.setDataNaissanceMois("" + (moisDate.getMonth() + 1));
+			dateNaissanceMoisPresent = true;
 		}
 
-		// seconde data
-		String secondData = datas[1];
-		if (dateNaissanceJourPresent) {
-			try {
-				Month month = Month.valueOf(secondData.toUpperCase());
-				principalPersonn.setDataNaissanceMois("" + month.getValue());
-				dateNaissanceMoisPresent = true;
-			} catch (IllegalArgumentException e) {
-				// TODO
-			}
-
-		} else if (dateNaissanceMoisPresent) {
-			if (StringUtils.isNumeric(secondData)) {
-				principalPersonn.setDataNaissanceAnnee(secondData);
-				dateNaissanceAnneePresent = true;
-			}
-
+		if (jma.find()) {
+			System.err.println("jma find");
+			numeric.find();
+			principalPersonn.setDataNaissanceJour(numeric.group(0));
+			dateNaissanceJourPresent = true;
+			numeric.find();
+			principalPersonn.setDataNaissanceAnnee(numeric.group(0));
+			dateNaissanceAnneePresent = true;
+		} else if (ma.find()) {
+			System.err.println("ma find");
+			numeric.find();
+			principalPersonn.setDataNaissanceAnnee(numeric.group(0));
+			dateNaissanceAnneePresent = true;
 		}
-		// third data
-		String thirdData = datas[2];
-		if (dateNaissanceJourPresent && dateNaissanceMoisPresent) {
-			if (StringUtils.isNumeric(thirdData)) {
-				principalPersonn.setDataNaissanceAnnee(thirdData);
-				dateNaissanceAnneePresent = true;
-			}
-		}
+
+//		
+//		String fullNaissanceClean = RegExUtils.replaceFirst(fullNaissance, "en ", "");
+//		fullNaissanceClean = RegExUtils.replaceFirst(fullNaissance, "vers ", "");
+//
+//		
+//		
+//		String[] datas = StringUtils.split(fullNaissanceClean, " ");
+//		// first data
+//		String firstData = datas[0];
+//		if (StringUtils.isNumeric(firstData)) {
+//			Integer firstDataNumeric = Integer.valueOf(firstData);
+//			if (firstDataNumeric < 32) {
+//				principalPersonn.setDataNaissanceJour(firstData);
+//				dateNaissanceJourPresent = true;
+//			} else {
+//				principalPersonn.setDataNaissanceAnnee(firstData);
+//				dateNaissanceAnneePresent = true;
+//			}
+//		} else {
+//			try {
+//				Month month = Month.valueOf(firstData.toUpperCase());
+//				principalPersonn.setDataNaissanceMois("" + month.getValue());
+//				dateNaissanceMoisPresent = true;
+//			} catch (IllegalArgumentException e) {
+//				// TODO
+//			}
+//		}
+//
+//		// seconde data
+//		String secondData = datas[1];
+//		if (dateNaissanceJourPresent) {
+//			try {
+//				Month month = Month.valueOf(secondData.toUpperCase());
+//				principalPersonn.setDataNaissanceMois("" + month.getValue());
+//				dateNaissanceMoisPresent = true;
+//			} catch (IllegalArgumentException e) {
+//				// TODO
+//			}
+//
+//		} else if (dateNaissanceMoisPresent) {
+//			if (StringUtils.isNumeric(secondData)) {
+//				principalPersonn.setDataNaissanceAnnee(secondData);
+//				dateNaissanceAnneePresent = true;
+//			}
+//
+//		}
+//		// third data
+//		String thirdData = datas[2];
+//		if (dateNaissanceJourPresent && dateNaissanceMoisPresent) {
+//			if (StringUtils.isNumeric(thirdData)) {
+//				principalPersonn.setDataNaissanceAnnee(thirdData);
+//				dateNaissanceAnneePresent = true;
+//			}
+//		}
 
 		if (dateNaissanceJourPresent && dateNaissanceMoisPresent && dateNaissanceAnneePresent) {
 			principalPersonn.setDataNaissance(principalPersonn.getDataNaissanceJour() + "/"
@@ -201,7 +232,7 @@ public class XmlExtend {
 
 	}
 
-	private static void extractPersonNonPrenom(C decretPerson, Person principalPersonn) {
+	private void extractPersonNonPrenom(C decretPerson, Person principalPersonn) {
 		// TODO trim
 		String personame = decretPerson.getDid().getUnittitle().getvalue();
 		String fullName = personame.replace("<personame>", "");
@@ -219,7 +250,7 @@ public class XmlExtend {
 		principalPersonn.setPrenom(prenom);
 	}
 
-	private static Decret extractDecret(C decret) {
+	private Decret extractDecret(C decret) {
 		Decret decretModel = new Decret();
 
 		decretModel.setDecretCote(

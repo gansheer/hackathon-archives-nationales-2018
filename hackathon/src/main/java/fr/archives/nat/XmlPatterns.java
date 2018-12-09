@@ -19,10 +19,13 @@ public class XmlPatterns {
 	public static String mois_10 = "octobre";
 	public static String mois_11 = "novembre";
 	public static String mois_12 = "décembre";
-	public static String all_mois = "(" + mois_01 + "|" + mois_02 + "|" + mois_03 + "|" + mois_04 + "|" + mois_05 + "|"
+	public static String all_mois =  mois_01 + "|" + mois_02 + "|" + mois_03 + "|" + mois_04 + "|" + mois_05 + "|"
 			+ mois_06 + "|" + mois_07 + "|" + mois_08 + "|" + mois_09 + "|" + mois_10 + "|" + mois_11 + "|" + mois_12
-			+ ")";
+			;
 
-	public static final Pattern dateNaissanceJMAPattern = Pattern.compile("\\d+\\s" + all_mois + "\\s\\d+");
+	public static final String dateJMAPattern = "\\d+\\s(" + all_mois + ")\\s\\d+";
+	public static final String dateMAPattern = "("+all_mois + ")\\s\\d+";
+	public static final String moisPattern = all_mois;
+	public static final String numericPattern = "\\d+";
 
 }
