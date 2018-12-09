@@ -25,6 +25,9 @@
                th:text="${r}">Results</a>
         </div>
     </div>
+	
+	<div th:text="#{website.details1}" class="text-justify"></div>
+	<div th:text="#{website.details2}" class="text-justify"></div>
 
     <div class="row">
 
@@ -34,10 +37,28 @@
                     <div th:replace="~{fragments::field('firstName', 'col-md-6 mb-3')}"></div>
                     <div th:replace="~{fragments::field('lastName', 'col-md-6 mb-3')}"></div>
                 </div>
+				
+				<div class="row">
+                    <div th:replace="~{fragments::field('localisation', 'col-md-6 mb-3')}"></div>
+                </div>
+				<div class="row">
+                    <div th:replace="~{fragments::field('birthdate', 'col-md-6 mb-3')}"></div>
+                </div>
 
                 <div th:replace="~{fragments::field('username', 'mb-3')}"></div>
 
                 <hr class="mb-4">
+				
+				<div class="row">
+					<select name="nom" size="1">
+						<option>Démarche administrative</option>
+						<option>Démarche juridique</option>
+						<option>Généalogie</option>
+						<option>Autre</option>
+					</select>
+				</div>
+				
+				
 
                 <button th:text="#{website.search}" class="btn btn-primary btn-lg btn-block" type="submit">
                     Search
