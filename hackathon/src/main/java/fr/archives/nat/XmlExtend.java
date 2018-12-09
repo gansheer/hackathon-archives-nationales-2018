@@ -21,12 +21,14 @@ import fr.archives.nat.xml.ead.sia.Item;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.elasticsearch.common.geo.GeoPoint;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import fr.archives.nat.model.Decret;
 import fr.archives.nat.model.Lieu;
+import fr.archives.nat.model.Location;
 import fr.archives.nat.model.Person;
 import fr.archives.nat.model.TypeLieu;
 import fr.archives.nat.xml.ead.sia.C;
@@ -166,7 +168,18 @@ public class XmlExtend {
 		Lieu dept = findLieu(TypeLieu.DEPT, contentString);
 		if(city != null) {
 			if(dept != null) {
+				principalPersonn.setLieuNaissancePays(city.getLieu_pays());
+				principalPersonn.setLieuNaissanceDepartement(city.getLieu_departement());
 				city.setLieu_departement(dept.getLieu_commune());
+				principalPersonn.setLieuNaissanceCommune(city.getLieu_commune());
+				Location lieuNaissanceLocation = new Location();
+				lieuNaissanceLocation.setLat(city.getLatitude());
+				lieuNaissanceLocation.setLon(city.getLongitude());
+				principalPersonn.setLieuNaissanceLocation(lieuNaissanceLocation);
+				principalPersonn.setLieuNaissanceGeo(""+city.getLatitude()+","+city.getLongitude());
+				GeoPoint geoPoint = new GeoPoint(city.getLatitude(), city.getLongitude());
+				principalPersonn.setLieuNaissanceGeoPoint(geoPoint);
+				
 			}
 			System.out.println("Lieu Naissance = " + city.toString());
 		} else {
@@ -198,20 +211,20 @@ public class XmlExtend {
 		Matcher mois = pmois.matcher(fullNaissance);
 		if (mois.find()) {
 			Date moisDate = french_dformat.parse(mois.group(0));
-			principalPersonn.setDataNaissanceMois("" + (moisDate.getMonth() + 1));
+			principalPersonn.setDataNaissanceMois((moisDate.getMonth() + 1));
 			dateNaissanceMoisPresent = true;
 		}
 
 		if (jma.find()) {
 			numeric.find();
-			principalPersonn.setDataNaissanceJour(numeric.group(0));
+			principalPersonn.setDataNaissanceJour(Integer.valueOf(numeric.group(0)));
 			dateNaissanceJourPresent = true;
 			numeric.find();
-			principalPersonn.setDataNaissanceAnnee(numeric.group(0));
+			principalPersonn.setDataNaissanceAnnee(Integer.valueOf(numeric.group(0)));
 			dateNaissanceAnneePresent = true;
 		} else if (ma.find()) {
 			numeric.find();
-			principalPersonn.setDataNaissanceAnnee(numeric.group(0));
+			principalPersonn.setDataNaissanceAnnee(Integer.valueOf(numeric.group(0)));
 			dateNaissanceAnneePresent = true;
 		}
 

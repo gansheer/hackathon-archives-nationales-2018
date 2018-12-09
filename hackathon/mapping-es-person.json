@@ -52,6 +52,15 @@
       "lieu_naissance_pays": {
         "type": "keyword"
       },
+      "lieu_naissance_location": {
+        "type": "geo_point"
+      },
+      "lieu_naissance_geo": {
+        "type": "geo_point"
+      },
+      "lieu_naissance_geopoint": {
+        "type": "geo_point"
+      },
       "origine_parent": {
         "type": "keyword"
       },

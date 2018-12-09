@@ -24,8 +24,6 @@ services:
         delay: 5s
         max_attempts: 3
         window: 120s
-    volumes:
-      - esdata1:/usr/share/elasticsearch/data
     ports:
       - 9200:9200
       - 9300:9300
@@ -51,5 +49,3 @@ services:
         delay: 5s
         max_attempts: 3
         window: 120s
-volumes:
-  esdata1:
