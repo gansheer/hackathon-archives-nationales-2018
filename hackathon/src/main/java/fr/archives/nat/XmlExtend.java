@@ -31,6 +31,7 @@ import fr.archives.nat.model.Person;
 import fr.archives.nat.model.TypeLieu;
 import fr.archives.nat.xml.ead.sia.C;
 import fr.archives.nat.xml.ead.sia.Ead;
+import fr.archives.nat.xml.ead.sia.Item;
 import fr.archives.nat.xml.ead.sia.P;
 import fr.archives.nat.xml.ead.sia.Unitid;
 
