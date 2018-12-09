@@ -24,20 +24,20 @@ public class GeoNames {
 		return lieux;
 	}
 
+    private final File allCountries = allCountries = Paths.get("../data/FR_purged.txt").toAbsolutePath().normalize().toFile();
+
     public GeoNames() throws IOException {
     	String filename = "data.properties";
     	InputStream input = GeoNames.class.getClassLoader().getResourceAsStream(filename);
     	Properties prop = new Properties();
     	prop.load(input);
-    	String namesFr = prop.getProperty("geonames.path.FR");
-    	allCountries = Paths.get(namesFr).toFile();
+
+
     	lieux = new HashMap<TypeLieu, List<Lieu>>();
     	for(TypeLieu typeLieu : TypeLieu.values()) {
     		lieux.put(typeLieu, new ArrayList<Lieu>());
     	}
 	}
-    
-	private final File allCountries;
 
     class GeoLine {
 
