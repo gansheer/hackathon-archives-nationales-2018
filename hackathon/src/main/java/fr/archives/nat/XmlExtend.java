@@ -1,8 +1,9 @@
 package fr.archives.nat;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.text.DateFormatSymbols;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
@@ -11,11 +12,17 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 import java.util.Locale;
+import java.util.UUID;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
+import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
+
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
 import fr.archives.nat.model.Decret;
 import fr.archives.nat.model.Lieu;
@@ -34,8 +41,8 @@ public class XmlExtend {
 	public List<Person> extendXml(File source) throws IOException, ParseException {
 		GeoNames geonames = new GeoNames();
 		geonames.toto();
-
-		XmlLoad<Ead> xmlLoader = new XmlLoad<>(source, Ead.class);
+		File cleanedFile = cleanFile(source);
+		XmlLoad<Ead> xmlLoader = new XmlLoad<>(cleanedFile, Ead.class);
 		Ead ead = xmlLoader.run();
 		List<C> decrets = ead.getArchdesc().getDsc().getC();
 		List<Person> persons = new ArrayList<>();
@@ -61,8 +68,31 @@ public class XmlExtend {
 
 		System.out.println(lieu.toString());
 
-//		System.out.println(ead.toString());
+		sendToES(persons);
+
 		return persons;
+	}
+
+	private File cleanFile(File file) throws FileNotFoundException, IOException {
+		File cleanedFile = new File("/tmp/"+UUID.randomUUID().toString() + ".xml");
+		cleanedFile.createNewFile();
+		String originContent = IOUtils.toString(new FileInputStream(file));
+		String str = Pattern.compile("(<unittitle>)([\\s]*?)(<persname>)([\\S\\s]*?)(</persname>)([\\s]*?)(</unittitle>)").matcher(originContent).replaceAll("$1Persname : $4$7");
+		System.out.println(str);
+		FileUtils.writeStringToFile(cleanedFile, str);
+		return cleanedFile;
+
+	}
+
+	private void sendToES(List<Person> persons) throws IOException {
+		ESIndex esIndex = new ESIndex.Builder("http://localhost:9200").build();
+
+		for (Person person : persons) {
+			ObjectMapper mapper = new ObjectMapper();
+			String json = mapper.writeValueAsString(person);
+			JsonNode jsonNode = mapper.readTree(json);
+			esIndex.createDocument(jsonNode, "persons", "_doc", UUID.randomUUID().toString());
+		}
 	}
 
 	private List<Person> extractPersons(C decretPerson, Decret decretModel) throws ParseException {
@@ -101,6 +131,9 @@ public class XmlExtend {
 	}
 
 	private void extractScopeContent(C decretPerson, Person principalPersonn) throws ParseException {
+		if(decretPerson.getScopecontent() == null) {
+			return;
+		}
 		List<Object> contentList = decretPerson.getScopecontent().getPOrList();
 		for (Object content : contentList) {
 			System.err.println("P");
@@ -108,6 +141,12 @@ public class XmlExtend {
 			if (content instanceof P) {
 				contentString = ((P) content).getvalue();
 				System.err.println(contentString);
+			} else if(content instanceof fr.archives.nat.xml.ead.sia.List){
+				List<Item> items = ((fr.archives.nat.xml.ead.sia.List) content).getItem();
+				// TODO 
+				return;
+			} else {
+				return;
 			}
 
 			// profession
@@ -170,61 +209,6 @@ public class XmlExtend {
 			dateNaissanceAnneePresent = true;
 		}
 
-//		
-//		String fullNaissanceClean = RegExUtils.replaceFirst(fullNaissance, "en ", "");
-//		fullNaissanceClean = RegExUtils.replaceFirst(fullNaissance, "vers ", "");
-//
-//		
-//		
-//		String[] datas = StringUtils.split(fullNaissanceClean, " ");
-//		// first data
-//		String firstData = datas[0];
-//		if (StringUtils.isNumeric(firstData)) {
-//			Integer firstDataNumeric = Integer.valueOf(firstData);
-//			if (firstDataNumeric < 32) {
-//				principalPersonn.setDataNaissanceJour(firstData);
-//				dateNaissanceJourPresent = true;
-//			} else {
-//				principalPersonn.setDataNaissanceAnnee(firstData);
-//				dateNaissanceAnneePresent = true;
-//			}
-//		} else {
-//			try {
-//				Month month = Month.valueOf(firstData.toUpperCase());
-//				principalPersonn.setDataNaissanceMois("" + month.getValue());
-//				dateNaissanceMoisPresent = true;
-//			} catch (IllegalArgumentException e) {
-//				// TODO
-//			}
-//		}
-//
-//		// seconde data
-//		String secondData = datas[1];
-//		if (dateNaissanceJourPresent) {
-//			try {
-//				Month month = Month.valueOf(secondData.toUpperCase());
-//				principalPersonn.setDataNaissanceMois("" + month.getValue());
-//				dateNaissanceMoisPresent = true;
-//			} catch (IllegalArgumentException e) {
-//				// TODO
-//			}
-//
-//		} else if (dateNaissanceMoisPresent) {
-//			if (StringUtils.isNumeric(secondData)) {
-//				principalPersonn.setDataNaissanceAnnee(secondData);
-//				dateNaissanceAnneePresent = true;
-//			}
-//
-//		}
-//		// third data
-//		String thirdData = datas[2];
-//		if (dateNaissanceJourPresent && dateNaissanceMoisPresent) {
-//			if (StringUtils.isNumeric(thirdData)) {
-//				principalPersonn.setDataNaissanceAnnee(thirdData);
-//				dateNaissanceAnneePresent = true;
-//			}
-//		}
-
 		if (dateNaissanceJourPresent && dateNaissanceMoisPresent && dateNaissanceAnneePresent) {
 			principalPersonn.setDataNaissance(principalPersonn.getDataNaissanceJour() + "/"
 					+ principalPersonn.getDataNaissanceMois() + "/" + principalPersonn.getDataNaissanceAnnee());
@@ -235,16 +219,17 @@ public class XmlExtend {
 	private void extractPersonNonPrenom(C decretPerson, Person principalPersonn) {
 		// TODO trim
 		String personame = decretPerson.getDid().getUnittitle().getvalue();
-		String fullName = personame.replace("<personame>", "");
-		fullName = personame.replace("</personame>", "");
+		String fullName = personame.replace("Persname :", "");
 		String fullnom = StringUtils.substringBefore(fullName, ",");
-		String nom = fullnom;
+		String nom = fullnom.trim();
 		String nomNaissance = "";
 		if (fullnom.contains("née")) {
 			nom = StringUtils.substringBefore(fullnom, "née");
 			nomNaissance = StringUtils.substringAfter(fullnom, ",");
+		} else {
+			nomNaissance = nom;
 		}
-		String prenom = StringUtils.substringBefore(fullName, ",");
+		String prenom = StringUtils.substringAfter(fullName, ",").trim();
 		principalPersonn.setNom(nom);
 		principalPersonn.setNomNaissance(nomNaissance);
 		principalPersonn.setPrenom(prenom);
