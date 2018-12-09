@@ -40,11 +40,13 @@ public class Lieu {
 	}
 	
 	
+	
 	@Override
 	public String toString() {
 		return "Lieu [lieu_commune=" + lieu_commune + ", lieu_departement=" + lieu_departement + ", lieu_pays="
 				+ lieu_pays + ", latitude=" + latitude + ", longitude=" + longitude + "]";
 	}
+	
 	public Lieu(String lieu_commune, String lieu_departement, String lieu_pays) {
 		super();
 		this.lieu_commune = lieu_commune;

@@ -6,31 +6,38 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Paths;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.stream.Stream;
 
 import fr.archives.nat.model.Lieu;
+import fr.archives.nat.model.TypeLieu;
 
 public class GeoNames {
 
-    private Map<String, Lieu> lieux;
-
-    public Map<String, Lieu> getLieux() {
-        return lieux;
-    }
+	private Map<TypeLieu, List<Lieu>> lieux;
+	
+    public Map<TypeLieu, List<Lieu>> getLieux() {
+		return lieux;
+	}
 
     public GeoNames() throws IOException {
-        String filename = "data.properties";
-        InputStream input = GeoNames.class.getClassLoader().getResourceAsStream(filename);
-        Properties prop = new Properties();
-        prop.load(input);
-        String namesFr = prop.getProperty("geonames.path.FR");
-        allCountries = Paths.get(namesFr).toFile();
-    }
-
-    private final File allCountries;
+    	String filename = "data.properties";
+    	InputStream input = GeoNames.class.getClassLoader().getResourceAsStream(filename);
+    	Properties prop = new Properties();
+    	prop.load(input);
+    	String namesFr = prop.getProperty("geonames.path.FR");
+    	allCountries = Paths.get(namesFr).toFile();
+    	lieux = new HashMap<TypeLieu, List<Lieu>>();
+    	for(TypeLieu typeLieu : TypeLieu.values()) {
+    		lieux.put(typeLieu, new ArrayList<Lieu>());
+    	}
+	}
+    
+	private final File allCountries;
 
     class GeoLine {
 
@@ -45,6 +52,10 @@ public class GeoNames {
         private Double latitude;
 
         private Double longitude;
+        
+        private String type;
+        
+        private String subType;
 
         private String countryCode;
 
@@ -52,7 +63,23 @@ public class GeoNames {
             return countryCode;
         }
 
-        public void setCountryCode(String countryCode) {
+        public String getType() {
+			return type;
+		}
+
+		public void setType(String type) {
+			this.type = type;
+		}
+
+		public String getSubType() {
+			return subType;
+		}
+
+		public void setSubType(String subType) {
+			this.subType = subType;
+		}
+
+		public void setCountryCode(String countryCode) {
             this.countryCode = countryCode;
         }
 
@@ -109,7 +136,7 @@ public class GeoNames {
         }
 
         public GeoLine(Integer geonameid, String name, String asciiname, String alternatenames, Double latitude,
-                Double longitude, String countryCode) {
+                Double longitude, String type, String subType, String countryCode) {
             this();
             this.geonameid = geonameid;
             this.name = name;
@@ -117,6 +144,8 @@ public class GeoNames {
             this.alternatenames = alternatenames;
             this.latitude = latitude;
             this.longitude = longitude;
+            this.type = type;
+            this.subType = subType;
             this.countryCode = countryCode;
         }
 
@@ -128,6 +157,8 @@ public class GeoNames {
                     this.alternatenames = alternames,
                     this.latitude,
                     this.longitude,
+                    this.type,
+                    this.subType,
                     this.countryCode
             );
         }
@@ -153,7 +184,9 @@ public class GeoNames {
                             array[3],
                             Double.valueOf(array[4]),
                             Double.valueOf(array[5]),
-                            array[6]))
+                            array[6],
+                            array[7],
+                            array[8]))
                     .flatMap(g -> Stream
                             .of(g.getAlternatenames().split(","))
                             .map(g::copy))
@@ -167,10 +200,12 @@ public class GeoNames {
         }
     }
 
-    public void sendToEs(final GeoLine line) {
-        if (this.lieux == null) {
-            this.lieux = new HashMap<String, Lieu>();
-        }
-        this.lieux.put(line.getAlternatenames(), new Lieu(line.getName(), null, line.getCountryCode(), line.getLongitude(), line.getLatitude()));
+    public void sendToEs(final GeoLine line) {    	
+    	Lieu lieu = new Lieu(line.getName(), null, line.getCountryCode(), line.getLongitude(), line.getLatitude());
+    	
+    	TypeLieu typeLieu = TypeLieu.findTypeLieu(line.getType(), line.getSubType());
+    	if(typeLieu != null) {
+    		this.lieux.get(typeLieu).add(lieu);
+    	}
     }
 }

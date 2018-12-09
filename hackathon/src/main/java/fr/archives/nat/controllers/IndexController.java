@@ -67,7 +67,7 @@ public class IndexController {
         return new ModelAndView("pages/credits", mapOf(
                 Tuples.of("credits", Arrays.asList(
                         "Gaëlle Fournier",
-                        "Romain Chavreau",
+                        "Romain Chauveau",
                         "Edouard Vasseur",
                         "Marion Ville",
                         "Amélie Collin",

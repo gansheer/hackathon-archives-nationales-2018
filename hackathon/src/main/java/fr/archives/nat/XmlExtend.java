@@ -28,8 +28,10 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import fr.archives.nat.model.Decret;
 import fr.archives.nat.model.Lieu;
 import fr.archives.nat.model.Person;
+import fr.archives.nat.model.TypeLieu;
 import fr.archives.nat.xml.ead.sia.C;
 import fr.archives.nat.xml.ead.sia.Ead;
+import fr.archives.nat.xml.ead.sia.Item;
 import fr.archives.nat.xml.ead.sia.P;
 import fr.archives.nat.xml.ead.sia.Unitid;
 
@@ -38,9 +40,11 @@ public class XmlExtend {
 	private static final DateTimeFormatter fmt = DateTimeFormatter.ofPattern("d MMMM yyyy", Locale.FRANCE);
 
 	private static final SimpleDateFormat french_dformat = new SimpleDateFormat("MMMM", Locale.FRENCH);
+	
+	private static GeoNames geonames;
 
 	public List<Person> extendXml(File source) throws IOException, ParseException {
-		GeoNames geonames = new GeoNames();
+		geonames = new GeoNames();
 		geonames.toto();
 		File cleanedFile = cleanFile(source);
 		XmlLoad<Ead> xmlLoader = new XmlLoad<>(cleanedFile, Ead.class);
@@ -64,13 +68,8 @@ public class XmlExtend {
 		}
 		System.out.println("nombre de villes = " + geonames.getLieux().size());
 		System.out.println("end parsing decrets");
-		String testPhrase = "Lieu de résidence : Périgueux, Dordogne";
-		Lieu lieu = findLieu(geonames, testPhrase);
-
-		System.out.println(lieu.toString());
 
 		sendToES(persons);
-
 		return persons;
 	}
 
@@ -107,8 +106,8 @@ public class XmlExtend {
 		return persons;
 	}
 
-	private Lieu findLieu(GeoNames geonames, String s) {
-		for (Lieu lieu : geonames.getLieux().values()) {
+	private Lieu findLieu(TypeLieu typeLieu, String s) {
+		for (Lieu lieu : geonames.getLieux().get(typeLieu)) {
 			if (s.contains(lieu.getLieu_commune())) {
 				return lieu;
 			}
@@ -160,9 +159,25 @@ public class XmlExtend {
 			if (naissanceM.find()) {
 				System.err.println("naissance");
 				extractNaissanceDate(contentString, principalPersonn);
+				extractNaissanceLieu(contentString, principalPersonn);
 			}
 		}
 
+	}
+
+	private void extractNaissanceLieu(String contentString, Person principalPersonn) {
+		Lieu city = findLieu(TypeLieu.CITY, contentString);
+		Lieu dept = findLieu(TypeLieu.DEPT, contentString);
+		if(city != null) {
+			if(dept != null) {
+				city.setLieu_departement(dept.getLieu_commune());
+			}
+			System.out.println("Lieu Naissance = " + city.toString());
+		} else {
+			System.err.println("lieu de naissance non trouvé !!");
+		}
+		
+		
 	}
 
 	private void extractNaissanceDate(String fullNaissance, Person principalPersonn) throws ParseException {
