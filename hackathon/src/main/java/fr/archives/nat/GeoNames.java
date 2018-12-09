@@ -24,7 +24,7 @@ public class GeoNames {
 		return lieux;
 	}
 
-    private final File allCountries = allCountries = Paths.get("../data/FR_purged.txt").toAbsolutePath().normalize().toFile();
+    private final File allCountries  = Paths.get("../data/FR_purged.txt").toAbsolutePath().normalize().toFile();
 
     public GeoNames() throws IOException {
     	String filename = "data.properties";
