@@ -61,8 +61,8 @@ public class XmlExtend {
 			List<C> decretPersons = decret.getC();
 
 			for (C decretPerson : decretPersons) {
-
-				persons = extractPersons(decretPerson, decretModel);
+				List<Person> newPersons = extractPersons(decretPerson, decretModel);
+				persons.addAll(newPersons);
 
 			}
 		}
@@ -136,11 +136,9 @@ public class XmlExtend {
 		}
 		List<Object> contentList = decretPerson.getScopecontent().getPOrList();
 		for (Object content : contentList) {
-			System.err.println("P");
 			String contentString = null;
 			if (content instanceof P) {
 				contentString = ((P) content).getvalue();
-				System.err.println(contentString);
 			} else if(content instanceof fr.archives.nat.xml.ead.sia.List){
 				List<Item> items = ((fr.archives.nat.xml.ead.sia.List) content).getItem();
 				// TODO 
@@ -154,10 +152,8 @@ public class XmlExtend {
 				principalPersonn.setProfession(StringUtils.substringAfter("Profession :", contentString).trim());
 			}
 			// Naissance
-			System.err.println("check naissance " + contentString);
 			Matcher naissanceM = XmlPatterns.naissance.matcher(contentString);
 			if (naissanceM.find()) {
-				System.err.println("naissance");
 				extractNaissanceDate(contentString, principalPersonn);
 				extractNaissanceLieu(contentString, principalPersonn);
 			}
@@ -189,10 +185,6 @@ public class XmlExtend {
 			return;
 		}
 
-		System.err.println("extract");
-		// TODO gafou
-		System.err.println("fullNaissance |" + fullNaissance + "|");
-
 		Pattern pjma = Pattern.compile(XmlPatterns.dateJMAPattern);
 		Matcher jma = pjma.matcher(fullNaissance);
 
@@ -211,7 +203,6 @@ public class XmlExtend {
 		}
 
 		if (jma.find()) {
-			System.err.println("jma find");
 			numeric.find();
 			principalPersonn.setDataNaissanceJour(numeric.group(0));
 			dateNaissanceJourPresent = true;
@@ -219,7 +210,6 @@ public class XmlExtend {
 			principalPersonn.setDataNaissanceAnnee(numeric.group(0));
 			dateNaissanceAnneePresent = true;
 		} else if (ma.find()) {
-			System.err.println("ma find");
 			numeric.find();
 			principalPersonn.setDataNaissanceAnnee(numeric.group(0));
 			dateNaissanceAnneePresent = true;
@@ -263,8 +253,6 @@ public class XmlExtend {
 		LocalDate date = LocalDate.parse(dateText, fmt);
 
 		decretModel.setDecretDate(dateText);
-
-		System.out.println(decretModel.toString());
 
 		return decretModel;
 	}
