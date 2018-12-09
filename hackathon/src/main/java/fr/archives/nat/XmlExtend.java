@@ -64,13 +64,7 @@ public class XmlExtend {
 		}
 		System.out.println("nombre de villes = " + geonames.getLieux().size());
 		System.out.println("end parsing decrets");
-		String testPhrase = "Lieu de résidence : Périgueux, Dordogne";
-		Lieu lieu = findLieu(geonames, testPhrase);
-
-		System.out.println(lieu.toString());
-
 		sendToES(persons);
-
 		return persons;
 	}
 
