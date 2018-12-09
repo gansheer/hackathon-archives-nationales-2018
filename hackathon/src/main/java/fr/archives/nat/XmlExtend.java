@@ -68,6 +68,7 @@ public class XmlExtend {
 		}
 		System.out.println("nombre de villes = " + geonames.getLieux().size());
 		System.out.println("end parsing decrets");
+<<<<<<< HEAD
 		sendToES(persons);
 		return persons;
 	}
@@ -92,6 +93,10 @@ public class XmlExtend {
 			JsonNode jsonNode = mapper.readTree(json);
 			esIndex.createDocument(jsonNode, "persons", "_doc", UUID.randomUUID().toString());
 		}
+=======
+		
+		return persons;
+>>>>>>> 9cd25b50fb3fb96519a7524c048bc252df7113bd
 	}
 
 	private List<Person> extractPersons(C decretPerson, Decret decretModel) throws ParseException {
