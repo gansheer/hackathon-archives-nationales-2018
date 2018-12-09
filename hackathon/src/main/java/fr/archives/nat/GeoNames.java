@@ -200,10 +200,6 @@ public class GeoNames {
         }
     }
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 9cd25b50fb3fb96519a7524c048bc252df7113bd
     public void sendToEs(final GeoLine line) {    	
     	Lieu lieu = new Lieu(line.getName(), null, line.getCountryCode(), line.getLongitude(), line.getLatitude());
     	
