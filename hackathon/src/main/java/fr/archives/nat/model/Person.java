@@ -1,5 +1,7 @@
 package fr.archives.nat.model;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 public class Person {
 
 	private Decret decret;
@@ -135,5 +137,8 @@ public class Person {
 		this.lieuResidencePays = lieuResidencePays;
 	}
 	
-	
+	@Override
+	public String toString() {
+		   return ToStringBuilder.reflectionToString(this);
+	}
 }

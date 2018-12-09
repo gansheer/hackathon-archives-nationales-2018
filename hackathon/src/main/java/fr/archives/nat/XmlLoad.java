@@ -21,19 +21,17 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.transform.sax.SAXSource;
 
-import org.xml.sax.EntityResolver;
 import org.xml.sax.InputSource;
-import org.xml.sax.SAXException;
 import org.xml.sax.XMLReader;
 import org.xml.sax.helpers.XMLReaderFactory;
 
 public class XmlLoad<T> {
 
-    private final XmlFiles xml;
+    private final File xml;
 
     private final Class<T> klass;
 
-    public XmlLoad(final XmlFiles xml, final Class<T> klass) {
+    public XmlLoad(final File xml, final Class<T> klass) {
         this.xml = xml;
         this.klass = klass;
     }
@@ -77,7 +75,7 @@ public class XmlLoad<T> {
     }
 
     private T loadObj(final Unmarshaller unmarshaller, final XMLReader xmlReader) throws IOException, JAXBException {
-        try (final FileInputStream fis = new FileInputStream(xml.getFile())) {
+        try (final FileInputStream fis = new FileInputStream(xml)) {
             final InputSource inputSource = new InputSource(fis);
             final SAXSource source = new SAXSource(xmlReader, inputSource);
 
@@ -85,24 +83,6 @@ public class XmlLoad<T> {
             final T obj = (T) unmarshaller.unmarshal(source);
             return obj;
         }
-    }
-
-    enum XmlFiles {
-
-        FRAN_IR_056040("data/FRAN_IR_056040.xml"),
-
-        FRAN_IR_056870("data/FRAN_IR_056870.xml");
-
-        private final File file;
-
-        XmlFiles(String location) {
-            this.file = Paths.get("src/main/resources/" + location).toAbsolutePath().normalize().toFile();
-        }
-
-        public File getFile() {
-            return file;
-        }
-
     }
 
     enum DtdFiles {

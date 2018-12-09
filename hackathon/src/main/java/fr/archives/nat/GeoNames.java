@@ -4,9 +4,11 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
+import java.io.InputStream;
 import java.nio.file.Paths;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.Properties;
 import java.util.stream.Stream;
 
 import fr.archives.nat.model.Lieu;
@@ -19,8 +21,16 @@ public class GeoNames {
 		return lieux;
 	}
 
-	private final File allCountries = Paths.get("/home/rocha/projects/hackhathon/hackathon-archives-nationales-2018/data" +
-            "/FR_purged.txt").toFile();
+    public GeoNames() throws IOException {
+    	String filename = "data.properties";
+    	InputStream input = GeoNames.class.getClassLoader().getResourceAsStream(filename);
+    	Properties prop = new Properties();
+    	prop.load(input);
+    	String namesFr = prop.getProperty("geonames.path.FR");
+    	allCountries = Paths.get(namesFr).toFile();
+	}
+    
+	private final File allCountries;
 
     class GeoLine {
 
@@ -147,7 +157,7 @@ public class GeoNames {
                     .flatMap(g -> Stream
                             .of(g.getAlternatenames().split(","))
                             .map(g::copy))
-                    .peek(System.out::println)
+                   // .peek(System.out::println)
                     .forEach(this::sendToEs);
             ;
 

@@ -1,42 +1,43 @@
 package fr.archives.nat;
 
+import java.io.File;
+import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
 import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.RegExUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import fr.archives.nat.XmlLoad.XmlFiles;
 import fr.archives.nat.model.Decret;
 import fr.archives.nat.model.Lieu;
 import fr.archives.nat.model.Person;
 import fr.archives.nat.xml.ead.sia.C;
 import fr.archives.nat.xml.ead.sia.Ead;
+import fr.archives.nat.xml.ead.sia.P;
 import fr.archives.nat.xml.ead.sia.Unitid;
 
 public class XmlExtend {
-	
+
 	private static final DateTimeFormatter fmt = DateTimeFormatter.ofPattern("d MMMM yyyy", Locale.FRANCE);
-	private static GeoNames geonames = new GeoNames();
 
 	private static final SimpleDateFormat french_dformat = new SimpleDateFormat("MMMM", Locale.FRENCH);
-	
-	private static final Pattern numDossierSimplePattern = Pattern.compile("\\d+\\sX\\s\\d+");
 
-	public static void extendXml() {
+
+	public static List<Person> extendXml(File source) throws IOException {
+		GeoNames geonames = new GeoNames();
 		geonames.toto();
-		final XmlFiles source = XmlFiles.FRAN_IR_056040;
+
 		XmlLoad<Ead> xmlLoader = new XmlLoad<>(source, Ead.class);
 		Ead ead = xmlLoader.run();
 		List<C> decrets = ead.getArchdesc().getDsc().getC();
-		
+		List<Person> persons = new ArrayList<>();
 		System.out.println("start parsing decrets");
 
 		for (C decret : decrets) {
@@ -48,61 +49,76 @@ public class XmlExtend {
 
 			for (C decretPerson : decretPersons) {
 
-				List<Person> persons = extractPersons(decretPerson, decret);
+				persons = extractPersons(decretPerson, decretModel);
 
 			}
 		}
 		System.out.println("nombre de villes = " + geonames.getLieux().size());
 		System.out.println("end parsing decrets");
 		String testPhrase = "Lieu de résidence : Périgueux, Dordogne";
-		Lieu lieu = findLieu(testPhrase);
-		
+		Lieu lieu = findLieu(geonames, testPhrase);
+
 		System.out.println(lieu.toString());
-		
+
 //		System.out.println(ead.toString());
+		return persons;
 	}
 
-	private static List<Person> extractPersons(C decretPerson, C decret) {
+	private static List<Person> extractPersons(C decretPerson, Decret decretModel) {
+		List<Person> persons = new ArrayList<>();
 		Person principalPersonn = new Person();
+		principalPersonn.setDecret(decretModel);
 		extractPersonNumeroDossier(decretPerson, principalPersonn);
 		extractPersonNonPrenom(decretPerson, principalPersonn);
 		extractScopeContent(decretPerson, principalPersonn);
-		return null;
+		persons.add(principalPersonn);
+		return persons;
 	}
-	
-	private static Lieu findLieu(String s) {
-		for(Lieu lieu : geonames.getLieux().values()) {
-			if(s.contains(lieu.getLieu_commune())) {
+
+	private static Lieu findLieu(GeoNames geonames, String s) {
+		for (Lieu lieu : geonames.getLieux().values()) {
+			if (s.contains(lieu.getLieu_commune())) {
 				return lieu;
 			}
 		}
-		
+
 		return null;
 	}
 
 	private static void extractPersonNumeroDossier(C decretPerson, Person principalPersonn) {
-		List<Unitid> unitids = decretPerson.getDid().getUnitid().stream().filter(item -> item.getType().equals("pieces")).collect(Collectors.toList());
-		for(Unitid unitId : unitids) {
-			Matcher m = numDossierSimplePattern.matcher(unitId.getvalue());
-			boolean numDossierFound = m.matches();
+		List<Unitid> unitids = decretPerson.getDid().getUnitid().stream()
+				.filter(item -> item.getType().equals("pieces")).collect(Collectors.toList());
+		for (Unitid unitId : unitids) {
+			Matcher m = XmlPatterns.numDossierSimplePattern.matcher(unitId.getvalue());
+			if(m.find()) {
+				principalPersonn.setNumDossierNat(m.group(0).trim());
+			}
 			// TODO tomorrow gafou
-			
+
 		}
-		
-		
+
 	}
 
 	private static void extractScopeContent(C decretPerson, Person principalPersonn) {
 		List<Object> contentList = decretPerson.getScopecontent().getPOrList();
 		for (Object content : contentList) {
-			String contentString = (String) content;
+			System.err.println("P");
+			String contentString = null;
+			if (content instanceof P) {
+				contentString = ((P) content).getvalue();
+				System.err.println(contentString);
+			}
+
 			// profession
 			if (StringUtils.contains("Profession :", contentString)) {
-				principalPersonn.setProfession(StringUtils.substringAfter("Profession :", contentString));
+				principalPersonn.setProfession(StringUtils.substringAfter("Profession :", contentString).trim());
 			}
 			// Naissance
-			if (StringUtils.contains("Naissance:", contentString)) {
-				String fullNaissance = StringUtils.substringAfter("Naissance :", contentString);
+			System.err.println("check naissance "+contentString);
+			Matcher naissanceM = XmlPatterns.naissance.matcher(contentString);
+			if (naissanceM.find()) {
+				System.err.println("naissance");
+				String fullNaissance = StringUtils.remove(contentString, naissanceM.group(0));
 				extractNaissanceDate(fullNaissance, principalPersonn);
 			}
 		}
@@ -118,9 +134,17 @@ public class XmlExtend {
 			return;
 		}
 
+		System.err.println("extract");
+		// TODO gafou
+		Matcher m = XmlPatterns.dateNaissanceJMAPattern.matcher(fullNaissance);
+		if(m.find()) {
+			System.err.println(m.group(0));
+		}
 		String fullNaissanceClean = RegExUtils.replaceFirst(fullNaissance, "en ", "");
 		fullNaissanceClean = RegExUtils.replaceFirst(fullNaissance, "vers ", "");
 
+		
+		
 		String[] datas = StringUtils.split(fullNaissanceClean, " ");
 		// first data
 		String firstData = datas[0];
@@ -198,15 +222,18 @@ public class XmlExtend {
 	private static Decret extractDecret(C decret) {
 		Decret decretModel = new Decret();
 
-		decretModel.setDecretCote(decret.getDid().getUnitid().stream().filter(unitid -> unitid.getType().equals("cote-de-consultation")).collect(Collectors.toList()).get(0).getvalue());
-		decretModel.setNumDocument(decret.getDid().getUnitid().stream().filter(unitid -> unitid.getType().equals("pieces")).collect(Collectors.toList()).get(0).getvalue());
+		decretModel.setDecretCote(
+				decret.getDid().getUnitid().stream().filter(unitid -> unitid.getType().equals("cote-de-consultation"))
+						.collect(Collectors.toList()).get(0).getvalue());
+		decretModel.setNumDocument(decret.getDid().getUnitid().stream()
+				.filter(unitid -> unitid.getType().equals("pieces")).collect(Collectors.toList()).get(0).getvalue());
 		String dateText = decret.getDid().getUnitdate().get(0).getvalue();
 		LocalDate date = LocalDate.parse(dateText, fmt);
 
 		decretModel.setDecretDate(dateText);
-		
+
 		System.out.println(decretModel.toString());
-		
+
 		return decretModel;
 	}
 }
