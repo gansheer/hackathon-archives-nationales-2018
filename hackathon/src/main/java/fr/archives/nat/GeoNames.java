@@ -15,22 +15,22 @@ import fr.archives.nat.model.Lieu;
 
 public class GeoNames {
 
-	private Map<String, Lieu> lieux;
-	
+    private Map<String, Lieu> lieux;
+
     public Map<String, Lieu> getLieux() {
-		return lieux;
-	}
+        return lieux;
+    }
 
     public GeoNames() throws IOException {
-    	String filename = "data.properties";
-    	InputStream input = GeoNames.class.getClassLoader().getResourceAsStream(filename);
-    	Properties prop = new Properties();
-    	prop.load(input);
-    	String namesFr = prop.getProperty("geonames.path.FR");
-    	allCountries = Paths.get(namesFr).toFile();
-	}
-    
-	private final File allCountries;
+        String filename = "data.properties";
+        InputStream input = GeoNames.class.getClassLoader().getResourceAsStream(filename);
+        Properties prop = new Properties();
+        prop.load(input);
+        String namesFr = prop.getProperty("geonames.path.FR");
+        allCountries = Paths.get(namesFr).toFile();
+    }
+
+    private final File allCountries;
 
     class GeoLine {
 
@@ -157,7 +157,7 @@ public class GeoNames {
                     .flatMap(g -> Stream
                             .of(g.getAlternatenames().split(","))
                             .map(g::copy))
-                   // .peek(System.out::println)
+                    // .peek(System.out::println)
                     .forEach(this::sendToEs);
             ;
 
@@ -168,9 +168,9 @@ public class GeoNames {
     }
 
     public void sendToEs(final GeoLine line) {
-    	if(this.lieux == null) {
-    		this.lieux = new HashMap<String, Lieu>();
-    	}
-    	this.lieux.put(line.getAlternatenames(), new Lieu(line.getName(), null, line.getCountryCode(), line.getLongitude(), line.getLatitude()));
+        if (this.lieux == null) {
+            this.lieux = new HashMap<String, Lieu>();
+        }
+        this.lieux.put(line.getAlternatenames(), new Lieu(line.getName(), null, line.getCountryCode(), line.getLongitude(), line.getLatitude()));
     }
 }
