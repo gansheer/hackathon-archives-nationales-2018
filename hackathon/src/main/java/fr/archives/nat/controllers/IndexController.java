@@ -1,11 +1,18 @@
 package fr.archives.nat.controllers;
 
+import fr.archives.nat.domain.Person;
+import fr.archives.nat.repositories.PersonRepository;
 import lombok.Builder;
 import lombok.Data;
+import org.elasticsearch.index.query.QueryBuilder;
+import org.elasticsearch.index.query.QueryBuilders;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
+import org.springframework.data.elasticsearch.core.query.SearchQuery;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -28,6 +35,15 @@ import java.util.stream.Stream;
 @Controller
 public class IndexController {
 
+    /** The class logger. */
+    private static final Logger LOGGER = LoggerFactory.getLogger(IndexController.class);
+
+    private final PersonRepository personRepository;
+
+    public IndexController(final PersonRepository personRepository) {
+        this.personRepository = personRepository;
+    }
+
     @SafeVarargs
     static Map<String, Object> mapOf(final Tuple2<String, Object>... items) {
         return Stream.of(items).collect(Collectors.toMap(Tuple2::getT1, Tuple2::getT2));
@@ -46,20 +62,26 @@ public class IndexController {
         if (result.hasErrors()) {
             return new ModelAndView("redirect:/");
         }
-        final Page<String> fakeData = new PageImpl<>(
-                IntStream.range(0, 20).mapToObj(i -> "res-" + i).collect(Collectors.toList()),
-                PageRequest.of(5, 10),
-                100
-        );
+//        final Page<String> fakeData = new PageImpl<>(
+//                IntStream.range(0, 20).mapToObj(i -> "res-" + i).collect(Collectors.toList()),
+//                PageRequest.of(5, 10),
+//                100
+//        );
+        final Page<Person> search = personRepository.search(
+                QueryBuilders.matchQuery("nom", "BENTZ"),
+                Pageable.unpaged());
+        LOGGER.info("Info of persons : {}", search);
         return new ModelAndView("pages/search", mapOf(
-                Tuples.of("results", fakeData),
+                Tuples.of("results", search),
                 Tuples.of("form", form))
         );
     }
 
     @GetMapping("/result/{id}")
     public ModelAndView result(@PathVariable("id") final String id) {
-        return new ModelAndView("pages/result", "result", id);
+        return new ModelAndView("pages/result",
+                "result",
+                personRepository.findById(id));
     }
 
     @GetMapping("/credits")
