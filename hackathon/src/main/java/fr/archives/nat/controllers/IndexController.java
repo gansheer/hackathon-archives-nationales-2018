@@ -67,8 +67,14 @@ public class IndexController {
 //                PageRequest.of(5, 10),
 //                100
 //        );
+        // QueryBuilders.matchQuery("nom", "BENTZ")
+//        QueryBuilders.termQuery("toto", "tto").
         final Page<Person> search = personRepository.search(
-                QueryBuilders.matchQuery("nom", "BENTZ"),
+                QueryBuilders.matchQuery("nom", "BENTZ")
+//                QueryBuilders.boolQuery()
+//                        .must(QueryBuilders.prefixQuery("nom", form.getLastName()))
+//                        .must(QueryBuilders.prefixQuery("prenom", form.getFirstName()))
+                ,
                 Pageable.unpaged());
         LOGGER.info("Info of persons : {}", search);
         return new ModelAndView("pages/search", mapOf(

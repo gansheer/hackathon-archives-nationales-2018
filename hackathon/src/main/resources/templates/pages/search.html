@@ -20,10 +20,31 @@
     <h1 th:text="#{website.name}" class="text-center">OpenNAT</h1>
 
     <div class="row">
-        <div th:each="r : ${results.content}" class="col-md-12 order-md-1">
-            <a th:href="@{/result/{id}(id=${r})}"
-               th:text="${r}">Results</a>
-        </div>
+        <table class="table col-md-12 order-md-1">
+            <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Prénom</th>
+                <th scope="col">Nom</th>
+                <th scope="col">Date de Naissance</th>
+                <th scope="col">Lieu de Naissance</th>
+            </tr>
+            </thead>
+            <tbody>
+            <!--/*@thymesVar id="r" type="fr.archives.nat.domain.Person"*/-->
+            <tr th:each="r : ${results.content}">
+                <td>
+                    <a th:href="@{/result/{id}(id=${r._id})}"
+                       th:text="${r.numDossierNat}">Results</a>
+                </td>
+                <td th:text="${r.prenom}"></td>
+                <td th:text="${r.nom}"></td>
+                <td th:text="${r.dataNaissance}"></td>
+                <td th:text="${r.lieuNaissanceCommune}"></td>
+            </tr>
+            </tbody>
+        </table>
+
     </div>
 	
 	<div th:text="#{website.details1}" class="text-justify"></div>

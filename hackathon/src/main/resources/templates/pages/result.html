@@ -5,7 +5,8 @@
     <title th:text="#{website.name}">OpenNat</title>
 </head>
 <body>
-<!--/*@thymesVar id="results" type="org.springframework.data.domain.Page"*/-->
+<!--/*@thymesVar id="result" type="java.util.Optional"*/-->
+<!--/*@thymesVar id="person" type="fr.archives.nat.domain.Person"*/-->
 <div class="container">
 
     <div class="logos row">
@@ -19,8 +20,47 @@
 
     <h1 th:text="#{website.name}" class="text-center">OpenNAT</h1>
 
-    <div class="row">
+    <div class="row" th:unless="${result.isPresent()}">
+        Pas de résultat trouvé pour cet identifiant !
+    </div>
 
+    <div class="row" th:if="${result.isPresent()}">
+        <dl th:with="person=${result.get()}">
+            <dt>numDossierNat</dt>
+            <dd th:text="${person.numDossierNat}"></dd>
+            <dt>nom</dt>
+            <dd th:text="${person.nom}"></dd>
+            <dt>nomNaissance</dt>
+            <dd th:text="${person.nomNaissance}"></dd>
+            <dt>prenom</dt>
+            <dd th:text="${person.prenom}"></dd>
+            <dt>dataNaissance</dt>
+            <dd th:text="${person.dataNaissance}"></dd>
+            <dt>dataNaissanceJour</dt>
+            <dd th:text="${person.dataNaissanceJour}"></dd>
+            <dt>dataNaissanceMois</dt>
+            <dd th:text="${person.dataNaissanceMois}"></dd>
+            <dt>dataNaissanceAnnee</dt>
+            <dd th:text="${person.dataNaissanceAnnee}"></dd>
+            <dt>lieuNaissanceCommune</dt>
+            <dd th:text="${person.lieuNaissanceCommune}"></dd>
+            <dt>lieuNaissanceDepartement</dt>
+            <dd th:text="${person.lieuNaissanceDepartement}"></dd>
+            <dt>lieuNaissancePays</dt>
+            <dd th:text="${person.lieuNaissancePays}"></dd>
+            <dt>origineParent</dt>
+            <dd th:text="${person.origineParent}"></dd>
+            <dt>origineParentPays</dt>
+            <dd th:text="${person.origineParentPays}"></dd>
+            <dt>profession</dt>
+            <dd th:text="${person.profession}"></dd>
+            <dt>lieuResidenceCommune</dt>
+            <dd th:text="${person.lieuResidenceCommune}"></dd>
+            <dt>lieuResidenceDepartement</dt>
+            <dd th:text="${person.lieuResidenceDepartement}"></dd>
+            <dt>lieuResidencePays</dt>
+            <dd th:text="${person.lieuResidencePays}"></dd>
+        </dl>
     </div>
 
 
